@@ -1,0 +1,314 @@
+# Creative Tab 
+itemGroup.thaumicdyes=Thaumic Dyes
+
+///////////
+# Items 
+///////////
+item.itemHelmetCultistRobeDyed.name=Cultist Hood 
+item.itemChestCultistRobeDyed.name=Cultist Robe 
+item.itemLegsCultistRobeDyed.name=Cultist Leggings 
+# 
+item.itemHelmetFortressDyed.name=Enhanced Fortress Helmet 
+item.itemChestFortressDyed.name=Enhanced Fortress Cuirass 
+item.itemLegsFortressDyed.name=Enhanced Fortress Thigh Guards 
+# 
+item.itemHelmetCultistLeaderDyed.name=Praetor Helmet 
+item.itemChestCultistLeaderDyed.name=Praetor Chestplate 
+item.itemLegsCultistLeaderDyed.name=Praetor Greaves 
+# 
+item.itemHelmetCultistKnightDyed.name=Cultist Helmet 
+item.itemChestCultistKnightDyed.name=Cultist Chestplate 
+item.itemLegsCultistKnightDyed.name=Cultist Greaves 
+#
+item.itemHelmetInhabitedPlate.name=Husk Helmet
+item.itemChestInhabitedPlate.name=Husk Chestplate
+item.itemLegsInhabitedPlate.name=Husk Greaves
+#
+item.itemHelmetIronFortress.name=Iron Fortress Helmet
+item.itemChestIronFortress.name=Iron Fortress Cuirass 
+item.itemLegsIronFortress.name=Iron Fortress Thigh Guards 
+#
+item.itemHelmetCultistRangerDyed.name=Ranger Helm
+item.itemChestCultistRangerDyed.name=Ranger Chestplate
+item.itemLegsCultistRangerDyed.name=Ranger Leggings
+#
+item.itemHelmetVoidRobeDyed.name=Bleached Void Robe Hood
+item.itemChestVoidRobeDyed.name=Bleached Void Robe
+item.itemLegsVoidRobeDyed.name=Bleached Void Robe Leggings
+#
+item.itemHelmetThaumiumRobeDyed.name=Thaumium Robe Hood
+item.itemChestThaumiumRobeDyed.name=Thaumium Robe
+item.itemLegsThaumiumRobeDyed.name=Thaumium Robe Leggings
+#
+item.itemBootsThaumiumTraveller.name=Thaumium Boots of the Explorer
+item.itemBootsVoidTraveller.name=Void Boots of the Wanderer
+#
+item.itemHelmetCultistPaladin.name=Crimson Paladin Helm
+#
+item.itemHelmetCultistArcher.name=Crimson Archer Helm
+item.itemChestCultistArcher.name=Crimson Archer Chestplate
+item.itemLegsCultistArcher.name=Crimson Archer Greaves
+
+item.itemHelmetCultistArcherDyed.name=Archer Helm
+item.itemChestCultistArcherDyed.name=Archer Chestplate
+item.itemLegsCultistArcherDyed.name=Archer Greaves
+
+item.itemHelmetCultistRanger.name=Crimson Ranger Helm
+item.itemChestCultistRanger.name=Crimson Ranger Chestplate
+item.itemLegsCultistRanger.name=Crimson Ranger Leggings
+#
+item.itemFabricResource.name=Crimson Weave
+#
+item.itemHelmetSunKnight.name=Solaire Helm
+item.itemChestSunKnight.name=Solaire Chestplate
+
+
+item.HelmetIronFortress.mask.0=Crusader
+item.HelmetIronFortress.mask.1=Champion
+item.HelmetIronFortress.mask.2=Husk
+item.HelmetIronFortress.mask.3=Warlord 
+
+item.HelmetCultistRanger.mask.0=Scout
+item.HelmetCultistRanger.mask.1=Guard
+
+
+//Experimental
+item.ItemHelmetRunic.name=Runic Headpiece
+item.ItemChestRunic.name=Runic Chestpiece
+item.ItemLegsRunic.name=Runic Legpiece
+item.ItemBootsRunic.name=Runic Footpiece
+item.ItemGogglesRunic.name=Runic Goggles of Revealing
+item.ItemBootsTravellerRunic.name=Runic Boots of the Traveller
+
+item.ItemHelmetRunicEnhanced.name=Enhanced Runic Headpiece
+item.ItemChestRunicEnhanced.name=Enhanced Runic Chestpiece
+item.ItemLegsRunicEnhanced.name=Enhanced Runic Legpiece
+item.ItemBootsRunicEnhanced.name=Enhanced Runic Footpiece
+
+item.ItemHelmetRunicPrimal.name=Abyssal Runic Helm
+item.ItemChestRunicPrimal.name=Abyssal Runic Chestplate
+item.ItemLegsRunicPrimal.name=Abyssal Runic Greaves
+item.ItemBootsRunicPrimal.name=Abyssal Runic Boots
+
+item.runic.upgrade.0= - No upgrade
+item.runic.upgrade.1= - Berserker
+item.runic.upgrade.2= - Shield Nexus
+item.runic.upgrade.3= - Kinetic Feedback
+item.runic.upgrade.4= - Revitalizing Feedback
+item.runic.upgrade.5= - Hardened
+item.runic.upgrade.6= - Emergency Shielding
+item.runic.upgrade.7= - Steadfast
+item.runic.upgrade.8= - Vitality
+item.runic.upgrade.9= - Haste
+item.runic.upgrade.10= - Warlord
+
+
+//unused
+tdyes.nameAppend= the Warped
+//Legacy TX
+item.ItemMaskEvil.name=Mask of Cruelty 
+death.attack.witherMask=%1$s was withered away by %2$s
+
+//other
+td.primalrunic.trigger=Unnerving whispers suddenly show you something new...
+
+
+///////////
+# Research
+///////////
+
+# Categories 
+tc.research_category.DYES=Thaumic Dyes 
+ 
+# Research 
+tc.research_name.TD.DYEDROBE=Thaumaturge's Crimson Robes 
+tc.research_text.TD.DYEDROBE=Threads to dye for! 
+tc.research_page.TD.robe.1=The Crimson Cultists you've encountered have been rather hostile to your approach, however, you've found yourself enamoured with the robes their clerics wear. <BR>Sadly, the Crimson-styled robes don't suit your needs, so after some tinkering, you have discovered a way to modify them for your own purposes. Adding a pinch of salis mundis, and some spare enchanted fabric you had lying around, has helped increase its ability to channel magic.
+tc.research_page.TD.robe.2=You feel that this discovery will extend to more things in the future, although you're not sure what will come of it. <BR>This armor can be dyed.
+
+tc.research_name.TD.DYEDKNIGHT=Thaumaturge's Knight Armor 
+tc.research_text.TD.DYEDKNIGHT=Protecters of the realm 
+tc.research_page.TD.knight.1=Crimson Knights are no friend of yours - but you've acquired quite the collection of their armor in numerous battles with them. Previously, you might have worn their armor as a trophy or warning, but now you feel it's time to add your own touch to the armor.<BR>After strengthening the metal, and weaving in some enchanted fabric, you now have a pristine canvas to display your allegiances on in combat. <BR>This armor can be dyed.
+ 
+tc.research_name.TD.DYEDPRAETOR=Thaumaturge's Praetor Armor 
+tc.research_text.TD.DYEDPRAETOR=Paladins of fashion 
+tc.research_page.TD.praetor.1=After a fateful encounter with a high ranking Crimson warrior, you have managed to obtain a set of their powerful armor. Due to the armor's exposure to strange arcane energies, it seems much more accepting of magical enhancement than armor of lower ranked cultists. <BR>By infusing some thaumium into the armor, it has strengthened the metal plating, making it somewhat more durable than before, as well as making it much more accepting of enchantments. You will have to investigate how this armor was created at some point, as it seems beyond what you thought the Crimson Cult was capable of. <BR>This armor can be dyed.
+ 
+tc.research_name.TD.DYEDFORTRESS=Enhanced Fortress Armor 
+tc.research_text.TD.DYEDFORTRESS=A bastion of style 
+tc.research_page.TD.fortress.1=The Thaumium Fortress Armor was a crowning achievement of your magical metalworking skills, but you still feel there is room for improvement. Specifically, room for more thaumium - because you can't have too much of a good thing, unless it becomes too heavy to wear. <BR>As expected, there was space to add a few more plates, and you've reinforced the bindings with some enchanted fabric. It should last a bit longer than before, and you think the added fabric might make it more workable for enchanting. <BR>This armor accepts faceplate upgrades, and can be dyed.
+
+tc.research_name.TD.INHABITEDPLATE=Husk Armor
+tc.research_text.TD.INHABITEDPLATE=Eldritch security system
+tc.research_page.TD.husk.1=There are many strange beings roaming the outer lands, and the shambling corpses are no exception. Their body appears to be merely an empty shell, piloted by some kind of arthropod creature, which you find most unsettling. A fate you do not wish to share, should you fall in this maze. <BR>After many unsuccesful attempts, you have finally managed to capture and subdue one without the parasite destroying its host body - allowing you to remove its armor for a closer inspection. To your surprise, the armor bears a striking similarity to that of the Crimson Cult, or maybe an iteration that existed before you encountered them.
+tc.research_page.TD.husk.2=You wonder if perhaps they were part of a sect that did succeed in opening the portal and were sent through, or perhaps were a thaumaturge such as yourself, or maybe a warrior that was captured by some eldritch creature and brought back to this realm. You may never know.
+
+tc.research_name.TD.IRONFORTRESS=Iron Fortress Armor
+tc.research_text.TD.IRONFORTRESS=A mundane alternative
+tc.research_page.TD.ironFortress.1=The construction of your thaumium fortress armor was a great success, but has had you wondering about creating a set from alternate materials, as thaumium is expensive to produce in large quantaties. Taking the metallurgy back a step to iron has yielded some promising progress, however, due to the nature of iron, it is much more resistant to magical enhancement. <BR>Much like the thaumium version, it is designed as a set, and its protection increases with each additional piece worn. It also offers bonus protection against fire and explosions, but lacks the ability to lessen magical damage that the thaumium set has. 
+tc.research_page.TD.ironFortress.2=It is much more durable than a standard set of iron armor, and due to the craftwork involved, you find it to be slightly easier to enchant - but maybe that's just a side effect of it being constructed so close to all your arcane apparatus. However, due to the basic nature of the materials, you seem unable to add enhanced faceplates to it.
+
+tc.research_name.TD.IRONHELMGOGGLES=Helm of Revealing
+tc.research_text.TD.IRONHELMGOGGLES=Iron Fortress Helm Upgrade
+tc.research_page.TD.ironHelmGoggles.1=Much like with the Thaumium Fortress Armor, you have found a way to unceremoniously meld some Goggles of Revealing onto your helm. All the functionality, but none of the vis discounts. A pity.<BR>A helm can have this upgrade along with faceplates. 
+
+tc.research_name.TD.IRONHELMAESTHETICS=Aesthetic Faceplates
+tc.research_text.TD.IRONHELMAESTHETICS=Iron Fortress Helm Upgrade
+tc.research_page.TD.ironHelmFace.1=Since the Iron Fortress Armor lacks the innate magical properties provided by being made of thaumium, it is not possible to extend your existing faceplate designs to it. This doesn't mean it can't have faceplates in general - just not magical ones. <BR>Taking a spare Crimson Knight helm, you separate off the front section and work it on an anvil for a bit, before crafting it into your Fortress Helm. You expect a similar thing could be done with a Praetor helm.
+
+tc.research_name.TD.IRONHELMHUSK=Husk Faceplate
+tc.research_text.TD.IRONHELMHUSK=Iron Fortress Helm Upgrade
+tc.research_page.TD.ironHelmFace.2=Your studies into the armor the husks in the Outer Lands wear have yielded some clues about the history of the Crimson Cult, but you're here to make history, not read it. <BR>Prying the helmet off a husk, and the crab out of the helmet, you've gained a terrifying trophy that you could craft into your Fortress Helm.<BR>Some ancient energies still leech from underneath it, but you're sure it's nothing to worry about.
+
+tc.research_name.TD.IRONHELMHUSKCLASSIC=Restored Husk Faceplate 
+tc.research_page.TD.ironHelmFaceClassic.2=Your studies into the armor the husks in the Outer Lands wear have yielded some clues about what their armor may have looked like before it was worn away by time and strange magics. Expanding on your existing collection of faceplate designs, the restored helmet's striking gold patterning are a unique addition to your armor. <BR>Some ancient energies still leech from under its new coating, but you're sure it's nothing to worry about.
+
+tc.research_name.TD.DYEDRANGER=Thaumaturge's Ranger Armor
+tc.research_text.TD.DYEDRANGER=Wilderness wanderers
+tc.research_page.TD.ranger.1=The ranger armor is the perfect set for the thaumaturge on the go. A light helmet to keep the sun away, backpack, bedroll, and canteens mean you could easily stay in the field for a few days at a time. But just because you can, doesn't mean you need to - camping isn't for everyone. Though wise thaumaturges know they can discover more outside than at their desks.
+tc.research_page.TD.ranger.2=Similar to the fortress helms it shares its design with, the Ranger Helm is will accept some minor modification. However, as the design of the armor is to minimise excess weight, you can't quite find the space to fit both your goggles and a faceplate.<BR>So you'll have to choose either fashion or function.
+
+tc.research_name.TD.VOIDROBE=Bleached Void Robes
+tc.research_text.TD.VOIDROBE=50 shades less dark
+tc.research_page.TD.voidrobe.1=While experimenting with your crucible, some essentia boiled over and splashed up on you - ruining a perfectly good set of robes, by leeching all the color out of where it hit. However, there might be a use for such a mix.<BR>Your Void Robes, though dyeable, are quite dark and dull, no matter how much dye you've tried to use. Perhaps bathing them in this essentia mix will lighten them up a little.
+
+tc.research_name.TD.THAUMIUMROBE=Thaumium Robes
+tc.research_text.TD.THAUMIUMROBE=The Thaumaturge's Thaumium Threads
+tc.research_page.TD.thaumrobe.1=For a while now, you've been struggling to find a compromise between your robes and other armor - having to choose between defence or utility. But no longer! Recent tests and study of the Crimson Robes have revealed a design which allows for both.<BR>Taking some thaumium armor and reconstructing it over a set of thaumaturge's robes, has created a set of lightly armored robes that offer both protection against both physical and magical attacks.<BR>The hood gains the benefits of the goggles used to craft it.<BR>This armor can be dyed.
+#
+tc.research_name.TD.THAUMIUMBOOTS=Thaumium Boots of the Explorer
+tc.research_text.TD.THAUMIUMBOOTS=A step in the right direction
+tc.research_page.TD.thaumboots.1=The Boots of the Traveller have served you well, but they still leave much to be desired in the way of protection. Your advancements with thaumium and infusion might hold the key to taking the boots to the next level.<BR>These new boots provide a slight speed and fall reduction increase over the old ones. Excellent.
+
+tc.research_name.TD.VOIDBOOTS=Void Boots of the Wanderer
+tc.research_text.TD.VOIDBOOTS=Completing the set
+tc.research_page.TD.voidboots.1=The Void Thaumaturge's Robe has everything you could ever want - disturbingly comfortable cloth, better vis channelling, seemingly bottomless pockets, and solid defensive protection. But the one thing it doesn't have is a matching pair of boots, and you think it's time to fix that.<BR>Applying the same methods you used to create the robes on the Boots of the Traveller has resulted in the sleekest footwear this side of the ethereal plane. With greatly increased speed and fall reduction, you won't quite be able to leap tall buildings, but you'll be a match to keep up with.
+#
+tc.research_name.TD.CRIMSON=Crimson Armorsmithing
+tc.research_text.TD.CRIMSON=Sect of Protection
+tc.research_page.TD.crimson.1=A closer study of the Crimson Rites manual you found has provided the key to deciphering other chapters within it, revealing more of their knowledge to you.<BR>This discovery has references to the techniques used by cultist blacksmiths to create the armor they wear. Perhaps you had underestimated their knowledge and skills in thaumaturgy.<BR>For armor that is so intricately detailed, you were not expecting the methods to be as simple as the Crimson manual would have you believe. Perhaps you will be able to use your superior mastery of magic to improve upon them.
+tc.research_page.TD.crimson.2=While the boots were easy enough to reconstruct, the other armor you've "relieved" various cultists of sustained too much damage in the process.<BR>You might need to take a closer look at them in the field before you can decipher other pages of the tome. Caution is advised.<BR>However, there are also depictions of other sets within the pages that you haven't seen before, as well as damaged and missing pages. Perhaps there are other clues to decode them - it may be worth trying to piece together some of those fragments cultists carry.
+tc.research_page.TD.crimson.3=The crimson armor appears to be woven with a material similar to enchanted fabric. It should be relatively easy to replicate it based on that.<BR>However, the process seems to damage its ability to efficiently channel vis. 
+
+tc.research_name.TD.CRIMSONCLERIC=Crimson Cleric Robes
+tc.research_text.TD.CRIMSONCLERIC=Heretical Chanters
+tc.research_page.TD.crimsonCleric.1=Reciting strange verses, and hidden beneath their long robes, the mages of the Crimson Cult have taken a more proactive approach to unlocking the secrets of the ancients. It is unclear how they originally discovered the ritual of opening, but what you have observed indicates that they are attemping to use their own life force to fuel it. A most dangerous practice. Thankfully, they seems to be missing a crucial step to completing the ritual, at least for now...
+
+tc.research_name.TD.CRIMSONKNIGHT=Crimson Knight Armor
+tc.research_text.TD.CRIMSONKNIGHT=Bloody Crusaders
+tc.research_page.TD.crimsonKnight.1=Moderately armored, and swords at the ready, the knights of the Crimson Cult stand ready to protect and defend sites of interest claimed by their organisation. Often seen in large numbers accompanying a several clerics, they pose a threat to both new and seasoned thaumaturges - using their numbers and strength to press the advantage.<BR>However, it is best to engage them at a distance when possible, as knights lack ranged capabilites.
+
+tc.research_name.TD.CRIMSONLEADER=Crimson Praetor Armor
+tc.research_text.TD.CRIMSONLEADER=The High Champion
+tc.research_page.TD.crimsonLeader.1=A rare sight to come across, Crimson Praetors are the highest ranking cultists you've encountered, and can more than hold their own in combat. Deployed both as field-commanders and champions, it is their duty to protect high value relics and sites. Often enhanced with powerful magic, they are a true adversary to any thaumaturge, but the treasure they guard is often well worth the risk.
+
+tc.research_name.TD.CRIMSONRANGER=Crimson Ranger Robes
+tc.research_text.TD.CRIMSONRANGER=Roaming Reds
+tc.research_page.TD.crimsonRanger.1=That so many eldritch sites have seen Crimson occupation is no mere coincidence - someone has to be finding them, and that seems to be the purpose of the Ranger. Scouts and explorers, rangers travel fast and light, tasked with finding artifacts and sites that may be of interest to Crimson mages.<BR>You've not encountered any yet, but they may well be watching the progress you've been making...
+
+tc.research_name.TD.CRIMSONARCHER=Crimson Archer Armor
+tc.research_text.TD.CRIMSONARCHER=Ranged Defenders
+tc.research_page.TD.crimsonArcher.1=Crimson Archers don't seem to be deployed to the wilderness very often, garrisoned instead at the Crimson Citadel and regional outposts. They are the initial line of defense against unwanted guests, firing from atop the citadel walls, or from lookout towers to substantial range. Unless you have a sturdy barricade to hide behind, it'd be best to avoid engaging them.
+
+tc.research_name.TD.PALADIN=Crimson Paladin
+tc.research_text.TD.PALADIN=Regal Warrior
+tc.research_page.TD.paladin.1=While Praetors are a veritable threat on their own, the Crimson tome makes several references to a ceremony of ascension to Paladin for only a select few. These chosen ones receive a special helm to denote their status, which, based on the images in the tome, bear similar designs to that found on the Husks in the outer realm. Most curious.<BR>For now however, the exact purpose of the Crimson Paladin remains shrouded in mystery.
+
+tc.research_name.TD.DYEDARCHER=Thaumaturge's Battledress
+tc.research_text.TD.DYEDARCHER=Nock. Draw. Loose.
+tc.research_page.TD.archer.1=While wands are often a prime ranged combat tool, sometimes there's a job that a good old bow and arrow will do better. Like shooting apples or sending messages. Of death.<BR>Though the Crimson Archer's armor might be nice, it just needs that little extra touch up that only you can do. The red has to go.
+
+tc.research_name.TD.SUNNYD=Solaire's Gift
+tc.research_text.TD.SUNNYD=Deus Vult
+tc.research_page.TD.sunnyD.1=A scrap of paper, and some rough sketches. That's all you could recover. The handwriting was only just legible, and blood stained the page. The message was short.<BR>§oGit gud, scrub. Praise the sun!§r<BR>You have no idea what it means, but the armor looks nice. <BR>Nice for crusading in. <BR>You also have a strange desire to raise your arms up in some kind of salute while wearing it. How odd.
+//thinly veiled Dark Souls reference
+
+tc.research_name.TD.CRIMSONBANNER=Crimson Cult Banner
+tc.research_text.TD.CRIMSONBANNER=Flag of the red regiment
+tc.research_page.TD.crimsonBanner.1=While banners are an excellent decorative addition to your home, the Crimson Cult isn't particularly fond of your tendancy to steal their banners from occupied sites. And they're not always easy to find either - there simply isn't enough crimson banners to go around.<BR>The solution of course, is to make your own, by weaving some gold thread through a red banner. Presto change-o. They'd never be able to tell it's a copy.
+
+
+
+tc.research_name.TD.RUNICARMOR=Runic Armor
+tc.research_text.TD.RUNICARMOR=Shielded legacy
+tc.research_page.TD.RUNICARMOR.1=Your research into protective magics have led you to discover Runic Armor. The name is misleading though since it is not armor in the traditional sense, but a collection of charms, seals and similar protective devices worn with your everyday clothes.<BR>These devices create a barrier of magical energy that wards out most types of damage. The armor's shielding provides a pool of hit points from which damage is subtracted first, protecting the wearer from all harm. Once this pool is depleted the wearer starts taking damage as normal.
+tc.research_page.TD.RUNICARMOR.2=The pool replenishes over time, requiring §2Terra§0 and §6Aer§0 vis to replenish its charge, but even when depleted the armor offers protection roughly equivalent to that of leather armor.<BR>The armor offers no protection from damage suffered due to drowning, starvation or similar environmental hazards.<BR>Due to its nature the armor cannot be enchanted by normal means, but you are sure there are ways to improve its effectiveness - you just need to discover them.
+
+tc.research_name.TD.RUNICGOGGLES=Runic Goggles of Revealing
+tc.research_text.TD.RUNICGOGGLES=The best of both worlds
+tc.research_page.TD.RUNICGOGGLES.1=While being protected by Runic Armor is vital, you also need the utility of Goggles of Revealing to perform your thaumaturgical tasks. Why not have both?<BR>By affixing the charms of the runic headgear to a pair of goggles, you can enjoy the benefits of both.
+
+tc.research_name.TD.RUNICBOOTSTRAVELLER=Runic Boots of the Traveller
+tc.research_text.TD.RUNICBOOTSTRAVELLER=The best of both worlds
+tc.research_page.TD.RUNICBOOTSTRAVELLER.1=While being protected by Runic Armor is vital, you have begun to miss the speed granted by your Boots of Travelling. Why not have both?<BR>By affixing the charms of the runic footgear to a pair of boots of travelling, you can enjoy the benefits of both.<BR>You haven't had any success repeating this procedure on other variants of the Boots of the Traveller, but perhaps you will have better luck in the future.
+
+
+tc.research_name.TD.RUNICARMORUPGRADES=Runic Armor Upgrades
+tc.research_text.TD.RUNICARMORUPGRADES=Shields to maximum!
+tc.research_page.TD.RUNICARMORUPGRADES.1=Improving Runic Armor has turned out to be easier than expected. You have discovered several augmentations that can be applied to it, some of which were learned from your earlier experiments with runic baubles. <BR>However, for now, only a single level of augmentation can be applied at a time. It seems magic has its own sanity limits sometimes.
+tc.research_page.TD.RUNICARMORUPGRADES.2=Should you wish to change the augment on a piece, simply infuse a new one. Doing so will overwrite whatever is in the first slot.<BR>It is worth noting that for some shield-breach upgrades, going beyond one of the same augment on all pieces may have additional unknown effects. You blame the 'magical resonance' of having such things in close proximity to each other.
+tc.research_page.TD.RUNICARMORUPGRADES.a1=§nBerserker§r<BR>Type: Shield breach<BR>When your shielding is breached it will release a burst of magical strength into its wearer that will last for a few seconds. The strength of this effect increases for each upgrade.<BR> This effect has a 20 second cooldown.<BR>This augment can be applied to a multiple slots on runic armor, where available, for additional bonus.
+tc.research_page.TD.RUNICARMORUPGRADES.a2=§nShield Nexus§r<BR>Type: Passive<BR>This upgrade increases the amount of charge a piece of runic armor has by 50% of its base amount.<BR>This augment can be applied to a multiple slots on runic armor, where available, for additional bonus.
+tc.research_page.TD.RUNICARMORUPGRADES.a3=§nKinetic Feedback§r<BR>Type: Shield breach<BR>When your shielding is breached this upgrade will release a detonation of kinetic energy. The damage and force of the detonation increases depending on how many upgrades are present. <BR>This ability has a 30 second cooldown.<BR>This augment can be applied to a multiple slots on runic armor, where available, for additional bonus.
+tc.research_page.TD.RUNICARMORUPGRADES.a4=§nRevitalizing Feedback§r<BR>Type: Shield breach<BR>When your shielding is breached it will release a pulse of regenerative energy into its wearer that will last for a few seconds. The strength of this effect increases for each upgrade. <BR>This effect has a 30 second cooldown.<BR>This augment can be applied to a multiple slots on runic armor, where available, for additional bonus.
+tc.research_page.TD.RUNICARMORUPGRADES.a5=§nHardened§r<BR>Type: Passive<BR>This upgrade adds a bonus to the amount of mundane armor protection a piece of runic armor provides once it's shielding has been breached.<BR>On basic Runic Armor, it will double the value, while on Enhanced Armor, it will only add one extra armor point.<BR>This augment will only apply to a piece of runic armor once, additional slots with this upgrade will have no effect.
+tc.research_page.TD.RUNICARMORUPGRADES.a6=§nEmergency Shielding§r<BR>Type: Shield breach<BR>When your shield is breached this upgrade will instantly add 8 (or more) charge. Each runic armor piece with this upgrade adds 8 charge. <BR>This ability has a two minute cooldown.<BR>This augment can be applied to a multiple slots on runic armor, where available, for additional bonus.
+tc.research_page.TD.RUNICARMORUPGRADES.a7=§nSteadfast§r<BR>Type: Passive<BR>This upgrade grants you a 20% knockback resistance. <BR>This augment will only apply to a piece of runic armor once, additional slots with this upgrade will have no effect.
+tc.research_page.TD.RUNICARMORUPGRADES.a8=§nVitality§r<BR>Type: Passive<BR>This upgrade increases your maximum health by 5 hearts (10 health).<BR>This augment will only apply to a piece of runic armor once, additional slots with this upgrade will have no effect.
+tc.research_page.TD.RUNICARMORUPGRADES.a9=§nHaste§r<BR>Type: Passive<BR>This upgrade will provide a movement speed bonus, much like the enchant of the same name. Its bonus is equivalent to Haste II.<BR>This augment can only be applied to boots, and will only apply to a piece of runic armor once, additional slots with this upgrade will have no effect.
+tc.research_page.TD.RUNICARMORUPGRADES.a10=§nWarlord§r<BR>Type: Passive<BR>Berserker was a good start, giving you an edge if your shields drop - but sometimes you can't stand around waiting to take an opportunity in combat. <BR>Runic enchantment focuses to your hands, giving any weapon you hold that little bit of extra force. But it'll also go to your fists too, if you'd rather punch your way out.<BR>This augment will only apply to a piece of runic armor once, additional slots with this upgrade will have no effect.
+
+tc.research_page.TD.RUNICARMORUPGRADES.E=Enhanced Runic Armor is a masterwork of your magical prowess, and upgrades will only make it stronger, but how strong is it? To make work easier for future thaumaturges, you've included some of your calculations.<LINE>A fully §nHardened§r set will provide the wearer with a full armor bar.<BR>Two §nShield Nexus§r upgrades will double the maximum shielding of a piece.<BR>Slotting seven §nEmergency Shielding§r upgrades provides the capability to fully restore the shielding of a non-Nexus set when breached.
+
+
+--Enhanced Runic Armor
+tc.research_name.TD.ENHANCEDRUNICARMOR=Enhanced Runic Armor
+tc.research_text.TD.ENHANCEDRUNICARMOR=Pushing the limits
+tc.research_page.TD.ENHANCEDRUNICARMOR.1=Your extensive research into augmenting Runic Armor has left you disappointed at the armor's ability to only hold one augment. You also miss the mystical discount granted from wearing your Thaumaturge's Robes. Instead of being discouraged, you have developed a 'suit' of Enhanced Runic Armor that satisfies these grievances.<BR><BR>Each piece of this armor can hold not one, but two augments, allowing for even more customisation. This armor also grants a passive vis discount much like your robes. There is but one catch - the cost.
+tc.research_page.TD.ENHANCEDRUNICARMOR.2=Keep in mind that the inital creation of the Enhanced armor will wipe existing augments. <BR><BR>In the case that you want to overwrite an augment placed on the Enhanced armor, simply right click it against something solid to swap positions of the augments. <BR>Though you haven't managed to find a way to upgrade your Runic Goggles and Boots of the Traveller yet, but perhaps a solution will reveal itself soon.
+//<BR>[Recipes pending... leave feedback]
+
+
+--Primal Runic Armor
+tc.research_name.TD.PRIMALRUNICARMOR=Abyssal Runic Armor
+tc.research_text.TD.PRIMALRUNICARMOR=Those who stare too long into the abyss...
+tc.research_page.TD.PRIMALRUNICARMOR.1=<IMG>thaumcraft:textures/misc/eldritchajor2.png:0:255:255:255:.5</IMG><BR>§o        §msu nioj su emoceb
+//translator note - write "become us join us" after the §m, either forward or backward, whatever works best
+tc.research_page.TD.PRIMALRUNICARMOR.2=This was a mistake.<BR>You should have stopped when you had the chance.<BR>You should have stopped...<BR> <BR>§o§mProtect the pearl protect the pearl protect the pearl protect the pearl<BR> §r§0<BR>What have you done..?
+tc.research_page.TD.PRIMALRUNICARMOR.3=Bonding your Enhanced Runic Armor and a set of Void Robes around a primordial pearl has created something dark and powerful. It certainly overcomes some of the flaws of the enhanced set, with greater discount and capacity for another augment. <BR>However, there's just something off... about it. The faint whispering you can hear nearby, shadows moving at the corner of your vision, cold air around it, and how it seems to move towards certain artifacts when you're not looking...<BR>It might be best to only wear a single piece at a time, and not for extended periods. Anything more than that might have untold effects on the wearer.
+
+tc.research_name.TD.PRIMALRUNIC=Abyssal secrets
+tc.research_text.TD.PRIMALRUNIC=What remains
+tc.research_page.TD.PRIMALRUNIC.1=That this 'armor' seems to bear an uncanny resemlance to the form of the Eldritch Guardians when the set is combined cannot be coincidence. <BR>Could it be that this was something that existed before, and you've merely rediscovered it? Or were you guided to it, by some dark entity beyond the void?<BR>All this maddening research, starting to blur together. You're starting to find gaps in your memory more often these days...
+tc.research_page.TD.PRIMALRUNIC.2=§nEldritch nature§r<BR>One of the strangest properties of the armor, is how it seems to respond differently to things when part of a complete set. Yet, there seems to be a reaction you hadn't seen previously - when it's in close proximity to certain eldritch objects, the appearance shifts slightly.<BR>It's almost as if it knows it is supposed to do something with them, but lacks enough form or some other, darker magic imbued into it.
+tc.research_page.TD.PRIMALRUNIC.3=§nHardened nature§r<BR>The original text which you discovered runic armor in describes many improvements to them, but the 'Hardened' one has been particularly perplexing. While it works as described on the basic Runic Armor, it seems to have a substantially reduced effect on the Enhanced Armor you developed.<BR>You thought it had no effect at all on the Abyssal set, until it collided with your workbench - rather than just floating in the aether around you. <BR>
+tc.research_page.TD.PRIMALRUNIC.4=It seems that the iron blocks used tipped it over the critical mass threshold needed to interact with the material realm. There's now solid form under all the runic enchantments. <BR>The nature of runic layers, and the chaotic behaviour of the pearl had previously rendered it impossible to enchant via normal means - but if you work it carefully, you might be able to enchant it using your discovered means.<BR>However, should the augment be removed or replaced, the enchantments will simply dissipate, as they won't have enough substance to bind to.
+
+
+
+
+tc.research_name.TD.MASKEVIL=Mask of Cruelty
+tc.research_text.TD.MASKEVIL=If looks could kill
+tc.research_page.TD.maskEvil.1=A relic thought lost to time, this sinister mask hexes any living creature you look at directly. The exact effects vary, but it can cause pain, debilitating weakness or even death if you focus your gaze long enough.<BR>The warped lenses over your eyes reveal a dark lightning stretching out to your target, but your fellow thaumaturges claim you must be hallucinating.
+
+
+
+§§§
+
+#Copied research 
+tc.research_name.TD.UUUU=
+tc.research_text.TD.UUUU=
+tc.research_page.TD.UUUU=
+tc.research_name.TD.ARMORFORTRESS=Thaumium Fortress Armor 
+tc.research_text.TD.ARMORFORTRESS=Nothing is getting in 
+tc.research_name.TD.VOIDMETAL=Void metal 
+tc.research_text.TD.VOIDMETAL=Strange, it should feel cold... 
+tc.research_name.TD.THAUMIUM=Magical Metallurgy 
+tc.research_text.TD.THAUMIUM=Where metals meet magic
+tc.research_name.TD.OUTERARRIVAL=The Outer Lands 
+tc.research_text.TD.OUTERARRIVAL=We are not in Kansas anymore
+tc.research_name.TD.VOIDFORTRESS=Void Thaumaturge Robes
+tc.research_text.TD.VOIDFORTRESS=Otherworldly Style
+tc.research_name.TD.BOOTSTRAVELLER=Boots of the Traveler
+tc.research_text.TD.BOOTSTRAVELLER=These boots were made for walking
+
