@@ -1,0 +1,1471 @@
+﻿itemGroup.tabWitchery=Ведьмовство
+
+item.witchery:ingredient.candelabra.name=Канделябр
+item.witchery:ingredient.chalice.name=Кубок
+item.witchery:ingredient.chaliceFull.name=Чаша (Наполненная)
+item.witchery:ingredient.weaveMoveFast.name=Ловец снов "Быстрый Бег"
+item.witchery:ingredient.weaveDigFast.name=Ловец снов "Железный Кулак"
+item.witchery:ingredient.weaveSaturation.name=Ловец снов "Ускорение"
+item.witchery:ingredient.weaveNightmares.name=Ловец снов "Кошмары"
+item.witchery:ingredient.boneNeedle.name=Костяная игла
+item.witchery:ingredient.broom.name=Метла
+item.witchery:ingredient.broomEnchanted.name=Зачарованная метла
+item.witchery:ingredient.attunedStone.name=Камень силы
+item.witchery:ingredient.attunedStoneCharged.name=Камень силы (заряженный)
+item.witchery:ingredient.waystone.name=Камень возврата
+item.witchery:ingredient.waystoneBound.name=Камень возврата (активный)
+item.witchery:ingredient.mutandis.name=Мутандис
+item.witchery:ingredient.mutandisExtremis.name=Мутандис Экстремис
+item.witchery:ingredient.quicklime.name=Известь
+item.witchery:ingredient.gypsum.name=Гипс
+item.witchery:ingredient.ashWood.name=Древесный прах
+item.witchery:ingredient.seedsBelladonna.name=Сухие семена беладонны
+item.witchery:ingredient.seedsMandrake.name=Сухие семена мандрагоры
+item.witchery:ingredient.belladonna.name=Цветок беладонны
+item.witchery:ingredient.mandrakeRoot.name=Цветок мандрагоры
+item.witchery:ingredient.demonHeart.name=Сердце Демона
+item.witchery:ingredient.batWool.name=Шерсть летучей мыши
+item.witchery:ingredient.dogTongue.name=Язык собаки
+item.witchery:ingredient.clayJarSoft.name=Кувшин из мягкой глины
+item.witchery:ingredient.clayJar.name=Глиняный кувшин
+item.witchery:ingredient.foulFume.name=Вонючий дым
+item.witchery:ingredient.diamondVapour.name=Алмазное испарение
+item.witchery:ingredient.oilOfVitriol.name=Купоросовое масло
+item.witchery:ingredient.exhaleOfTheHornedOne.name=Выдох демона
+item.witchery:ingredient.breathOfTheGoddess.name=Дыхание богини
+item.witchery:ingredient.hintOfRebirth.name=Сила возрождения
+item.witchery:ingredient.whiffOfMagic.name=Дуновение магии
+item.witchery:ingredient.reekOfMisfortune.name=Запах неудачи
+item.witchery:ingredient.odourOfPurity.name=Благоухание чистоты
+item.witchery:ingredient.tearOfTheGoddess.name=Слеза богини
+item.witchery:ingredient.refinedEvil.name=Абсолютное зло
+item.witchery:ingredient.dropOfLuck.name=Капля удачи
+item.witchery:ingredient.redstoneSoup.name=Суп из Редстоуна
+item.witchery:ingredient.flyingOintment.name=Мазь полета
+item.witchery:ingredient.ghostOfTheLight.name=Призрак света
+item.witchery:ingredient.soulOfTheWorld.name=Душа мира
+item.witchery:ingredient.spiritOfOtherwhere.name=Дух потустороннего мира
+item.witchery:ingredient.infernalAnimus.name=Адская враждебность
+item.witchery:ingredient.bookOven.name=Ведьмовство: Сбор ароматов
+item.witchery:ingredient.bookDistilling.name=Ведьмовство: Дистилляция
+item.witchery:ingredient.bookCircleMagic.name=Ведьмовство: Магия Кругов
+item.witchery:ingredient.bookInfusions.name=Ведьмовство: Зелья и Отвары
+item.witchery:ingredient.oddPorkchopRaw.name=Сырая свинина?
+item.witchery:ingredient.oddPorkchopCooked.name=Жареная свинина?
+item.witchery:ingredient.doorRowan.name=Деревянная дверь из рябины
+item.witchery:ingredient.doorAlder.name=Деревянная дверь из ольхи
+item.witchery:ingredient.doorKey.name=Ключ от рябиновой двери
+item.witchery:ingredient.rock.name=Камень
+item.witchery:ingredient.web.name=Густая паутина
+item.witchery:ingredient.brewVines.name=Зелье из лианы
+item.witchery:ingredient.brewWeb.name=Зелье из паутины
+item.witchery:ingredient.brewThorns.name=Зелье из колючек
+item.witchery:ingredient.brewInk.name=Зелье из чернил
+item.witchery:ingredient.brewSprouting.name=Зелье проращивания
+item.witchery:ingredient.brewErosion.name=Зелье эрозии
+item.witchery:ingredient.berriesRowan.name=Ягоды рябины
+item.witchery:ingredient.necroStone.name=Камень некроманта
+item.witchery:ingredient.brewRaising.name=Зелье возвышения
+item.witchery:ingredient.spectralDust.name=Спектральная пыль
+item.witchery:ingredient.enderDew.name=Роса края
+item.witchery:ingredient.seedsArtichoke.name=Сухие семена водного артишока
+item.witchery:ingredient.artichoke.name=Клубень водного артишока
+item.witchery:ingredient.seedsTreefyd.name=Семечко триффида
+item.witchery:ingredient.brewGrotesque.name=Зелье абсурда
+item.witchery:ingredient.fumeFilter.name=Фильтр запахов
+item.witchery:ingredient.impregnatedLeather.name=Пропитанная кожа
+item.witchery:arthana.name=Артана
+item.witchery:witchhand.name=Рука ведьмы
+item.witchery:taglockkit.name=Набор для сбора ДНК
+item.witchery:poppet.name=Кукла
+item.witchery:poppet.protectEarth.name=Кукла защиты от земли
+item.witchery:poppet.protectWater.name=Кукла защиты от воды
+item.witchery:poppet.protectStarvation.name=Кукла защиты от голода
+item.witchery:poppet.protectFire.name=Кукла защиты от огня
+item.witchery:poppet.protectTool.name=Кукла защиты инструментов
+item.witchery:poppet.protectDeath.name=Кукла защиты от смерти
+item.witchery:poppet.protectVoodoo.name=Кукла защиты от вуду
+item.witchery:poppet.voodoo.name=Кукла вуду
+item.witchery:poppet.vampiric.name=Вампирическая кукла
+item.witchery:circletalisman.name=Талисман круга
+item.witchery:divinerwater.name=Водный прорицатель
+item.witchery:divinerlava.name=Лавовый прорицатель
+item.witchery:chalkheart.name=Золотой мел
+item.witchery:chalkritual.name=Ритуальный мел
+item.witchery:chalkotherwhere.name=Мел потустороннего мира
+item.witchery:chalkinfernal.name=Адский мел
+item.witchery:polynesiacharm.name=Дар понимания животных
+item.witchery:polynesiacharm.tip=Смотри! Он разговаривает с ними...
+item.witchery:devilstonguecharm.name=Дар Дьявольского обояния
+item.witchery:devilstonguecharm.tip=Даже демоны не устоят перед|вами... Ну, на какое-то время.
+item.witchery:witchhat.name=Шляпа ведьмы
+item.witchery:witchhat.tip=Как оригинально... остроконечная|шляпа. Улучшает ваши зелья.
+item.witchery:seedsbelladonna.name=Семена беладонны
+item.witchery:seedsmandrake.name=Семена мандрагоры
+item.witchery:seedsartichoke.name=Семена водного артишока
+
+circletalisman.small.1=Малый ритуальный
+circletalisman.small.2=Малый потусторонний
+circletalisman.small.3=Малый адский
+circletalisman.medium.1=Средний ритуальный
+circletalisman.medium.2=Средний потусторонний
+circletalisman.medium.3=Средний адский
+circletalisman.large.1=Большой ритуальный
+circletalisman.large.2=Большой потусторонний
+circletalisman.large.3=Большой адский
+
+tile.witchery:rowanwooddoor.name=Деревянная дверь из рябины
+tile.witchery:alderwooddoor.name=Деревянная дверь из ольхи
+tile.witchery:rowandoorwood.name=Деревянная дверь из рябины
+tile.witchery:alderdoorwood.name=Деревянная дверь из ольхи
+tile.witchery:altar.name=Алтарь
+tile.witchery:witchesovenidle.name=Ведьмина печь
+tile.witchery:witchesovenburning.name=Ведьмина печь
+tile.witchery:distilleryidle.name=Перегонный куб
+tile.witchery:distilleryburning.name=Перегонный куб
+tile.witchery:kettle.name=Котел
+tile.witchery:poppetshelf.name=Полка для кукол
+container.witchery:poppetshelf=Полка для кукол
+tile.witchery:witchlog.rowan.name=Рябина
+tile.witchery:witchlog.alder.name=Ольха
+tile.witchery:witchlog.hawthorn.name=Боярышник
+tile.witchery:witchwood.rowan.name=Рябиновые доски
+tile.witchery:witchwood.alder.name=Ольховые доски
+tile.witchery:witchwood.hawthorn.name=Боярышниковые доски
+tile.witchery:witchsapling.rowan.name=Рябиновый росток
+tile.witchery:witchsapling.alder.name=Ольховый росток
+tile.witchery:witchsapling.hawthorn.name=Боярышниковый росток
+tile.witchery:witchleaves.rowan.name=Рябиновые листья
+tile.witchery:witchleaves.alder.name=Ольховые листья
+tile.witchery:witchleaves.hawthorn.name=Боярышниковые листья
+tile.witchery:belladonna.name=Беладонна
+tile.witchery:mandrake.name=Мандрагора
+tile.witchery:barrier.name=Барьер
+tile.witchery:dreamcatcher.name=Иллюзионист снов
+tile.witchery:candelabra.name=Канделябр
+tile.witchery:chalice.name=Кубок
+tile.witchery:circle.name=Символ сердца
+tile.witchery:circleglyphritual.name=Ритуальный символ
+tile.witchery:circleglyphotherwhere.name=Потусторонний символ
+tile.witchery:circleglyphinfernal.name=Адский символ
+tile.witchery:stairswoodrowan.name=Рябиновые ступеньки
+tile.witchery:stairswoodalder.name=Ольховые ступеньки
+tile.witchery:stairswoodhawthorn.name=Боярышниковые ступеньки
+tile.witchery:witchwoodslab.name=Деревянная плита
+tile.witchery:witchwoodslab.rowan.name=Рябиновая плита
+tile.witchery:witchwoodslab.alder.name=Ольховая плита
+tile.witchery:witchwoodslab.hawthorn.name=Боярышниковая плита
+tile.witchery:witchwooddoubleslab.name=Двойная деревянная плита
+tile.witchery:spanishmoss.name=Лишайник
+tile.witchery:leapinglily.name=Плавучая лилия
+tile.witchery:plantmine.rose_webs.name=Паутинный мак
+tile.witchery:plantmine.rose_ink.name=Чернильный мак
+tile.witchery:plantmine.rose_sprouting.name=Прорастающий мак
+tile.witchery:plantmine.rose_thorns.name=Шипастый мак
+tile.witchery:plantmine.dandelion_webs.name=Паутинный одуванчик
+tile.witchery:plantmine.dandelion_ink.name=Чернильный одуванчик
+tile.witchery:plantmine.dandelion_sprouting.name=Прорастающий одуванчик
+tile.witchery:plantmine.dandelion_thorns.name=Шипастый одуванчик
+tile.witchery:plantmine.grass_webs.name=Паутинный сухой куст
+tile.witchery:plantmine.grass_ink.name=Чернильный сухой куст
+tile.witchery:plantmine.grass_sprouting.name=Прорастающий сухой куст
+tile.witchery:plantmine.grass_thorns.name=Шипастый сухой куст
+tile.witchery:embermoss.name=Янтарный мох
+tile.witchery:artichoke.name=Водный артишок
+tile.witchery:alluringskull.name=Обольстительный череп
+tile.witchery:fumefunnel.name=Дымовая воронка
+tile.witchery:filteredfumefunnel.name=Дымовая воронка с фильтром
+
+entity.witchery.demon.name=Демон
+entity.demon.name=Демон
+entity.witchery.broom.name=Зачарованная метла
+entity.broom.name=Зачарованная метла
+entity.witchery.familiar.name=Призрачный компаньон
+entity.familiar.name=Призрачный компаньон
+entity.witchery.mandrake.name=Мандрагора
+entity.mandrake.name=Мандрагора
+entity.witchery.treefyd.name=Триффид
+entity.treefyd.name=Триффид
+
+witchery.book.mushroomred=Мухомор
+witchery.book.mushroombrown=Коричневый гриб
+witchery.book.altarpower=Сила алтаря
+witchery.book.oven1={o{lВедьмовство{r{r{o: Сбор ароматов{r||Ведьмина печь позволяет собирать ароматы, которые появляются во время кипячения.||Помните, что печь не может переплавлять руды, однако, все остальное в ней готовится немного быстрее.
+witchery.book.oven2=Поместите {8глиняные кувшины{0 в печку прежде, чем начнете готовку и получите ароматы:||Еда  {6Вонючий дым{0|Дерево  {6Вонючий дым{0||Готовка {2Ростков{0 дает {8Древесный прах{0 а также высвобождает эссенцию дерева.
+witchery.book.oven3={nАроматы ростков{r||Дуб  {8Выдох демона{0|Береза  {8Дыхание богини{0|Ель  {8Сила возрождения{0|Рябина  {8Дуновение магии{0|Боярышник  {8Благоухание чистоты{0|Ольха  {8Запах неудачи{0
+witchery.book.distillery1={o{lВедьмовство{r{r{o: Дистилляция{r||{81.{0 Убедитесь, что перегонный куб расположен рядом с алтарем, чтобы он мог получать энергию.|{82.{0 Поместите предметы в перегонный куб вместе с необходимым количеством глиняных горшков.|{83.{0 Дождитесь окончания процесся дистилляции.
+witchery.book.distillery.jars=Глиняные горшки
+witchery.book.distillery.items={nДистиллируйте это{r
+witchery.book.distillery.results={nЧтобы получить это{r
+witchery.book.brews1={o{lВедьмовство{r{r{o: Зелья и Отвары{r||{81.{0 Бросьте ингредиенты в разогретый, наполненный водой котел. Алтарь добавит энергию по необходимости.|{82.{0 Наполните пустую стеклянную бутылку отваром.|{83.{0 Используйте Отвары в Ритуалах Инфузии; но помните, {0Смерть всегда в курсе ваших дел{0.
+witchery.book.rites1={o{lВедьмовство{r{r{o: Магия Кругов{r||{81.{0 Рисуйте круги, используя цветной мел. Разместите символ сердца в центре круга. Альтарь предоставит энергию.|{82.{0 Бросьте необходимые предметы в круг.|{83.{0 Активируйте символ сердца.
+witchery.book.rites2=Мел и размеры:|7x7, 11x11, 15x15|{7Ритуальный{0, {5Потусторонний{0, {4Адский{0
+witchery.book.rites.anycircle=Доступны любые круги
+
+witchery.rite.bindcircle=Ритуал связи{r||Привязывает круг к талисману.
+witchery.rite.bindcircleportable=Ритуал связи{r||Привязывает круг к талисману.
+witchery.rite.bindwaystone=Ритуал связи{r||Привязывает Камень возврата к месту проведения ритуала.
+witchery.rite.chargestone=Ритуал заряда{r||Заряжает Камень силы.
+witchery.rite.infusionrecharge=Ритуал заряда{r||Подзаряжает силу Отвара сущности, находящейся в круге.  Требует 40 энегрии/сек.
+witchery.rite.teleporttowaystone=Ритуал транспортации{r||Телепортирует сущность в место, привязанное к Камню возврата.
+witchery.rite.teleportentity=Ритуал транспортации{r||Призывает сущность, привязанную к набору для сбора ДНК.
+witchery.rite.teleportironore=Ритуал транспортации{r||Высасывает железо из руд, находящихся под кругом.
+witchery.rite.protection=Ритуал святости{r||Монстры не могут проникнуть в круг. Требует 16 энергии/сек.
+witchery.rite.imprisonment=Ритуал заключения{r||Монстры не могут покинуть круг. Требует 16 энегрии/сек.
+witchery.rite.barrier=Ритуал защиты{r||Создает купол, неприступный для монстров. Требует 24 энергии/сек.
+witchery.rite.barrierlarge=Ритуал защиты{r||Создает купол, неприступный для всех. Требует 28 энергии/сек.
+witchery.rite.barrierportable=Ритуал защиты{r||Создает купол, неприступный для всех, на 60 секунд.
+witchery.rite.volcano=Ритуал ярости земли{r||Призывает вулкан. Под кругом должна находиться лава.
+witchery.rite.storm=Ритуал ярости неба{r||Вызывает грозу внутри круга.
+witchery.rite.stormlarge=Ритуал ярости неба{r||Вызывает грозу за пределами круга.
+witchery.rite.stormportable=Ритуал ярости неба{r||Вызывает грозу за пределами круга.
+witchery.rite.eclipse=Ритуал полного затмения{r||Затмевает солнце.
+witchery.rite.eclipseportable=Ритуал полного затмения{r||Затмевает солнце.
+witchery.rite.partearth=Ритуал земного разлома{r||Создает ращелину, положение предметов определяет направление.
+witchery.rite.raiseearth=Ритуал движения земли{r||Создает столб земли.
+witchery.rite.banishdemonportable=Ритуал изгнания{r||Отправляет демонов назад в Пропасть.
+witchery.rite.banishdemon=Ритуал изгнания{r||Отправляет демонов назад в Пропасть.
+witchery.rite.summondemon=Ритуал призыва{r||Призывает Демона. Внутренняя поверхность круга должна быть свободна в радиусе 7x7x4 блоков!
+witchery.rite.summondemonexpensive=Ритуал призыва{r||Призывает Демона. Внутренняя поверхность круга должна быть свободна в радиусе 7x7x4 блоков!
+witchery.rite.summonwither=Ритуал призыва{r||Призывает Иссушителя. Внутренняя поверхность круга должна быть свободна в радиусе 7x7x4 блоков!
+witchery.rite.summonwitherexpensive=Ритуал призыва{r||Призывает Иссушителя. Внутренняя поверхность круга должна быть свободна в радиусе 7x7x4 блоков!
+witchery.rite.infusionlight=Ритуал инфузии{r||Вы должны стоять внутри круга.
+witchery.rite.infusionearth=Ритуал инфузии{r||Вы должны стоять внутри круга.
+witchery.rite.infusionender=Ритуал инфузии{r||Вы должны стоять внутри круга.
+witchery.rite.infusionhell=Ритуал инфузии{r||Вы должны стоять внутри круга.
+witchery.rite.infusionsky=Ритуал инфузии{r||Проводится ночью.
+witchery.rite.necrostone=Ритуал некромантии{r||Создает Камень некроманта. Проводится ночью.
+witchery.rite.summonfamiliar=Ритуал призыва{r||Призывает существо-компаньона, чтобы искать вещи. Попробуйте дать ему алмаз! Внутренняя поверхность круга должна быть свободна в радиусе 7x7x4 блоков!
+witchery.rite.bindwaystonecopy=Ритуал связи{r||Привязывает Камень возврата к позиции другого Камня возврата.
+witchery.rite.fertility=Ритуал плодородия{r||Ближайшие земли становятся плодородными. Больные жители исцеляются.
+witchery.rite.fertilityportable=Ритуал плодородия{r||Ближайшие земли становятся плодородными. Больные жители исцеляются.
+witchery.rite.curseblight=Проклятье отравы{r||Ближайшие земли становятся бесплодны. Жители заболевают.
+witchery.rite.curseblindness=Проклятье слепоты{r||Ближайшие существа получают "Слепоту".
+witchery.rite.hellonearth=Проклятие ада на земле{r||Открывается портал в Ад. Работает только в верхнем мире ночью, требует 200 энергии/сек.
+witchery.rite.summonwitch=Ритуал призыва{r||Вризывает Ведьму. Внутренняя поверхность круга должна быть свободна в радиусе 7x7x4 блоков!
+witchery.rite.bindwaystoneportable=Ритуал связи{r||Привязывает Камень возврата к месту проведения ритуала.
+witchery.rite.bindwaystonecopyportable=Ритуал связи{r||Привязывает Камень возврата к позиции другого Камня возврата.
+
+witchery.infuse.cansetrecall=Отпустите кнопку мыши, чтобы указать место возврата.
+witchery.infuse.setrecall=- Место возврата установлено %s (%s, %s, %s).
+witchery.infuse.canteleport=Телепорт заряжен, отпустите кнопку мыши, чтобы телепортироваться.
+witchery.infuse.cannotteleport=Слишком далеко, держите кнопку мыши нажатой дольше, чтобы телепортироваться дальше!
+
+witchery.familiar.foundsomething=ХРЮ! %s, %s, %s.
+
+witchery.rite.nullfield=Не получается начать ритуал, в этой области не работает магия кругов.
+tile.witchery:voidbramble.name=Ежевика пустоты
+
+witchery.rite.naturespower=Ритуал сылы природы{r||Пустите природу на бесплодные земли.
+
+item.witchery:witchrobe.name=Ведьмин балахон
+item.witchery:witchrobe.tip=Для прорицательных ведьм.||{5Криперы будут игнорировать вас.{0||{9+35% шанс на второе зелье (кроме некроманта){0
+
+item.witchery:necromancerrobe.name=Балахон некроманта
+item.witchery:necromancerrobe.tip=Держит нежить в страхе.||{5Нежить игнорирует вас.{0||{9+35% шанс на второе зелье некроманта{0
+
+item.witchery:ingredient.creeperHeart.name=Сердце крипера
+tile.witchery:glintweed.name=Сверкающий сорняк
+item.witchery:ingredient.brewLove.name=Зелье любви
+
+witchery.rite.priorincarnation=Ритуал реинкарнации{r||Призывает предыдущую инкарнацию игрока (и его вещей) рядом с местом последней смерти.
+
+witchery.structure.apothecary.name=Аптекарь
+
+witchery.rite.disabled=Не получается начать ритуал, ритуалы запрещены на сервере.
+witchery.rite.unknownritual=Неизвестный ритуал.
+witchery.rite.missingitem=Отсутствуют необходимые предметы.
+witchery.rite.missinglivingsacrifice=Требуется жертвоприношение.
+witchery.rite.missingpowersource=Отсутствует алтарь.
+witchery.rite.insufficientpower=В алтаре недостаточно энергии.
+witchery.rite.missinglava=Отсутствует лава под кругом.
+
+item.witchery:ingredient.brewIce.name=Зелье мороза
+item.witchery:ingredient.brewDepths.name=Зелье глубин
+item.witchery:ingredient.icyNeedle.name=Сосулька
+item.witchery:ingredient.frozenHeart.name=Замороженное сердце
+item.witchery:iceslippers.name=Коньки
+item.witchery:seedssnowbell.name=Семена подснежника
+tile.witchery:snowbell.name=Подснежник
+tile.witchery:wickerbundle.plain.name=Торба
+tile.witchery:wickerbundle.bloodied.name=Окровавленная торба
+item.witchery:ingredient.infernalBlood.name=Демоническая кровь
+entity.witchery.hornedHuntsman.name=Рогатый охотник
+
+
+
+item.witchery:ingredient.bookHerbology.name=Ведьмовство: Травоведение
+item.witchery:mysticbranch.name=Мистический отросток
+item.witchery:ingredient.mysticunguent.name=Мистическая мазь
+item.witchery:ingredient.entbranch.name=Ветвь энта
+item.witchery:mutator.name=Мутировавший сук
+
+tile.witchery:glowglobe.name=Сияющий початок
+tile.witchery:leechchest.name=Сундук лича
+
+tile.witcheryLeechChest.playernotloggedin=Невозможно получить ДНК игроков не в онлайне: %s.
+tile.witcheryLeechChest.onlyowntaglock=Невозможно убрать собственный ДНК из сундука.
+
+witchery.book.herbology1={o{lВедьмовство{r{r{o: Травоведение{r||Множество обычных растений используются для приготовления зелий, а в этой книге описаны редкие и необычные растения, не известные большинству обычных людей.
+witchery.book.herbology.mandrake=Корень этого растения похож на человека. Собирайте его ночью, дайте ему проснуться и закричать. Произрастает на обработанной земле в несколько этапов. Высокие растения приносят семена.
+witchery.book.herbology.belladonna=Смертельный сумрак - именно так называют это растение за все те ужасные зелья, которые можно из него получить. Произрастает на вспаханной земле поэтапно. Высокое растение приносит семена.
+witchery.book.herbology.snowbell=Любопытное растение, холодное, как снег, замораживает землю, пока растет. Произрастает на вспаханной земле поэтапно. Высокое растение приносит семена.
+witchery.book.herbology.artichoke=Рожденное в воде странное растение. Произрастает на воде в несколько этапов. Высокое растение приносит семена.
+witchery.book.herbology.glintweed=Светится неземным светом, который освещает близлежащую территорию. Выживает везде, но размножается только на траве, земле и песке. Получается мутированием из других растений при помощи Мутандиса.
+witchery.book.herbology.spanishmoss=Лишайник со свойствами криперов - растет на деревьях, из него получаются самые лучшие куклы. Сбор урожая производится ножницами. Получается мутированием из других растений при помощи Мутандиса.
+witchery.book.herbology.embermoss=Растение с уникальным средством самозащиты. Разрывается пламенем, если его протревожить. Сбор урожая проводить ножницами. Выживат везде, но распространяется только на траве, земле и песке. Получается мутированием из других растений при помощи Мутандиса.
+witchery.book.herbology.voidbramble=Странный тип ежевики, не дает созданием подойти к нему близко. Если кто-то все же подходит, растение телепортируется от него. Создано при помощи и наполненно сильнейшей магией. Ритуалы рядом с этим растением невозможны.
+witchery.book.herbology.rowan=Рябина, или Горное дерево, отлично подходит для работы с магией. Получается мутированием из других растений при помощи Мутандиса.
+witchery.book.herbology.alder=Говорят, что ольха кровоточит, если ее порезать, это дерево всем приносит неудачу. Получается мутированием из других растений при помощи Мутандиса.
+witchery.book.herbology.hawthorn=Боярышник - дерево чистоты, у него очень долгая история в области травоведения. Получается мутированием из других растений при помощи Мутандиса.
+
+witchery.rite.infusiontree=Ритуал инфузии{r||Зачарование мистического отростка. Выполняется ночью.
+witchery.rite.cursecreature1=Проклятие неудачи{r||Проклятие существа по его ДНК. Выполняется в грозу.
+witchery.rite.removecurse1=Ритуал избавления от проклятья{r||Избавление от неудачи существа по его ДНК. Все может стать еще хуже.
+witchery.rite.cookfood=Ритуал кипячения{r||Приготавливает любую пищу, брошенную в круг. Пища может подгореть.
+witchery.rite.obstructedcircle=Территория вокруг символа сердца не пустая.
+
+witchery.infuse.branch.nocharges=Нехватает энергии, чтобы нарисовать этот символ.
+witchery.infuse.branch.infusionrequired=Вы должны быть зачарованы, чтобы пользоваться магией символов.
+witchery.infuse.branch.unknownsymbol=Неизвестный символ.
+witchery.infuse.branch.infernalrequired=Требуется адская инфузия, чтобы рисовать запрещенные символы.
+
+witchery.pott.accio=Accio
+witchery.pott.aguamenti=Aguamenti
+witchery.pott.alohomora=Alohomora
+witchery.pott.avadakedavra=Avada Kedavra
+witchery.pott.caveinimicum=Cave Inimicum
+witchery.pott.colloportus=Colloportus
+witchery.pott.confundus=Confundus
+witchery.pott.crucio=Crucio
+witchery.pott.defodio=Defodio
+witchery.pott.ennervate=Ennervate
+witchery.pott.episkey=Episkey
+witchery.pott.expelliarmus=Expelliarmus
+witchery.pott.flagrate=Flagrate
+witchery.pott.flipendo=Flipendo
+witchery.pott.impedimenta=Impedimenta
+witchery.pott.imperio=Imperio
+witchery.pott.incendio=Incendio
+witchery.pott.lumos=Lumos
+witchery.pott.meteolojinxrecanto=Meteolojinx Recanto
+witchery.pott.nox=Nox
+witchery.pott.protego=Protego
+witchery.pott.stupefy=Stupefy
+
+entity.witchery.ent.name=Энт
+
+witchery.taglockkit.taglockfailed=Сбор ДНК не удался, другие игроки оповещены!
+witchery.taglockkit.taglockdiscovered=Кто-то попытался собрать вашу ДНК, но потерпел неудачу!
+
+
+
+item.witchery:ingredient.doorKeyring.name=Брелок с рябиновыми ключами
+tile.witchery:statuegoddess.name=Статуя богини
+witchery.rite.curseinsanity1=Проклятие безумства{r||Проклинает существо по его ДНК монструозным зрением. Проводить в грозу.
+witchery.rite.removeinsanity1=Ритуал избавления от проклятья{r||Избавление от проклятия безумства по ДНК существа. Все может стать еще хуже.
+tile.witcheryStatusGoddess.curemisfortune=Богиня излечила ваши неудачи.
+tile.witcheryStatusGoddess.cureinsanity=Богиня излечила ваше безумство.
+entity.witchery.illusionCreeper.name=Крипер
+entity.witchery.illusionSpider.name=Паук
+entity.witchery.illusionZombie.name=Зомби
+
+
+
+witchery.book.herbology.enderbramble=Странный тип ежевики, не дает созданием подойти к нему близко. Если кто-то все же подходит, растение телепортируется от него. Получите это растение мутацией лишайника и тростника.
+witchery.book.herbology.grassper=Любопытное растение, которое держит предмет, который ему протянули. Получите это растение мутацией высокой травы и пустого сундука.
+witchery.book.herbology.crittersnare=Мелкие звери вокруг мельтешат - растение их "хрум" и нет дороги назад. Получите это растение мутацией ростка ольхи, паутины и зомби.
+
+entity.witchery.owl.name=Сова
+entity.witchery.toad.name=Жаба
+entity.witchery.cat.name=Кот
+entity.witchery.louse.name=Вошь-паразит
+
+item.witchery:louse.name=Вошь-паразит
+
+witchery.rite.bindfamiliar=Ритуал связи{r||Вызовите прирученную сову, жабу или кота в качестве компаньона.
+witchery.rite.callfamiliar=Ритуал призыва{r||Призовите своего компаньона, если он потерялся или погиб.
+witchery.rite.corruptvoodooprotection=Проклятье оскверненной куклы{r||Разрушает защиту от вуду по ДНК существа. Требуется кот-компаньон.
+witchery.rite.requirescursemastery=Этот ритуал можен быть произведен только с помощью кота-компаньона.
+
+item.witchery:ingredient.brewFrogsTongue.name=Отвар из жабьих языков
+item.witchery:ingredient.brewCursedLeaping.name=Отвар проклятого прыжка
+item.witchery:ingredient.brewHitchcock.name=Отвар погребов
+item.witchery:ingredient.brewInfection.name=Отвар инфекций
+item.witchery:ingredient.owletsWing.name=Крыло совы
+item.witchery:ingredient.toeOfFrog.name=Жабий коготь
+item.witchery:ingredient.appleWormy.name=Червивое яблоко
+tile.witchery:grassper.name=Щипун
+item.witchery:poppet.protectPoppet.name=Кукла защиты кукол
+tile.witchery:crittersnare.name=Мухоловка
+tile.witchery:crittersnare.empty.name=Мухоловка
+tile.witchery:crittersnare.bat.name=Мухоловка (летучая мышь)
+tile.witchery:crittersnare.silverfish.name=Мухоловка (чешуйница)
+tile.witchery:crittersnare.slime.name=Мухоловка (слизень)
+tile.witchery:crittersnare.magmacube.name=Мухоловка (лавовый куб)
+
+
+entity.witchery.babayaga.name=Баба Яга
+
+tile.witchery:crystalball.name=Хрустальный шар
+item.witchery:ingredient.quartzSphere.name=Кварцовая сфера
+item.witchery:ingredient.happenstanceOil.name=Масло неизбежности
+witchery.rite.infusionfuture=Ритуал инфузии{r||Зачаруйте Хрустальный шар, чтобы видеть будущее. Выполняется ночью.
+
+witchery.prediction.recharging=Хрустальный шар подзаряжается.
+witchery.prediction.nopower=Хрустальному шару не хватает энергии ближайшего алтаря.
+witchery.prediction.unskilled=Вы посмотрели в Хрустальный шар, но не поняли, как растолковать увиденное.
+witchery.prediction.none=Вы посмотрели в Хрустальный шар, но будущее %s слишком затуманено.
+witchery.prediction.zombie=Вы посмотрели в Хрустальный шар: у %s будут дела с нежитью.
+witchery.prediction.arrowhit=Вы посмотрели в Хрустальный шар: в %s попадет стрела.
+witchery.prediction.ent=Вы посмотрели в Хрустальный шар: %s встретит ходящее дерево.
+witchery.prediction.fall=Вы посмотрели в Хрустальный шар: %s споткнется и упадет.
+witchery.prediction.treasure=Вы посмотрели в Хрустальный шар: %s найдет зарытые сокровища.
+witchery.prediction.iron=Вы посмотрели в Хрустальный шар: %s будет засыпан железом.
+witchery.prediction.diamond=Вы посмотрели в Хрустальный шар: %s найдет блестяшки.
+witchery.prediction.emerald=Вы посмотрели в Хрустальный шар: %s найдет блестяшки.
+witchery.prediction.love=Вы посмотрели в Хрустальный шар: %s встретит темного привлекательного незнакомца.
+witchery.prediction.babagood=Вы посмотрели в Хрустальный шар: %s вызвал интерес у старухи и ее сестёр.
+witchery.prediction.bababad=Вы посмотрели в Хрустальный шар: %s разозлил старуху и ее сестёр.
+witchery.prediction.friend=Вы посмотрели в Хрустальный шар: %s заведет нового друга.
+witchery.prediction.rescued=Вы посмотрели в Хрустальный шар: %s будет спасен незнакомцем.
+witchery.prediction.tothenether=Вы посмотрели в Хрустальный шар: %s скоро отправится в ад.
+witchery.prediction.tothenether.summoned=За вами наблюдал демон и он отправил вас в ад.
+witchery.prediction.wet=Вы посмотрели в Хрустальный шар: %s намокнет.
+witchery.prediction.coal=Вы посмотрели в Хрустальный шар: %s соберет горы угля.
+
+tile.witchery:bramble.ender.name=Ежевика Края
+tile.witchery:bramble.wild.name=Дикая ежевика
+tile.witchery:bloodrose.name=Кровавая роза
+
+witchery.rite.cursesinking1=Проклятие утопления{r||Проклинает привязанное существо, нагнетая лишний вес. Проводить ночью.
+witchery.rite.removesinking1=Ритуал избавления от проклятья{r||Избавление от проклятия утопления существа по его ДНК. Всё может стать ещё хуже.
+tile.witcheryStatusGoddess.curesinking=Богиня исцелила вас от проклятия утопления.
+
+witchery.book.herbology.wildbramble=Эта шипастая ежевика начинает размножаться, если ее попытаться сорвать. Мутируйте это растение из кактуса и лишайника.
+witchery.book.herbology.bloodrose=Розу дикую трогать не смей! Частичку себя ты оставишь с ней. Мутируйте это растение из розы и Сундука лича.
+
+entity.witchery.covenwitch.name=Шабашная ведьма
+item.witchery:ingredient.seerStone.name=Камень пророка
+witchery.rite.infusionseerstone=Ритуал инфузии{r||Зачаруйте камень, чтобы участвовать в шабаше. Ритуал выполняется ночью.
+witchery.rite.climatechange=Ритуал смены сезонов{r||Выберите биом при помощи светопыли и фокуса. Шабаш должен состоять из 4 и более ведьм.
+witchery.rite.iceshell=Ритуал продвижения льда{r||Создайте сферу льда. Шабаш должен состоять из 2 и более ведьм.
+witchery.rite.curseoverheating=Проклятие перегрева{r||Проклинает персонажа по его ДНК проклятием перегрева.
+witchery.rite.cureoverheating=Ритуал избавления от проклятья{r||Избавление от проклятия перегрева существа по его ДНК. Все может стать еще хуже.
+tile.witcheryStatusGoddess.cureoverheating=Богиня исцелила вас от проклятия перегрева.
+witchery.rite.wrongdimension=Ритуал не может быть исполнен в этом измерении.
+witchery.rite.coventoosmall=В шабаше должно участвовать больше ведьм для проведения этого ритуала.
+witchery.rite.missingbiomefoci=Нужен предмет, олицетворяющий биом.
+witchery.rite.rainoffrogs=Проклятие жабодождя{r||Ядовитые жабы сыпятся с неба. Шабаш должен состоять из 1 и более ведьм.
+witchery.rite.glyphictransform=Ритуал символической трансформации{r||Бросьте мел нужного цвета, 1=маленький, 2=средний, 3=большой.
+witchery.rite.callbeasts=Ритуал звериного зова{r||Призывает животных. Шабаш должен состоять из 3 и более ведьм.
+
+witchery.witch.pet=Питомец %s
+witchery.witch.petflesh=Плоть питомца %s
+witchery.witch.peteye=Глаз питомца %s
+witchery.witch.say.covenfull=Твой шабаш уже собран! Прочь отсюда!
+witchery.witch.say.joinedcoven=Хорошо, я присоединюсь к твоему шабашу. Позови меня, когда понадоблюсь.
+witchery.witch.say.questitemsremaining=Мне нужно ещё %s!
+witchery.witch.say.questnotfinished=Ты не выполнил мое поручение!
+witchery.witch.say.begone=Прочь!
+witchery.witch.say.notinterested1=Ты меня не интересуешь!
+witchery.witch.say.notinterested2=Зачем ты тратишь моё время?!
+witchery.witch.say.notinterested3=Ты ничего не знаешь про наше искусство!
+witchery.witch.say.tricked=Ууу, как раз то, что нужно... доверчивый дурак! Теперь ты умрёшь!
+
+witchery.witch.quest.fightspider=Победи моего питомца и принеси мне его глаз, поговори со мной снова, если ты согласен!
+witchery.witch.quest.fightzombie=Победи моего питомца и принеси мне его плоть, поговори со мной снова, если ты согласен!
+witchery.witch.quest.getdemonheart=Принеси мне то, с помощью чего я смогу управлять огненным измерением, поговори со мной снова, если ты согласен!
+witchery.witch.quest.makecrystalball=Я хочу предсказывать будущее! Помоги мне с этим, поговори со мной снова, если ты согласен!
+witchery.witch.quest.getbones=Убей 30 скелетов и принеси мне их кости, поговори со мной снова, если ты согласен!
+witchery.witch.quest.makegrotesquebrew=Я хочу всех проклянуть, принеси мне нужный отвар, поговори со мной снова, если ты согласен!
+witchery.witch.quest.makenecrostone=Принеси мне то, с помощью чего я смогу управлять мертвецами, поговори со мной снова, если ты согласен!
+witchery.witch.quest.go=Иди уже!
+
+witchery.item.seerstone.misfortune=Проклятие неудачи (%d)
+witchery.item.seerstone.insanity=Проклятие безумства (%d)
+witchery.item.seerstone.sinking=Проклятие утопления (%d)
+witchery.item.seerstone.overheating=Проклятие перегрева (%d)
+witchery.item.seerstone.notcursed=Проклятие отсутствует
+
+entity.witchery.corpse.name=Труп
+entity.witchery.nightmare.name=Кошмар
+
+tile.witchery:somniancotton.name=Тонкий шелк
+tile.witchery:spiritflowing.name=Преследующий дух
+tile.witchery:spiritportal.name=Портал духов
+tile.witchery:spinningwheel.name=Крутящееся колесо
+
+item.witchery:ingredient.brewSleep.name=Настой сна
+item.witchery:ingredient.brewWasting.name=Настой транжиры
+item.witchery:ingredient.sleepingApple.name=Яблоко
+item.witchery:ingredient.disturbedCotton.name=Порванный шелк
+item.witchery:ingredient.fancifulThread.name=Спутавшаяся нить
+item.witchery:ingredient.tormentedTwine.name=Вымученная пряжа
+item.witchery:ingredient.goldenThread.name=Золотая нить
+item.witchery:ingredient.mellifluousHunger.name=Сладкозвучный голод
+item.witchery:ingredient.brewFlowingSpirit.name=Настой преследующего духа
+item.witchery:ingredient.weaveIntensity.name=Ловец снов "Сила"
+item.witchery:bucketspirit.name=Ведро духов
+item.witchery:bitingbelt.name=Кусающийся ремень
+item.witchery:bitingbelt.tip=Осторожнее... он кусается.
+
+
+witchery.brew.flowingspirit=Варить только в Мире Духов
+
+witchery.rite.manifest=Ритуал манифестации{r||Возродиться призраком в Мире Духов.
+
+witchery.book.herbology.somniancotton=Волшебное растение которое растет... в глубоких снах... или в мечтах.
+
+
+tile.witchery:demonheart.name=Сердце Демона
+
+witchery.rite.optional=(не обязательно)
+witchery.rite.noplacelikehome=нет места лучше, чем дом
+witchery.rite.unknownchant=Неизвестный распев
+witchery.rite.manifestation.countdown=Вы материализуетесь, осталось лишь %s секунд.
+witchery.rite.slippersoncooldown=Ничего не произошло (подождите %s минут(ы/а)).
+witchery.rite.forestation=Ритуал Леса{r||Вырастите лес, используйте нужный росток.
+witchery.rite.toofaraway=Ритуал не может быть проведен так далеко (может понадобиться большой шабаш).
+
+item.witchery:iceslippers.tip=Холодный на ощупь.||{5Замораживает рядом воду и{0|{5превращает лаву в обсидиан{0.
+item.witchery:brewbag.name=Заплечная сумка для варева
+item.witchery:huntsmanspear.name=Копье охотника
+item.witchery:huntsmanspear.tip={5Призывает волков, если пробивается блок{0.
+item.witchery:barkbelt.name=Лаящий ремень
+item.witchery:barkbelt.tip=Так вот как себя чувствуют Энты.||{5Grow bark pieces when standing on grass or mycellium{0|{5Bark pieces mitigate hits.{0
+item.witchery:rubyslippers.name=Ruby Slippers
+item.witchery:rubyslippers.name=Рубиновые тапочки
+item.witchery:rubyslippers.tip=Нет места лучше, чем дом.||{5Телепортирует, используя камень возврата (откат 1 минута){0|{5Телепортирует в кровать (откат 30 минут){0
+item.witchery:seepingshoes.name=Плетеные ботинки
+item.witchery:seepingshoes.tip=Бич пещерного паука.||{5Убирает эффект яда, стоя на земле{0
+item.witcheryTaglockKit.boundto=Привязан к: {5%s{0
+item.witcheryTaglockKit.unbound=Не привязан
+
+item.witchery:ingredient.bookBiomes.name=Книга биомов
+item.witchery:ingredient.bookWands.name=Ведьмовство: Симвология
+item.witchery:ingredient.batBall.name=Концентрированный комок летучих мышей
+item.witchery:ingredient.brewBats.name=Варево летучих мышей
+item.witchery:ingredient.purifiedMilk.name=Очищенное молоко
+item.witchery:ingredient.charmDisruptedDreams.name=Дар причудливого мышления
+
+tile.witcheryStatusGoddess.curenightmare=Богиня избавила вас от кошмаров.
+witchery.item.seerstone.nightmare=Проклятие Бодрствующего Кошмара (%d)
+
+witchery.rite.cursenightmare=Проклятие Бодрствующего Кошмара{r||Проклинает существо по его ДНК.
+witchery.rite.curenightmare=Ритуал избавления от проклятья{r||Избавление от проклятия Бодрствующего Кошмара по ДНК существа. Всё может стать ещё хуже.
+
+witchery.book.biomes1={o{lКнига Биомов{r{r||Понимание биомов мира - первый шаг к их изменению. На этих страницах вы найдете информацию про необходимые ключевые предметы и количество светопыли, необходимое для {oРитуала Смены Сезонов{r.
+witchery.book.biomes.foci=Ключевой предмет
+witchery.book.biomes.forest.name=Лес
+witchery.book.biomes.forest.item=Саженец дуба
+witchery.book.biomes.plains.name=Поля
+witchery.book.biomes.plains.item=Высокая трава
+witchery.book.biomes.mountain.name=Горы
+witchery.book.biomes.mountain.item=Обсидиан
+witchery.book.biomes.hills.name=Холмы
+witchery.book.biomes.hills.item=Камень
+witchery.book.biomes.swamp.name=Болото
+witchery.book.biomes.swamp.item=Слизь
+witchery.book.biomes.water.name=Водный
+witchery.book.biomes.water.item=Ведро воды
+witchery.book.biomes.desert.name=Пустыня
+witchery.book.biomes.desert.item=Кактус
+witchery.book.biomes.frozen.name=Замороженный
+witchery.book.biomes.frozen.item=Сосулька
+witchery.book.biomes.jungle.name=Джунгли
+witchery.book.biomes.jungle.item=Саженец тропического дерева
+witchery.book.biomes.wasteland.name=Пустоши
+witchery.book.biomes.wasteland.item=Адский камень
+witchery.book.biomes.beach.name=Пляж
+witchery.book.biomes.beach.item=Песок
+witchery.book.biomes.mushroom.name=Грибной
+witchery.book.biomes.mushroom.item=Мухомор
+witchery.book.biomes.magical.name=Магический
+witchery.book.biomes.magical.item=Череп скелета
+
+witchery.book.wands1={o{lВедьмовство{r{r{o: Симвология{r||Выводя символы с помощью {oМистического отростка{r, ведьмак получает возможность обуздать природные силы. ||Только {oЗачарованный{r ведьмак может пользоваться этим типом магии.||Запрещенные проклятия требуют {oАдского Зачарования{r.
+witchery.book.wands.strokes=Взмахи
+witchery.book.wands.stroke.0=Вверх
+witchery.book.wands.stroke.1=Вниз
+witchery.book.wands.stroke.2=Вправо
+witchery.book.wands.stroke.3=Влево
+witchery.book.wands.stroke.4=Вверх-влево
+witchery.book.wands.stroke.5=Вверх-вправо
+witchery.book.wands.stroke.6=Вниз-влево
+witchery.book.wands.stroke.7=Вниз-вправо
+
+witchery.pott.accio.info=Притягивает брошенный предмет.
+witchery.pott.aguamenti.info=Создает воду.
+witchery.pott.alohomora.info=Открывает запертую дверь.
+witchery.pott.avadakedavra.info={4Запрещенное{0: Смертельное проклятие.
+witchery.pott.caveinimicum.info=Усиливает блок.
+witchery.pott.colloportus.info=Заперает дверь.
+witchery.pott.confundus.info=Вводит в замешательство.
+witchery.pott.crucio.info=Запрещенное: Пытка.
+witchery.pott.defodio.info=Копание.
+witchery.pott.ennervate.info=Анти-оглушение.
+witchery.pott.episkey.info=Слабое лечение.
+witchery.pott.expelliarmus.info=Разружает цель.
+witchery.pott.flagrate.info=Рисует адскую руну.
+witchery.pott.flipendo.info=Отталкивает цель.
+witchery.pott.impedimenta.info=Замедляет цель.
+witchery.pott.imperio.info={4Запрещенное{0: Управление разумом.
+witchery.pott.incendio.info=Разжигает огонь.
+witchery.pott.lumos.info=Создает свет.
+witchery.pott.nox.info=Тушит свет.
+witchery.pott.protego.info=Щит (цель на земле).
+witchery.pott.stupefy.info=Оглушает цель.
+
+item.witchery:poppet.protectArmor.name=Кукла защиты брони
+
+
+
+item.witchery:babashat.name=Колпак Бабы Яги
+item.witchery:babashat.tip={5Зачарованные игроки имеют шанс{0|{5телепортироваться вместо получения повреждения{0||{9+25% шанс получить второй настой{0|{9+25% шанс получить третий настой{0
+item.witchery:boline.name=Боллин
+item.witchery:boline.tip=Как ножницы, но может собирать|растения-ловушки.
+
+witchery.infuse.infusionrequired=Вы должны быть зачарованы, чтобы воспользоваться этой способностью.
+witchery.infuse.nocharges=У вас слишком мало энергии, чтобы воспользоваться этой способностью.
+
+item.witchery:ingredient.brewSolidStone.name=Затвердевающий настой (Камень)
+item.witchery:ingredient.brewSolidDirt.name=Затвердевающий настой (Земля)
+item.witchery:ingredient.brewSolidSand.name=Затвердевающий настой (Песок)
+item.witchery:ingredient.brewSolidSandstone.name=Затвердевающий настой (Песчаник)
+item.witchery:ingredient.brewSolidErosion.name=Затвердевающий настой (Эрозия)
+item.witchery:ingredient.brewHollowTears.name=Настой Пустых Слез
+item.witchery:ingredient.brewSubstitution.name=Настой Замещения
+item.witchery:ingredient.condensedFear.name=Концентрированный Страх
+item.witchery:ingredient.focusedWill.name=Загаданное желание
+item.witchery:ingredient.brewGrave.name=Зачарованный могильный настой
+item.witchery:ingredient.brewSoaring.name=Зачарованный настой парения
+item.witchery:ingredient.infusionBase.name=Основа зачарованных настоев
+item.witchery:ingredient.brewRevealing.name=Настой открытий
+item.witchery:ingredient.wormwood.name=Горькая полынь
+item.witchery:ingredient.subduedSpirit.name=Приглушенный Дух
+item.witchery:ingredient.brewCongealedSpirit.name=Застывший Дух
+item.witchery:seedswormwood.name=Семена горькой полыни
+item.witchery:spectralstone.name=Спектральный камень
+
+item.witchery:buckethollowtears.name=Ведро Пустых Слез
+
+witchery.brew.solidification=Заменяет Землю на Камень, Песок, Песчаник или Настой Эрозии.
+
+tile.witchery:wormwood.name=Горькая полынь
+
+entity.witchery.spectre.name=Призрак
+entity.witchery.poltergeist.name=Полтергейст
+entity.witchery.banshee.name=Баньши
+entity.witchery.spirit.name=Дух
+entity.witchery.death.name=Смерть
+
+tile.witchery:brazier.name=Жаровня
+tile.witchery:scarecrow.name=Пугало
+tile.witchery.scarecrow.operation.playerwhitelist=Активно для ИГРОКОВ вне белого списка: %s
+tile.witchery.scarecrow.operation.playerblacklist=Активно для ИГРОКОВ в черном списке: %s
+tile.witchery.scarecrow.operation.creaturewhitelist=Активно для ВСЕГО вне белого списка: %s.
+tile.witchery.scarecrow.operation.allnotfound=Активно, если не обнаружено никого из белого списка: %s.
+tile.witchery.scarecrow.operation.onenotfound=Активно, если не присутствует хотя бы один из белого списка: %s.
+tile.witchery.scarecrow.operation.off=Выключено. [%s]
+
+tile.witchery:trent.name=Фигурка Древня
+tile.witchery:witchsladder.name=Ведьмина лестница
+
+witchery.fetish.enhancedpoppets.name=Защита от Вуду
+witchery.fetish.enhancedpoppets.desc=Свойства носимой Куклы защиты от Вуду усиливаются.
+witchery.fetish.screamer.name=Крикун
+witchery.fetish.screamer.desc=Издает крик, если рядом находятся определенные существа.
+witchery.fetish.sentinal.name=Страж
+witchery.fetish.sentinal.desc=Испускает спектральную энергию на нежелательных посетителей.
+witchery.fetish.twister.name=Путаник
+witchery.fetish.twister.desc=Вводит приближающихся существ в замешательство.
+witchery.fetish.ghostwalker.name=Ходящий призрак
+witchery.fetish.ghostwalker.desc=Сдерживает материлизовавшихся существ из Мира Духов.
+
+item.witchery:ingredient.seerstone.manifestationtime=Материлизовать на %s секунд(у/ы).
+item.witchery:ingredient.seerstone.nomanifestationtime=Невозможно материлизовать.
+item.witchery:ingredient.seerstone.covensize=%s ведьм(а/ы) в шабаше.
+item.witchery:ingredient.seerstone.nocoven=Нет шабаша.
+item.witchery:ingredient.seerstone.nofamiliar=Нет компаньона.
+item.witchery:ingredient.seerstone.familiar=Компаньон по имени %s.
+item.witchery:ingredient.bookBurning.name=Ведьмовство: Колдовство и идолы
+item.witchery:ingredient.graveyardDust.name=Могильный прах
+
+item.witchery.swordofdeath.customname=Запасной меч Смерти
+item.witchery.horseofdeath.customname=Бинки
+
+witchery.rite.infusebrewsoaring=Ритуал инфузии{r||Зачаруйте Настой Парения.
+witchery.rite.infusebrewgrave=Ритуал инфузии{r||Зачаруйте Могильный Настой.
+witchery.rite.spectralstone=Ритуал некромантии{r||Зачаруйте Спекртальный Камень. Выполняется ночью.
+witchery.rite.bindspectral=Ритуал связи{r||Привязывает до трех спектральных существ одного типа к Спектральному Камню.
+witchery.rite.bindfetish=Ритуал связи{r||Привязывает спектральных существ к Пугалу, Фигурке Древня или Ведьминой Лестнице, чтобы создать определенный эффект.
+witchery.rite.voodooprotectionactivated=Ритуал неуспешен, у игрока уже есть защита от Вуду.
+
+witchery.brazier.smoke.name=Кладбищенский Туман
+witchery.brazier.smoke.desc=Призывает густой туман, который не развеется несколько минут.
+
+witchery.brazier.spectre.name=Призывать Призрака
+witchery.brazier.spectre.desc=Притянуть умершего в этот мир из потустороннего.
+
+witchery.brazier.banshee.name=Призывать Баньши
+witchery.brazier.banshee.desc=Притянуть кричащее создание в этот мир из потустороннего.
+
+witchery.brazier.strong.name=Тоска Мертвых
+witchery.brazier.strong.desc=Причинять боль мертвых существам у жаровни при ударах.
+
+witchery.brazier.tough.name=Укрепление Трупа
+witchery.brazier.tough.desc=Заставить мертвых чувствовать вашу боль, находясь рядом с жаровней.
+
+witchery.brazier.invisible.name=Смертельная вуаль
+witchery.brazier.invisible.desc=Испариться из поля зрения, находясь рядом с жаровней.
+
+witchery.brazier.wilting.name=Заимствование Роста
+witchery.brazier.wilting.desc=Высосать жизнь из растений, чтобы вылечить мертвецов, находящихся рядом.
+
+witchery.book.burning1={o{lВедьмовство: Колдовство и идолы{r{r||Ведьма может использовать Жаровню, чтобы сжигать в ней магические ингредиенты и призывать тех, кто больше не обитает в нашем мире.||Поместите ингредиенты в жаровню и подожгите при помощи кремня.
+witchery.book.burning2={o{lПривязка к идолам{r{r||Ведьма может использовать Ритуал Связи, чтобы привязать спектральных существ к идолу, тем самым получив постоянный эффект.||На страницах книги описано, какие существа могут быть привязаны и какие эффекты это принесет.
+witchery.book.burning3=Требуемые существа:
+
+
+entity.witchery.witchhunter.name=Охотник на ведьм
+
+item.witchery:handbow.name=Арбалет охотника на ведьм
+item.witchery:hunterhat.name=Шляпа охотника на ведьм
+item.witchery:hunterhat.tip={9При использовании всего набора: Защита от проклятий.{0|{9Позволяет использовать спец-болты.{0|{9Невозможность использовать кукол.{0
+item.witchery:huntercoat.name=Плащ охотника на ведьм
+item.witchery:huntercoat.tip={9При использовании всего набора: Защита от проклятий.{0|{9Позволяет использовать спец-болты.{0|{9Невозможность использовать кукол.{0
+item.witchery:hunterlegs.name=Штаны охотника на ведьм
+item.witchery:hunterlegs.tip={9При использовании всего набора: Защита от проклятий.{0|{9Позволяет использовать спец-болты.{0|{9Невозможность использовать кукол.{0
+item.witchery:hunterboots.name=Ботинки охотника на ведьм
+item.witchery:hunterboots.tip={9При использовании всего набора: Защита от проклятий.{0|{9Позволяет использовать спец-болты.{0|{9Невозможность использовать кукол.{0
+item.witchery:shelfcompass.name=Компас полки для кукол
+item.witchery:ingredient.boltStake.name=Деревянный болт
+item.witchery:ingredient.boltAntiMagic.name=Рассеивающий болт
+item.witchery:ingredient.boltHoly.name=Костяной болт
+item.witchery:ingredient.boltSplitting.name=Расщепляющий болт
+item.witchery:ingredient.nullifiedleather.name=Рассеивающая кожа
+item.witchery:ingredient.nullcatalyst.name=Катализатор рассеивания
+item.witchery:ingredient.binkyhead.name=Череп Бинки
+item.witchery:potion.antidote.name=Универсальный антидот
+
+item.witchery:deathscowl.name=Капюшон Смерти
+item.witchery:deathscowl.tip={9Его взгляд вселяет страх, жертвы замирают.{0
+item.witchery:deathsrobe.name=Роба Смерти
+item.witchery:deathsrobe.tip={9Устойчивость к огню.{0
+item.witchery:deathsfeet.name=Обувь Смерти
+item.witchery:deathsfeet.tip={9Прогулка по воде.{0
+item.witchery:deathshand.name=Рука Смерти
+item.witchery:deathshand.tip={9Призрачное касание игнорирует броню.{0|{9При использовании всего набора: Призывает Косу Сметри{9|{9наносящую AOE повреждение голодом.{9
+
+witchery.rite.blackmagicdampening=Что-то рассеивает магию.
+
+fluid.witchery:hollowtears=Пустые слёзы
+fluid.witchery:flowingspirit=Преследующий дух
+
+tile.witchery:hollowtears.name=Преследующий дух
+
+
+
+entity.witchery.lordoftorment.name=Лорд Мучений
+
+entity.witchery.imp.name=Огненный Имп
+entity.witchery.imp.goodbye=<%s> Контракт выполнен!
+entity.witchery.imp.contract.notowners=<%s> Этот контракт не подписан кровью!
+entity.witchery.imp.contract.unsigned=<%s> Подпиши контракт своей кровью!
+entity.witchery.imp.contract.noxp=<%s> У тебя слишком мало опыта, чтобы покормить меня!
+entity.witchery.imp.contract.deal=<%s> Договорились!
+entity.witchery.imp.gift.like=<%s> Блестяшки!
+entity.witchery.imp.gift.hate=<%s> Моя не нравится! Хотеть блестящие вещи!
+entity.witchery.imp.gift.reciprocate=<%s> Моя хранить секрееет!
+entity.witchery.imp.gift.toomany=<%s> Эххх... Блестяшки...
+entity.witchery.imp.gift.power=<%s> МОЩЬ ПЕРЕПОЛНЯЕТ МЕНЯ!
+entity.witchery.imp.gift.powerloss=<%s> Зачем ты это делать?
+entity.witchery.imp.spell.feelthefire=<%s> %s ощутит жар моего пламени!
+entity.witchery.imp.spell.cannotfind=<%s> Не могу отыскать %s!
+entity.witchery.imp.spell.failed=<%s> Что-то пошло не так.
+entity.witchery.imp.spell.notliked=<%s> И зачем мне это делать?
+entity.witchery.imp.spell.toooften=<%s> Подожди немножко, дай передохнуть.
+entity.witchery.imp.spell.toomuchpower=<%s> Слишком много МОЩИ! Я не могу думать!
+
+tile.witchery:force.name=Твердь
+tile.witchery:tormentportal.name=Портал Мучений
+tile.witchery:refillingchest.name=Сундук
+
+witchery.infuse.branch.unknowneffect=Вы не выучили этот эффект!
+witchery.infuse.branch.effectoncooldown=Эффект не готов, осталось %s секунд(ы/а).
+
+item.witchery:ingredient.seerstone.knownspells=Изучено: %s.
+item.witchery:ingredient.seerstone.nospells=Знание мистического отростка не изучено.
+
+item.witchery:ingredient.brewSoulHunger.name=Душа Демона Голода
+item.witchery:ingredient.brewSoulAnguish.name=Душа Демона Печали
+item.witchery:ingredient.brewSoulFear.name=Душа Демона Страха
+item.witchery:ingredient.brewSoulTorment.name=Душа Демона Мучений
+item.witchery:ingredient.contract.name=Демонический контракт
+item.witchery:ingredient.contractTorment.name=Мучение
+item.witchery:ingredient.contractTorment.tip=Прочтите этот текст стоя в|каменном круге. Опасайтесь|взрывов.
+item.witchery:ingredient.contractTorment.nostones=Нужно стоять в центре каменного круга.
+item.witchery:ingredient.contractBlaze.name=Живое Пламя
+item.witchery:ingredient.contractResistFire.name=Устойчивость к огню
+item.witchery:ingredient.contractEvaporate.name=Испарение
+item.witchery:ingredient.contractFieryTouch.name=Огненное касание
+item.witchery:ingredient.contractSmelting.name=Плавящийся факел
+
+# не переводить, названия заклинаний
+witchery.pott.tormentum=Tormentum
+witchery.pott.tormentum.info=Обречь жертву на вечные мучения.
+witchery.pott.carnosadiem=Carnosa Diem
+witchery.pott.carnosadiem.info=Мясной пир.
+witchery.pott.ignianima=Ignianima
+witchery.pott.ignianima.info=Огненный дух: разделяет с вами боль.
+witchery.pott.morsmordre=Morsmordre
+witchery.pott.morsmordre.info=Создает Темную Метку.
+
+witchery.rite.summonimp=Ритуал призыва{r||Призывает Импа. Внутренняя область 7x7x4 должна быть свободна от блоков!
+
+tile.witchery:decurseteleport.name=Статуя Отмененных призывов
+tile.witchery:decursedirected.name=Статуя Разрушенных проклятий
+entity.witchery.mindrake.name=Майндрейк
+entity.witchery.darkmark.name=Морсмордр
+item.witchery:seedsmindrake.name=Луковица майндрейка
+tile.witchery:mindrake.name=Майндрейк
+
+witchery.rite.bindstatuetoplayer=Ритуал Связи{r||Связывает личность, стоящую в круге, со статуей.
+witchery.rite.bindwaystonetoplayer=Ритуал Связи{r||Создает Кровавый Путеводный камень указывающий на местоположение существа.
+entity.witchery.goblin.name=Хобгоблин
+entity.witchery.goblinmog.name=Мог
+entity.witchery.goblingulg.name=Гулг
+item.witchery:ingredient.waystoneCreatureBound.name=Кровавый Путеводный камень
+item.witchery:quiverofmog.name=Колчан Мога
+item.witchery:quiverofmog.tip={9Бесконечный колчан быстрых стрел, поражающих летучие цели.{0|{5Становится мощнее, если рядом есть игрок, носящий Пояс Гулга.{0
+item.witchery:gurdleofgulg.name=Пояс Гулга
+item.witchery:gurdleofgulg.tip={9Подбрасывает цели в воздух при ударах голыми руками.{0|{5Становится мощнее, если рядом есть игрок, носящий Колчан Мога.{0
+tile.witchery:stockade.oak.name=Частокол из дуба
+tile.witchery:stockade.spruce.name=Частокол из ели
+tile.witchery:stockade.birch.name=Частокол из березы
+tile.witchery:stockade.jungle.name=Частокол из джунгевого дерева
+tile.witchery:stockade.rowan.name=Частокол из рябины
+tile.witchery:stockade.alder.name=Частокол из ольхи
+tile.witchery:stockade.hawthorn.name=Частокол из боярышника
+tile.witchery:stockade.acacia.name=Частокол из акации
+tile.witchery:stockade.big_oak.name=Частокол из темного дуба
+item.witchery:dupstaff.name=Посох удвоения
+tile.witchery:statueofworship.name=Статуя Покровителя Хобгоблинов
+item.witchery:ingredient.kobolditedust.name=Кобольдитовая пыль
+item.witchery:ingredient.kobolditenugget.name=Кобольдитовый самородок
+item.witchery:ingredient.kobolditeingot.name=Кобольдитовый слиток
+item.witchery:kobolditepickaxe.name=Кобольдитовая кирка
+item.witchery:ingredient.pentacle.name=Пентакль
+tile.witchery:perpetualice.name=Вечный лед
+tile.witchery:tormentstone.name=Пыточный камень
+
+tile.witchery:infinityegg.name=Бесконечное яйцо
+item.witchery:kobolditehelm.name=Диадема заблуждения
+item.witchery:kobolditehelm.tip={9Вводит врагов в замешательство.{0
+
+
+
+
+witchery:effect.paralysed=Паралич
+witchery:effect.wrappedinvine=Лиановая обёртка
+witchery:effect.spiked=Колкость
+witchery:potion.paralysed=Паралич
+witchery:potion.insane=Невменяемость
+witchery:potion.wrappedinvine=Лиановая обёртка
+witchery:potion.spiked=Колкость
+witchery:potion.sprouting=Проращивание
+witchery:potion.grotesque=Гротеск
+witchery:potion.love=Влюблённость
+witchery:potion.allergysun=Проклятие бессмертия
+witchery:potion.allergydark=Жертва Груу
+witchery:potion.chilled=Охлождение
+witchery:potion.snowtrail=Снежный след
+witchery:potion.hellishaura=Адская аура
+witchery:potion.brewingexpertise=Экспертиза зельеварения
+witchery:potion.unknown=<неизвестно>
+witchery:potion.doublejump=Лягушачья лапка
+witchery:potion.featherfall=Падение пера
+witchery:potion.reincarnate=Перевоплащение
+witchery:potion.insanity=Безрассудность
+witchery:potion.insanity.0=Ароматный сыр
+witchery:potion.insanity.1=Хорошо ухоженный
+witchery:potion.insanity.2=Вафля
+witchery:potion.insanity.3=Волосатые ноги
+witchery:potion.insanity.4=Репа
+witchery:potion.insanity.5=Капитан Невероятность
+witchery:potion.insanity.6=Пирог
+witchery:potion.keepinventory=Липкие предметы
+witchery:potion.sinking=Погружение
+witchery:potion.overheating=Перегревание
+witchery:potion.wakingnightmare=Пробуждение кошмаров
+witchery:potion.queasy=Жуть
+witchery:potion.swimming=Быстрое плавание
+witchery:potion.resizing=Уменьшение
+witchery:potion.enderinhibition=Подавление эндера
+witchery:potion.illfitting=Плохое соединение
+witchery:potion.volatility=Летучесть
+witchery:potion.enslaved=Порабощённый
+witchery:potion.mortalcoil=Смертельная катушка
+witchery:potion.absorbmagic=Впитывающая магия
+witchery:potion.poisonweapons=Отравленное оружие
+witchery:potion.reflectprojectiles=Отражение снарядов
+witchery:potion.reflectdamage=Отражение урона
+witchery:potion.attractprojectiles=Привлечение снрядов
+witchery:potion.repellattacker=Отражение
+witchery:potion.stoutbelly=Толстый живот
+witchery:potion.feelnopain=Не чувствовать боль
+witchery:potion.floating=Левитация
+witchery:potion.gasmask=Противогаз
+witchery:potion.diseased=Болезнь
+witchery:potion.fortune=Удача
+witchery:potion.worship=Почитание
+witchery:potion.keepeffects=Эффекты приливного зелья
+
+witchery:potion.colorful=Подсветка
+witchery:potion.colorful.black=Чёрная подсветка
+witchery:potion.colorful.red=Красная подсветка
+witchery:potion.colorful.green=Зелёная подсветка
+witchery:potion.colorful.brown=Коричневая подсветка
+witchery:potion.colorful.blue=Синяя подсветка
+witchery:potion.colorful.purple=Фиолетовая подсветка
+witchery:potion.colorful.cyan=Бирюзовая подсветка
+witchery:potion.colorful.lightgray=Светло-сераяподсветка
+witchery:potion.colorful.gray=Серая подсветка
+witchery:potion.colorful.pink=Розовая подсветка
+witchery:potion.colorful.lime=Лаймовая подсветка
+witchery:potion.colorful.yellow=Жёлтая подсветка
+witchery:potion.colorful.lightblue=Голубая подсветка
+witchery:potion.colorful.magenta=Сереневая подсветка
+witchery:potion.colorful.orange=Оранжевая подсветка
+witchery:potion.colorful.white=Белая подсветка
+
+item.witchery:brewbottle.name=Зелье
+item.witchery:brewbucket.name=Ведро с варевом
+witchery:brew.planting=Насаждения
+witchery:brew.floating=Левитация
+witchery:brew.tilling=Возделывание
+witchery:brew.harvesting=Сбор урожая
+witchery:brew.frogtongue=Язык лягушки
+witchery:brew.fertilization=Удобрение
+witchery:brew.flowers=Цветы
+witchery:brew.blight=Порча
+witchery:brew.moonshine=Лунный свет
+witchery:brew.blast=Взрыв
+witchery:brew.raiseland=Поднятие земли
+witchery:brew.raising=Привлечение
+witchery:brew.frogsleg=Лягушачья лапка
+witchery:brew.potion=Зелье 
+witchery:brew.potionwater=Окрашенная вода
+witchery:brew.dispersal.gas=Газовое
+witchery:brew.dispersal.liquid=Жидкое
+witchery:brew.dispersal.splash=Взрывное
+witchery:brew.dispersal.triggered=Срабатывающее
+witchery:brew.lifetime=Задержка
+witchery:brew.drinkspeed={9Осушение: %s{0
+witchery:brew.drinkspeed.veryslow=Очень медленно
+witchery:brew.drinkspeed.slow=Медленно
+witchery:brew.drinkspeed.veryfast=Очень быстро
+witchery:brew.drinkspeed.fast=Быстро
+
+witchery:brew.levelling=Наводка
+witchery:brew.dissipate=Рассеивание
+witchery:brew.pulverisation=Распыление
+witchery:brew.removedebuffs=Вылечть дебафы
+witchery:brew.removebuffs=Вылечить эффекты
+witchery:brew.pruning=Сокращение
+witchery:brew.tidehold=Удержание прилива
+witchery:brew.lavahold=Удержание лавы
+witchery:brew.inferno=Воспламенение
+witchery:brew.resizing=Уменьшение
+witchery:brew.extinguish=Тушение
+witchery:brew.swimming=Ускорение плавания
+witchery:brew.durationboost=Зелье долголетия
+witchery:brew.keepinventory=Липкие предметы
+witchery:brew.revealing=Вскрытие
+witchery:brew.fullness=Полнота
+witchery:brew.wasting=Истощение
+witchery:brew.insanity=Невменяемость
+witchery:brew.airhike=Воздужная ходьба
+witchery:brew.reincarnate=Реинкарнация
+witchery:brew.featherfall=Лёгкое падение
+witchery:brew.jump=Прыгучесть
+witchery:brew.potionmaster=Фильтрование
+witchery:brew.moveslow=Медлительность
+witchery:brew.invisibility=Невидимость
+witchery:brew.weakness=Слабость
+witchery:brew.harming=Вред
+witchery:brew.wither=Иссушение
+witchery:brew.poison=Отравление
+witchery:brew.movespeed=Скорость
+witchery:brew.waterbreathing=Жабры
+witchery:brew.resistfire=Огнестойкость
+witchery:brew.nightvision=Глаз совы
+witchery:brew.regeneration=Восстановление
+witchery:brew.damageboost=Сила
+witchery:brew.healing=Леччение
+witchery:brew.blindness=Чернила
+witchery:brew.fear=Страх
+witchery:brew.love=Любовь
+witchery:brew.snow=Снег
+witchery:brew.allergysun=Проклятие бессмертия
+witchery:brew.allergydark=Жена Груу
+witchery:brew.paralysis=Паралич
+witchery:brew.erosion=Эррозия
+witchery:brew.webs=Паутина
+witchery:brew.vines=Лианы
+witchery:brew.thorns=Шипы
+witchery:brew.sprouting=Проростание
+witchery:brew.iceshell=Ледяная ракушка
+witchery:brew.cold=Холод
+witchery:brew.treeoak=Дуб
+witchery:brew.treespruce=Ель
+witchery:brew.treebirch=Берёза
+witchery:brew.treejungle=Джунгли
+witchery:brew.treeacacia=Акация
+witchery:brew.treedarkoak=Тёмный дуб
+witchery:brew.treerowan=Рябина
+witchery:brew.treealder=Ольха
+witchery:brew.treehawthorn=Боярышник
+witchery:brew.knockback=Отдача
+witchery:brew.batburst=Летучая мышь
+witchery:brew.sinking=Утопление
+witchery:brew.overheating=Перегрев
+witchery:brew.wakingnightmare=Ходячий кошмар
+witchery:brew.drainmagic=Отток магии
+witchery:brew.lilify=Лилия
+witchery:brew.hellgate=Ад
+witchery:brew.harmdemons=Губитель демонов
+witchery:brew.harmundead=Губитель нежити
+witchery:brew.harminsects=Губитель насекомых
+witchery:brew.poisontoad=Ядовитая жаба
+witchery:brew.seasons=Сдвиг сезонов
+witchery:brew.felling=Рубка
+witchery:brew.absorbsion=Поглощение
+witchery:brew.healthboost=Увеличение здоровья
+witchery:brew.transposeore=Транспортировка руд
+witchery:brew.transpose=Транспортировка
+witchery:brew.stealbuffs=Стальные эффекты
+witchery:brew.spreaddebuffs=Распространение эффектов
+witchery:brew.iceworld=Ледяной мир
+
+witchery:brew.skillincrease=Вы чувствуете себя более опытным в зельеварении, возможно, с этого момента вы будете терять меньше зелий.
+
+item.witchery:brew.water.name=Зелье бесконечной воды
+item.witchery:brew.water.tip=Бесконечная вода (%s/%s)
+
+
+tile.witchery:cauldron.name=Ведьменский котёл
+tile.witchery:web.name=Паутина
+tile.witchery:vine.name=Лиана
+tile.witchery:cactus.name=Кактус
+tile.witchery:lilypad.name=Водяная лилия
+
+tile.witchery:icedoor.name=Ледяная дверь
+tile.witchery:icefence.name=Ледяной забор
+tile.witchery:icefencegate.name=Ледяные ворота
+tile.witchery:iceslab.name=Ледяная плита
+tile.witchery:icedoubleslab.name=Двойная ледяная плита
+item.witchery:iceslab.name=Ледяная плита
+item.witchery:icedoubleslab.name=Двойная ледяная плита
+tile.witchery:icestairs.name=Ледяная лестница
+item.witchery:ingredient.doorIce.name=Ледяная дверь
+tile.witchery:icestockade.ice.name=Ледяной частокол
+tile.witchery:icepressureplate.name=Ледяная нажимная плита
+tile.witchery:snowpressureplate.name=Снежная нажимная плита
+
+item.witchery:ingredient.annointingPaste.name=Связывающая паста
+
+item.witchery:ingredient.seerstone.bottlingskill=Мастерство разлива: %s.
+
+tile.witchery:snowstairs.name=Снежные ступеньки
+tile.witchery:snowslab.name=Снежная плита
+tile.witchery:snowdoubleslab.name=Двойная снежная плита
+item.witchery:snowslab.name=Снежная плита
+item.witchery:snowdoubleslab.name=Двойная снежная плита
+
+tile.witchery:pitdirt.name=Земля
+tile.witchery:pitpodzol.name=Подзол
+tile.witchery:pitgrass.name=Трава
+
+tile.witchery:cbuttonwood.name=Кнопка
+tile.witchery:cbuttonstone.name=Кнопка
+tile.witchery:clever.name=Рычаг
+tile.witchery:cwoodpressureplate.name=Нажимная плита
+tile.witchery:cstonepressureplate.name=Нажимная плита
+tile.witchery:csnowpressureplate.name=Снежная нажимная плита
+tile.witchery:cwoodendoor.name=Деревянная дверь
+
+item.witchery:leonardsurn.name=Урна Леонардо
+item.witchery:leonardsurn.tip=Поместите зелье в урне, чтобы сконцентрировать его,|затем отпустите палочку.
+item.witchery:earmuffs.name=Наушники
+item.witchery:earmuffs.tip=Защита от Мандрейка
+item.witchery:playercompass.name=Компас на игроков
+item.witchery:ingredient.subduedSpiritVillage.name=Приглушённый дух жителя
+
+fluid.witchery:disease=Недуг
+tile.witchery:disease.name=Недуг
+
+item.witchery:brew.fuel.name=Зелье сгорания
+item.witchery:brew.fuel.0=Сгорание
+item.witchery:brew.fuel.1=Сгорание II
+item.witchery:brew.fuel.2=Сгорание III
+item.witchery:brew.fuel.3=Сгорание IV
+item.witchery:bookbiomes2.name=Книга биомов (Расширенная версия)
+item.witchery:biomenote.name=Биом %s
+witchery.book.biomes.river.name=Река
+witchery.book.biomes.ocean.name=Океан
+witchery.book.biomes.sandy.name=Песчаный
+witchery.book.biomes.snowy.name=Снежный
+witchery.book.biomes.mesa.name=Глиняный
+witchery.book.biomes.spooky.name=Страшный
+witchery.biomebook.currentpage=Текущая страница: {5%s{0
+witchery.biomebook.rainfall=Кол-во осадков: %s
+witchery.biomebook.snows=Заснеженность: %s
+witchery.biomebook.lightning=Молнии: %s
+witchery.biomebook.temperature=Температура: %s
+witchery.biomebook.temperaturehot=Температура: %s (Влажность)
+witchery.no=Нет
+witchery.yes=Да
+item.witchery:biomebook2.tip={oСовместите с листом бумаги,|{oчтобы скопировать текущую страницу (используется|{oв некоторых ритуалах).
+
+entity.witchery.leonard.name=Тень Леонардо
+entity.witchery.lostsoul.name=Потерянная душа
+
+witchery.pott.leonard1=Caelum
+witchery.pott.leonard2=Baratrum
+witchery.pott.leonard3=Ortus
+witchery.pott.leonard4=Occasus
+
+witchery:color.black=Чёрный
+witchery:color.red=Красный
+witchery:color.green=Зелёный
+witchery:color.brown=Коричневый
+witchery:color.blue=Синий
+witchery:color.purple=Сереневый
+witchery:color.cyan=Бирюзовый
+witchery:color.lightgray=Светло-серый
+witchery:color.gray=Серый
+witchery:color.pink=Розовый
+witchery:color.lime=Лаймовый
+witchery:color.yellow=Жёлтый
+witchery:color.lightblue=Голубой
+witchery:color.magenta=Фиолетовый
+witchery:color.orange=Оранжевый
+witchery:color.white=Белый
+
+
+
+item.witchery:cauldronbook.name=Ведьмачье зельеварение
+item.witchery:cauldronbook.tip=Руководство по котлу и зельеварению.
+
+#куча текста из книг
+#куча текста из книг
+#куча текста из книг
+#куча текста из книг
+#куча текста из книг
+
+
+witchery.brewing.ingredientpowercost=Затраты энергии алтаря: %d (Для ритуалов: %d)
+
+item.witchery:mooncharm.name=Лунный амулет
+item.witchery:mooncharm.tip=Помогает ликонтропам менять формы.
+tile.witchery:wolfaltar.name=Волчий алтарь
+item.witchery:silversword.name=Серебрянный меч
+item.witchery:silversword.tip=2x неблокируемый уроп по оборотням.
+item.witchery:ingredient.boltSilver.name=Серебрянный болт
+entity.witchery.wolfman.name=Оборотень
+entity.witchery.hellhound.name=Адский волк
+entity.witchery.werevillager.name=Житель
+item.witchery:seedswolfsbane.name=Волчьи семена
+item.witchery:ingredient.wolfsbane.name=Волчий цветок
+item.witchery:ingredient.silverdust.name=Серебрянные самородки
+item.witchery:ingredient.muttonraw.name=Сырая баранина
+item.witchery:ingredient.muttoncooked.name=Приготовленная баранина
+item.witchery:wolfhead.wolf.name=Голова волка
+item.witchery:wolfhead.hellhound.name=Голова адского волка
+tile.witchery:wolfhead.name=Голова волка
+tile.witchery:wolfhead.wolf.name=Голова волка
+tile.witchery:wolfhead.hellhound.name=Голова адского волка
+tile.witchery:wolfsbane.name=Волчий цветок
+tile.witchery:silvervat.name=Серебрянный бак
+witchery:potion.wolfsbane=Волчий цветок
+witchery:brew.harmwerewolves=Вред оборотням
+item.witchery:hornofthehunt.name=Охотничьий рог
+item.witchery:hornofthehunt.tip=Призывает рогатого охотника после чего пропадает.
+item.witchery:wolftoken.name=Креативный жетон
+item.witchery:wolftoken.tip=(только для креатива)|Используется чтобы менять уровни оборотня.|Shift - менять уровни вампира.
+tile.witchery:beartrap.name=Ловушка на медведя
+tile.witchery:wolftrap.name=Ловушка на волка
+
+witchery.nosleep.wolf=Оборотни не чувствуют слабости!
+witchery.nosleep.resized=Вы не можете спать, пока вы уменьшены!
+
+witchery.werewolf.infection=Ваше обоняние стало сильнее.
+witchery.rite.wolfcurse.alreadyactive=Цель уже находится под проклятием.
+witchery.rite.wolfcurse.nothuman=Цель не является жителем или игроком.
+witchery.rite.wolfcurse.notactive=Цель не находится под проклятием.
+witchery.rite.wolfcurse.requiresfullmoon=Выполняется в полнолуние.
+witchery.rite.wolfcurse.requirescat=Требуется фамильяр-кошка.
+witchery.rite.wolfcurse.requiresfullcoven=Требуется полный шабаш из 6 ведьм.
+witchery.rite.wolfcurse.toofar=Оборотень слишком силён и должен находиться в пределах круга.
+
+witchery.rite.wolfcurse.book=Проклятие волка{r||Выполняется в полнолуние с полныи шабашем.
+witchery.rite.wolfcure.book=Ритуал удаления проклятия{r||Снимает проклятие ликонтропии.
+
+witchery.werewolf.setlevel=Уровень оборотня установлен на %s.
+witchery.werewolf.chunkvisited=Вы чувствуете, что уже были здесь.
+witchery.werewolf.mooncharmcrafted=Голос грохочет: "НЕ ПОТЕРЯЙ ЭТО!"
+witchery.werewolf.notworthy=Голос повторяет: "ВЫ НЕ ДОСТОЙНЫ!"
+
+witchery.werewolf.level2begin=Голос кричит: "ДАЙ МНЕ %s СЛИТКОВ ЗОЛОТА!"
+witchery.werewolf.level2progress=Голос говорит: "%s СЛИТКОВ ЗОЛОТА НУУЖНО, ОСТАЛОСЬ %s!"
+witchery.werewolf.level2complete=Голос грохочет: "ЗОЛОТО ПОДНЕСЕНО, ТАЛИСМАН ГОТОВ, ДА ПУСТЬ ЗВЕРЬ ОСВОБОДИТСЯ, И ЛУНА НАСТАВИТ ЕГО!"
+
+witchery.werewolf.level3begin=Голос грохочет: "ЗАТОЧИ КОГТИ И ПРИНЕСИ ПЛОТЬ %s СЛАБЫХ СУЩЕСТВ!"
+witchery.werewolf.level3progress=Голос повторяет: "УБЕЙ %s ОВЕЦ И ПРИНЕСИ МНЕ ИХ МЯСО, ОСТАЛОСЬ %s!"
+witchery.werewolf.level3complete=Голос сказал: "МЯСО ВЫРВАНО ИЗ СЛАБЕЙШИХ, КОГТИ ЗАТОЧЕНЫ КАК СТАЛЬ, ОБОРОТНИ НЕ ДОЛЖНЫ ГОЛОДАТЬ!" 
+
+witchery.werewolf.level4begin=Голос грохочет: "КЛЫКИ ВЕЛИКОГО СУЩЕСТВА ДОЛЖНЫ БЫТЬ ОТТОЧЕНЫ, РАЗОРВИТЕ ГЛОТКИ %s СЛАБЕЙШИХ ВОЛКОВ И ПРИНЕСИТЕ МНЕ ИХ ЯЗЫКИ"
+witchery.werewolf.level4progress=Голос вторит: "УБЕЙТЕ %s, %s ОСТАЮТСЯ"
+witchery.werewolf.level4complete=Голос рявкает: "СТАЯ ГОЛОДНА, КЛЫКИ ПИРУЮТ УБИЙСТВАМИ, НОВЫЙ ОБОРОТЕНЬ ПОДНИМАЮТСЯ, ОТ УБИТОГО НАЕДАЮТСЯ"
+
+witchery.werewolf.level5begin=Голос гремит: "ВОЛК И ЧЕЛОВЕК ДОЛЖНЫ СТАТЬ ОДНИМ ЦЕЛЫМ, УБЕЙТЕ РОГАТОГО ПОВЕЛИТЕЛЯ ОХОТЫ! ВЫЗОВИТЕ ЕГО ЭТИМ РОГОМ И СДЕЛАЙТЕ СМЕРТЕЛЬНЫЙ УДАР!"
+witchery.werewolf.level5progress=Голос вторит: "ОХОТНИК ВСЁ ЕЩЁ НЕ ПОБЕЖДЁН! ВЫЗОВИТЕ ЕГО РОГОМ И СДЕЛАЙТЕ СМЕРТЕЛЬНЫЙ УДАР!"
+witchery.werewolf.level5complete=Голос рявкает: "МОГУЩЕСТВЕННЫЙ ЧЕМПИОН ПОБЕДИЛ, ЗВЕРЬ ПОЛНОСТЬЮ ПРОБУЖДЕН, ТЕПЕРЬ МОЖНО ОХОТИТЬСЯ НА ДВУХ ИЛИ ЧЕТЫРЁХ НОГАХ!"
+
+witchery.werewolf.level6begin=Голос рычит: "НАРАСТИТЕ МОЩНЫЕ МЫШЦЫ, ЧТОБЫ РАЗБИТЬ ВАШУ ДОБЫЧУ, ПРЫГНИТЕ НА %s МОНСТРОВ И УБЕЙТЕ ИХ В ВОЗДУХЕ!"
+witchery.werewolf.level6progress=Голос грохочет: "БЫЛО ВЕЛЕНО УБИТЬ %s В ВОЗДУХЕ, %s ОСТАЛОСЬ!"
+witchery.werewolf.level6complete=Голос провозглашает: "СМЕРТЬ УДАРИЛА СВЕРХУ, КАК МОЛНИЯ, БЕГИТЕ, КОГДА ВЫ СОВЕРШАЕТЕ НАПАДЕНИЕ, ЧТОБЫ БЫСТРО ЗАКОНЧИТЬ БОЙ"
+
+witchery.werewolf.level7begin=Голос рявкает: "ДРУГИЕ ДОЛЖНЫ НАУЧИТЬСЯ БОЯТЬСЯ ТЕБЯ, ПУТЕШЕСТВУЙТЕ НОЧЬЮ ПО ЗЕМЛЕ, В %s МЕСТАХ СМОТРИТЕ В НЕБО И ПОЗВОЛЯЙТЕ ВАШЕМУ ГОЛОСУ БЫТЬ УСЛЫШАННЫМ"
+witchery.werewolf.level7progress=Голос произносит: "ВОЙТЕ В НОЧНОЕ НЕБО В %s МЕСТАХ, %s ОСТАЛОСЬ"
+witchery.werewolf.level7complete=Голос рычит: "ВАШ ГОЛОС УСЛЫШАН, ВАШЕ ПРИБЫТИЕ ПРИВЕТСТВУЮТ, ОБОРОТНИ ВЫКРИКИВАЮТ, ПОЗВОЛЯЯ ВАШИМ ВРАГАМ ЗАМЕРЕТЬ В СТРАХЕ"
+
+witchery.werewolf.level8begin=Голос вторит: "ПОВЕЛИТЕЛЬ СТАИ! КАК ВОЛК, НАЙДИТЕ И ПРИКЛОНИТЕ %s ВОЛКОВ ПО СВОЕМУ ЖЕЛАНИЮ!"
+witchery.werewolf.level8progress=Голос рявкает: "СФОРМИРУЙТЕ СТАЮ ИЗ %s ВОЛКОВ, ВЫ ДОЛЖНЫ СПРАВИТЬСЯ С %s!"
+witchery.werewolf.level8complete=Голос грохочет: "ПОВЕЛИТЕЛЬ СТАИ, МАСТЕРСТВО ДОСТИГНУТО, ЗАВОЙТЕ В НЕБО, ЧТОБЫ ВЫЗВАТЬ ВАШИХ СЛУГ, ПРИ НУЖДЕ!"
+
+witchery.werewolf.level9begin=Голос рычит: "КОГТИ КАК НОЖИ, КАК ОБОРОТЕНЬ, ВЫ ДОЛЖНЫ УБИТЬ %s СВИНЕЙ В НИЖНЕМ МИРЕ!"
+witchery.werewolf.level9progress=Голос произносит: "КАК ОБОРОТЕНЬ, ПООХОТЬТЕСЬ НА %s СВИНЕЙ, %s ДОЛЖНЫ БЫТЬ УБИТЫ!"
+witchery.werewolf.level9complete=Голос провозглашает: "АДСКИЕ ВРАГИ ПОБЕЖДЕНЫ, КОГТИ НАТОЧЕНЫ, ТЕПЕРЬ ВЫ МОЖЕТЕ РВАТЬ ПЛОТЬ"
+
+witchery.werewolf.level10begin=Голос рявкает: "ЛИШИТЕ ЖИЗНИ КОГО-ЛИБО, ИЗ ДЕРЕВНИ ИЛИ ДРУГОГО ЧЕЛОВЕКА, ТОГДА ВАМ ПРЕДОСТАВЯТ МОЁ БЛАГОСЛОВЕНИЕ!"
+witchery.werewolf.level10progress=Голос повторяет: "ЛИШИТЕ ЖИЗНИ КОГО-ЛИБО, ИЗ ДЕРЕВНИ ИЛИ ДРУГОГО ЧЕЛОВЕКА!"
+witchery.werewolf.level10complete=Голос восклицает: "ВЫ ОСВОИЛИ МОЙ ПУТЬ, ТЕПЕРЬ ВЫ ПОЛУЧИЛИ МОЁ БЛАГОСЛОВЛЕНИЕ!"
+
+item.witchery:hunterhatsilvered.name=Шляпа охотника на ведьм (Серебристая)
+item.witchery:hunterhatsilvered.tip={9Защита оборотней.{0|{9Бонус на полный комплект: защита от проклятий.{0|{9Включает сливные болты.{0|{9Нельзя использовать куклы.{0
+item.witchery:huntercoatsilvered.name=Кофта охотника на ведьм (Серебристая)
+item.witchery:huntercoatsilvered.tip={9Защита оборотней.{0|{9Бонус на полный комплект: защита от проклятий.{0|{9Включает сливные болты.{0|{9Нельзя использовать куклы.{0
+item.witchery:hunterlegssilvered.name=Штаны охотника на ведьм (Серебристая)
+item.witchery:hunterlegssilvered.tip={9Защита оборотней.{0|{9Бонус на полный комплект: защита от проклятий.{0|{9Включает сливные болты.{0|{9Нельзя использовать куклы.{0
+item.witchery:hunterbootssilvered.name=Ботинки охотника на ведьм (Серебристая)
+item.witchery:hunterbootssilvered.tip={9Защита оборотней.{0|{9Бонус на полный комплект: защита от проклятий.{0|{9Включает сливные болты.{0|{9Нельзя использовать куклы.{0
+
+entity.witchery.villageguard.name=Страж
+entity.witchery.vampire.name=Вампир
+item.witchery:coffin.name=Гроб
+item.witchery:garlic.name=Чеснок
+tile.witchery:garlicplant.name=Чеснок
+tile.witchery:coffinblock.name=Гроб
+witchery.nosleep.dayonly=Вампиры могут спать только днем
+witchery.nosleep.closedcoffin=Гроб не открыт
+tile.witchery:garlicgarland.name=Подвешанный чеснок
+tile.witchery:bloodedwool.name=Окровавленная шерсть
+
+tile.witchery:shadedglass_active.black.name=Черное затенённое стекло
+tile.witchery:shadedglass_active.red.name=Красное затенённое стекло
+tile.witchery:shadedglass_active.green.name=Зелёное затенённое стекло
+tile.witchery:shadedglass_active.brown.name=Коричневое затенённое стекло
+tile.witchery:shadedglass_active.blue.name=Синее затенённое стекло
+tile.witchery:shadedglass_active.purple.name=Фиолетовое затенённое стекло
+tile.witchery:shadedglass_active.cyan.name=Бирюзовое затенённое стекло
+tile.witchery:shadedglass_active.silver.name=Серебрянное затенённое стекло
+tile.witchery:shadedglass_active.gray.name=Серое затенённое стекло
+tile.witchery:shadedglass_active.pink.name=Розовое затенённое стекло
+tile.witchery:shadedglass_active.lime.name=Лаймовое затенённое стекло
+tile.witchery:shadedglass_active.yellow.name=Жёлтое затенённое стекло
+tile.witchery:shadedglass_active.light_blue.name=Голубое затенённое стекло
+tile.witchery:shadedglass_active.magenta.name=Сиреневое затенённое стекло
+tile.witchery:shadedglass_active.orange.name=Оранжевое затенённое стекло
+tile.witchery:shadedglass_active.white.name=Белое затенённое стекло
+
+tile.witchery:shadedglass.black.name=Черное затенённое стекло
+tile.witchery:shadedglass.red.name=Красное затенённое стекло
+tile.witchery:shadedglass.green.name=Зелёное затенённое стекло
+tile.witchery:shadedglass.brown.name=Коричневое затенённое стекло
+tile.witchery:shadedglass.blue.name=Синее затенённое стекло
+tile.witchery:shadedglass.purple.name=Фиолетовое затенённое стекло
+tile.witchery:shadedglass.cyan.name=Бирюзовое затенённое стекло
+tile.witchery:shadedglass.silver.name=Серебрянное затенённое стекло
+tile.witchery:shadedglass.gray.name=Серое затенённое стекло
+tile.witchery:shadedglass.pink.name=Розовое затенённое стекло
+tile.witchery:shadedglass.lime.name=Лаймовое затенённое стекло
+tile.witchery:shadedglass.yellow.name=Жёлтое затенённое стекло
+tile.witchery:shadedglass.light_blue.name=Голубое затенённое стекло
+tile.witchery:shadedglass.magenta.name=Сиреневое затенённое стекло
+tile.witchery:shadedglass.orange.name=Оранжевое затенённое стекло
+tile.witchery:shadedglass.white.name=Белое затенённое стекло
+
+
+item.witchery:glassgoblet.name=Стеклянный кубок
+item.witchery:glassgoblet.full=Стеклянный кубок (заполненный)
+item.witchery:glassgoblet.tip=Кровь: {4%s{0
+item.witchery:glassgoblet.chicken=Цыплёнок
+item.witchery:glassgoblet.lilith=Лилит
+item.witchery:glassgoblet.convertingplayermustsleep=Жертва должна спать
+item.witchery:glassgoblet.targetnotdrained=Жертва должна быть истощена кровью
+item.witchery:glassgoblet.targetnottransfixed=Жертва не загипнотизирована
+item.witchery:glassgoblet.nocoffinnear=Рядом нету гроба
+item.witchery:glassgoblet.notenoughblood=Для заполнения нужно половина кали крови
+item.witchery:glassgoblet.nothighenoughlevel=Ваша кровь недостаточно сильна для этого
+item.witchery:glassgoblet.nothinghappens=Ничего не происходит
+item.witchery:glassgoblet.seemswrong=Кажется, что-то не так
+item.witchery:glassgoblet.lilithquest=Голос поет: «Приведи мою дочь к огненным озерам в преисподней»
+item.witchery:glassgoblet.lilithquestsummon=Вы готовы ко встрече с владытчецей?
+item.witchery:glassgoblet.lilithquestsummon2=Владытчеца здесь...
+item.witchery:glassgoblet.lilithquestcomplete=Вы достойны... на этот раз... чего вы желаете: магии или смерти?
+item.witchery:glassgoblet.lilithquestcomplete2=Если вы хотите магии, дайте мне предмет, чтобы зачаровать.
+item.witchery:glassgoblet.lilithquestcompletelife=Я заберу твою кровь и дарую тебе свою... Пей!
+item.witchery:glassgoblet.lilithquestcompletemagic=Прими это, как подарок...
+item.witchery:glassgoblet.lilithquestcompletelifefail=Дитя мое, тебе не нужна моя кровь ...
+item.witchery:glassgoblet.lilithquestcompletecure=Раз вы этого желаете, то я не в силах вам противостоять... Вы более не бессмертны...
+item.witchery:glassgoblet.lilithquestcompletecurefail=Это бессмысленно...
+item.witchery:glassgoblet.lilithquestcompletebatflight=Дитя моё, я дарую тебе свободу...
+item.witchery:glassgoblet.lilithquestcompletebatflightfail=Ты льстишь мне, но нет...
+
+item.witchery:sungrenade.name=Солнечная граната
+item.witchery:stew.name=Тушёное мясо с овощами
+item.witchery:stewraw.name=Сырое мясо с овощами
+item.witchery:canesword.name=Меч-трость
+item.witchery:canesword.tip=Shift-ПКМ - переключить трость/лезвие.|Лезвие перекачивает кровь во внутренний резервуар для дальнейшего извлечения.|{4Содержит крови: %d{0
+tile.witchery:daylightcollector.name=Сборщик солнца
+tile.witchery:bloodcrucible.name=Кровавый тигель
+
+entity.witchery.lilith.name=Лилит
+entity.witchery.follower.name=Приследователь
+entity.witchery.follower.elle.name=Элли
+entity.witchery.wingedmonkey.name=Крылатая обезьяна
+witchery:brew.weakenvampires=Слабый вампир
+
+witchery.village.reptoolow=Ваша репутация слишком низкая, чтобы взаомодействовать со стражами.
+witchery.village.villagetoosmall=Эта деревня слишком мала для большего количества стражей.
+witchery.village.toomanyguards=В этой деревне уже достаточно стражей.
+witchery.village.villagerrefusesguardduty=Я не хочу быть стражем!
+witchery.village.villageracceptsguardduty=По вашей команде!
+
+witchery.book.herbology.wolfsbane=Это ключ к разгадке секрета оборотня. Растёт поэтапно. Высокое растение даёт семена.
+witchery.book.herbology.garlic=Ароматная приправа днём и страх вампиров ночью. Растёт поэтапно. Высокое растение даёт семена.
+
+item.witchery:ingredient.darkCloth.name=Плетёная кровь
+item.witchery:ingredient.warmBlood.name=Тёплая кровь
+item.witchery:ingredient.lilithsBlood.name=Кровь Лилит
+item.witchery:ingredient.stake.name=Деревянный кол
+item.witchery:ingredient.vbookPage.name=Порванная страница
+item.witchery:vampirebook.name=Наблюдения за бессмертными
+item.witchery:vampirebook.tip=Рассказы обречённого учёного о наблюдениях за вампирами.
+
+witchery.rite.vampirecure.book=Ритуал снятия проклятия{r||Очищает вас от проклятия вампиризма.
+
+witchery.rite.wolfcurse.hybridsnotallow=Гибриды вампиров / оборотней не допускаются
+witchery.vampirepower.feed=Выпить кровь
+witchery.vampirepower.eye=Прозрение / Переключить ночное зрение
+witchery.vampirepower.speed=Скорость
+witchery.vampirepower.bat=Переключить форму летучей мыши
+witchery.vampirepower.unone=Ничего
+witchery.vampirepower.ubats=Рой летучих мышей (%d)
+witchery.vampirepower.uteleport=Телепортация (%d)
+witchery.vampirepower.ustorm=Призыв бури (%d)
+
+
+witchery:vampirebook.toc=[next=ritual1][h1 Наблюдения за бессмертными][br][br][br][darkred Рассказы обречённого учёного о наблюдениях за вампирами.]
+witchery:vampirebook.ritual1=[next=ritual2]Я с большой неохотой записываю свои наблюдения на бумагу, потому что то, что я видел, не для слабонервных, поэтому прошу рассматривать мои слова скорее, как предупреждение...
+witchery:vampirebook.ritual2=[next=ritual3][br]...в связи с заключением демонического пакта, он вспомнил про ужин...[br][br]...Обжаривая цыплёнка рядом с черепом и боллином и держа в руке бокал...
+witchery:vampirebook.ritual3=[next=ritual4][br]...сам того не осознавая, он провёл древний ритуал (Я сделал эскиз...[br][img=witchery:textures/gui/vritual.png|center|middle|64|64][br]...ночь, полнолуние, нитки, красная пыль, факелы и череп...
+witchery:vampirebook.ritual4=[next=ritual5][br][br]...наливая кровь в череп...[br][br]...она бормотала, чтобы её отвели к озеру лавы...   ...в ад...
+witchery:vampirebook.ritual5=[next=transfix|1][br]...доказать свою ценность для неё...[br][br][br]...этот бокал снова полон... Сможет ли кто-нибудь выпить это? ...
+
+witchery:vampirebook.transfix=[next=knockback|2][br]...Сегодня вечером он мне рассказал о своём первом убийстве...[br][br][br]...жажда, которая напала на него ночью была на столько сильная, что ему пришлось её как-то утолить...
+witchery:vampirebook.knockback=[next=speed|3]...он научился выслеживать своих жертв...[br][br]...теперь он может высасывать кровь у кого угодно и когда угодно, потому что раньше он не мог выпить больше половины...[br][br]...он это сделал с помощью пяти забытых душ...
+witchery:vampirebook.speed=[next=resistsun|4][br]...в него вливалась сила с каждым новым глотком, он становился ещё сильнее, особенно по ночам...[br][br]...на четвёртую ночь ему показалось, что весь мир замедлился...
+witchery:vampirebook.resistsun=[next=smashstone|5]...его враг - солнце, он мучался от любого солнечного луча, который попадёт на него...[br][br]...это стало его одержимостью... ...он как-то смог собирать солнечный свет с сферы, после чего он каждую ночь кидал на себя их...
+witchery:vampirebook.smashstone=[next=bats|6]...он решился выйти днём из своего убежища на встречу своему страху, это привело его к кровавым слезам, но его кровь испарялась уже не моментально, как раньше, а намного медленее...[br][br]...он нуждался в большей силе и крови, чтобы стать ещё более выносливым...[br]
+witchery:vampirebook.bats=[next=mesmerize|7]...он мог бы разбить огромный камень, но не смотря на всю свою силу, он понимал, что его что-то сдерживает...[br][br]...он призвал её опять...[br][br]...он подарил ей кровавый цветок...
+witchery:vampirebook.mesmerize=[next=maker|8]...он впервые после всех этих событий улыбнулся, он рассказал мне о своём первом полёте...[br][br]...он пролетал от деревни к деревне, показывая всем своё могущество... 
+witchery:vampirebook.maker=[next=maker2|8]...слабо мыслящий, он не позволял никому подходить к себе...[br][br]...он зачем-то похитил из деревень пять жителей и запер их в клетках... это было ужасно...
+witchery:vampirebook.maker2=[next=finalpowers|9][img=witchery:textures/gui/vcage.png|center|middle|64|64][br][br]...он начал выпивать у них по очереди кровь, сначала по немногу, а зачем увеличивая доз, чтобы не повредить их...
+witchery:vampirebook.finalpowers=Наконец он понял, что его кровь на столько сильна, что может повторить то, что стало когда-то с ним... ...он высосал из меня кровь, наполнив свой бокал... ...мы сидели рядом с гробом вдали от солнечного света, он дам наполненный бокал мне со словами:"Пей!" Это было всё, что он сказал...
+
+
+witchery.vampire.setlevel=Уровень вампира установлен на %s.
+witchery:death.attack.sun=%1$s поджарился до хрустящей корочки под солнцем
+witchery:death.attack.sun.player=%1$s сгорел под солнцем во время боя с %2$s
+death.attack.sun=%1$s поджарился до хрустящей корочки под солнцем
+death.attack.sun.player=%1$s сгорел под солнцем во время боя с %2$s
+item.witchery:vampirehat.name=Шляпа вампиров
+item.witchery:vampirehat.tip=Бонус полного комплекта:|2 части - Быстрое высасывание|3 части - Огнестойкость|3 части - Повышенная эффективность|4 части - Повышенная огнестойкость
+item.witchery:vampirehelmet.name=Шлем вампиров
+item.witchery:vampirehelmet.tip=Бонус полного комплекта:|2 части - огнестойкость
+item.witchery:vampirecoat.name=Кофта вампиров
+item.witchery:vampirecoat.tip=Бонус полного комплекта:|2 части - Быстрое высасывание|3 части - Огнестойкость|3 части - Повышенная эффективность|4 части - Повышенная огнестойкость
+item.witchery:vampirecoat_female.name=Кофта вампиров (Леди)
+item.witchery:vampirecoat_female.tip=Бонус полного комплекта:|2 части - Быстрое высасывание|3 части - Огнестойкость|3 части - Повышенная эффективность|4 части - Повышенная огнестойкость
+item.witchery:vampirechaincoat.name=Кольчуга вампиров
+item.witchery:vampirechaincoat.tip=Бонус полного комплекта:|2 части - огнестойкость
+item.witchery:vampirechaincoat_female.name=Кольчуга вампиров (Леди)
+item.witchery:vampirechaincoat_female.tip=Бонус полного комплекта:|2 части - огнестойкость
+item.witchery:vampirelegs.name=Штаны вампиров
+item.witchery:vampirelegs.tip=Бонус полного комплекта:|2 части - Быстрое высасывание|3 части - Огнестойкость|3 части - Повышенная эффективность|4 части - Повышенная огнестойкость
+item.witchery:vampirelegs_kilt.name=Юбка вампиров
+item.witchery:vampirelegs_kilt.tip=Бонус полного комплекта:|2 части - Быстрое высасывание|3 части - Огнестойкость|3 части - Повышенная эффективность|4 части - Повышенная огнестойкость
+item.witchery:vampireboots.name=Ботинки вампиров
+item.witchery:vampireboots.tip=Бонус полного комплекта:|2 части - Быстрое высасывание|3 части - Огнестойкость|3 части - Повышенная эффективность|4 части - Повышенная огнестойкость
+
+item.witchery:hunterhatgarlicked.name=Шляпа охотника на ведьм
+item.witchery:hunterhatgarlicked.tip={9Защита от вампиров.{0|{9Защита от оборотней.{0|{9Бонус полного комплекта: Защита от проклятий.{0|{9Включает сливные болты.{0|{9Нельзя использовать кукол.{0
+item.witchery:huntercoatgarlicked.name=Кофта охотника на ведьм
+item.witchery:huntercoatgarlicked.tip={9Защита от вампиров.{0|{9Защита от оборотней.{0|{9Бонус полного комплекта: Защита от проклятий.{0|{9Включает сливные болты.{0|{9Нельзя использовать кукол.{0
+item.witchery:hunterlegsgarlicked.name=Штаны охотника на ведьм
+item.witchery:hunterlegsgarlicked.tip={9Защита от вампиров.{0|{9Защита от оборотней.{0|{9Бонус полного комплекта: Защита от проклятий.{0|{9Включает сливные болты.{0|{9Нельзя использовать кукол.{0
+item.witchery:hunterbootsgarlicked.name=Ботинки охотника на ведьм
+item.witchery:hunterbootsgarlicked.tip={9Защита от вампиров.{0|{9Защита от оборотней.{0|{9Бонус полного комплекта: Защита от проклятий.{0|{9Включает сливные болты.{0|{9Нельзя использовать кукол.{0
+
+tile.witchery:mirrorblock.name=Зеркало
+tile.witchery:mirrorblock2.name=Зеркало
+tile.witchery:mirrorwall.name=Поверхность зеркала
+item.witchery:mirror.name=Зеркало
+item.witchery:dupgrenade.name=Дублирование гранаты
+item.witchery:dupgrenade.tip={3Отражение: %s{0
+item.witchery:mirror.tip.bridge={5Пустое{0
+item.witchery:mirror.tip.bridgeplus={5Пустое (%s: %d, %d, %d){0
+item.witchery:mirror.tip.inhabited={3Обитаемое{0
+entity.witchery.reflection.name=Отражение
+item.witchery:ingredient.heartofgold.name=Золотое сердце
+
+witchery.rite.infusionmirror=Ритуал наполнения{r||Ловит демона в зеркало.
+witchery:brew.animalattraction=Привлечение животных
+witchery:brew.animalrepulsion=Отвращение животных
+witchery.rite.summonreflection=Ритуал призыва{r||Призывает демона из зеркала. Внутрення площадь 7x7x4 блоков должна быть пустой!
+witchery.rite.eclipse.cooldown=В этом мире был недавно проведён ритуал полного затмения, поэтому нужно подождать некоторое время.
+witchery.rite.mirrormirror.playersseen=Кроме других передо мной стояли: %s
+witchery.rite.mirrormirror.playersnotseen=Кроме тебя, передо мной никого не было.
+witchery.rite.mirrormirror.escapecooldown=Песнопение не удалось, нужно подождать (%s секунд осталось)
+
+witchery.rite.mirrormirrorsendmehome=Зеркало, зеркало, отправь меня домой.
+witchery.rite.mirrormirrorigiveup=Зеркало, зеркало, я сдаюсь.
+witchery.rite.mirrormirror=<%s> Зеркало, зеркало на стене, кто красивее всех?
+witchery.rite.mirrormirror.anotherf=Ты прекрасна, спору нет. Но царевна всех милее, всех румяней и белее.
+witchery.rite.mirrormirror.anotherm=Ты прекрасна, спору нет. Но царевна всех милее, всех румяней и белее.
+witchery.rite.mirrormirror.anotherplayer=Ты прекрасна, спору нет. Но царевна всех милее, всех румяней и белее.
+witchery.rite.mirrormirror.you=Во всем мире я не вижу никого более красивого, чем ты.
+witchery.rite.mirrormirror.bearing0=На севере будет самая прекрасная.
+witchery.rite.mirrormirror.bearing1=На северо-востоке будет самая прекрасная.
+witchery.rite.mirrormirror.bearing2=На востоке будет самая прекрасная.
+witchery.rite.mirrormirror.bearing3=На юго-востоке будет самая прекрасная.
+witchery.rite.mirrormirror.bearing4=На югебудет самая прекрасная.
+witchery.rite.mirrormirror.bearing5=На юго-западе будет самая прекрасная.
+witchery.rite.mirrormirror.bearing6=На западе будет самая прекрасная.
+witchery.rite.mirrormirror.bearing7=На северо-западе будет самая прекрасная.
+
+witchery.rite.mirrormirror.opchatreveal=В сообщении, игрок "%s" на самом деле: "%s"
