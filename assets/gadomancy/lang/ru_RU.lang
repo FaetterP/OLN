@@ -1,0 +1,329 @@
+item.ItemGolemPlacer.silverwood.name=Серебряннодревесный голем
+item.ItemGolemPlacer.obsidian.name=Обсидиановый голем
+item.ItemTransformationFocus.name=[WIP] Набалдашник: Трансформация
+item.ItemFamiliar.name=Эфирный фамильяр (устарело)
+item.ItemEtherealFamiliar.name=Эфирный фамильяр
+item.ItemAuraCore.name=Ядро ауры
+item.ItemArcanePackage.name=Таинсвенный мешок
+item.ItemElement.0.name=Элемент темноты
+item.ItemElement.1.name=[WIP] Элемент света
+item.ItemElement.2.name=[WIP] Элемент огня
+
+gadomancy.lore.deprecation.back=Поместите в верстак, чтобы вернуть свои предметы.
+
+itemGroup.gadomancy=Gadomancy
+tc.research_category.gadomancy=Gadomancy
+
+tc.research_name.GADOMANCY.GOLEMSILVERWOOD=Серебряннодревесные големы
+tc.research_text.GADOMANCY.GOLEMSILVERWOOD=Всего лишь капля Chemical X
+gadomancy.research_page.GOLEMSILVERWOOD.1=Этот голем вырезан из древесины серебрянного дерева. Магические свойства этого материала позволяют голему носить больше улучшений.<BR>§l§nХарактеристики серебряннодревестного голема§r<BR>§lПрочность:§r Средняя<BR>§lСила:§r Малая<BR>§lСамовосстановление:§r Среднее<BR>§lМожет нести:§r 8<BR>§lСкорость:§r Быстрая<BR>§lУлучшения:§r 3
+
+tc.research_name.GADOMANCY.GOLEMRUNICSHIELD=Рунный щит для големов
+tc.research_text.GADOMANCY.GOLEMRUNICSHIELD=Теперь доступно вашим маленьким друзьям!
+gadomancy.research_page.GOLEMRUNICSHIELD.1=После дальнейших экпериментов с защитной магией вы нашли способ применить ркнный щит для защиты големов.<BR>Точно также, как щиты при ношении защищают вас от большинства видов повреждения, они будут защищать и големов, пока их заряд не закончится.<BR>Не защищает от утопления и прочих опасностей окружающей среды.
+
+tc.research_name.GADOMANCY.STICKYJAR=Липкие банки
+tc.research_text.GADOMANCY.STICKYJAR=Прилепить их всех!
+gadomancy.research_page.STICKYJAR.1=Банки для аспектов - это хлеб насущный для любого тауматурга. Но часто бывает сложно расставить эти банки, особенно, когда вокруг проложено много труб. Вы решили устранить эту проблему, нанеся немного клея на дно банки.<BR>Любая банка, основание которой покрыто, будет прилипать к любой поверхности, даже если она будет вертикальной. При разбивании банки, клей на дне остаётся, из-за чего её можно использовать повторно.<BR>Кроме того, нанести клей можно даже на банку, которая содержит в себе эссенцию.
+
+tc.research_name.GADOMANCY.ARCANEDROPPER=Тайный раздатчик
+tc.research_text.GADOMANCY.ARCANEDROPPER=Когда сутенёр в кроватке, ма
+gadomancy.research_page.ARCANEDROPPER.1=После рассмотрения свойств раздатчика, вы внесли ряд изменений в его конструкцию.<LINE>Тайный раздатчик даёт возможноть извлекать, загружить и отслеживать предметы в облати 3x3x3.<BR>Чтобы увидеть эту область, посмотрите на раздатчик, держа в руке жезл без набалдашника.<BR>Вы можете как-то взаимодействовать только с плоскими сторонами этого блока.
+
+tc.research_name.GADOMANCY.GOLEMCOREBREAK=Сердце голема: Разрушение
+tc.research_text.GADOMANCY.GOLEMCOREBREAK=Крышесносные новости!
+gadomancy.research_page.GOLEMCOREBREAK.1=Голем с этим сердцем будет искать и разбиать отмеченные блоки.<BR>Вы можете дать ему инструмент, которым он будет пользоваться.<BR>Вы также можете дать голему блок, чтобы он ломал только его. Скорость ломания зависит от просности и эффективности инструмента.<BR>Вы можете использовать улучшение: порядок, чтобы указать голему, какой блок каким инструментом нужно ломать.<BR>Вы можете дать голему улучшение: хаос, чтобы он игнорировал метаданные инструментов (прочность, зачарования, теги).
+
+tc.research_name.GADOMANCY.GOLEMCOREBODYGUARD=Сердце голема: Телохранитель
+tc.research_text.GADOMANCY.GOLEMCOREBODYGUARD=Никто не может нападать на моего хозяина
+gadomancy.research_page.GOLEMCOREBODYGUARD.1=Защитные големы все такие хорошие и классные, но даже с улучшениями они всё ещё не понимают, как защищать своего хозяина. Внесение некоторых изменений в сердце голема: Охрана позволяет решить эту проблему.<BR>Голем с сердцем: Телохранитель будет достаточно умён, чтобы следовать за своим хозяином повсюду, подобно приручённому волку.
+
+tc.research_name.GADOMANCY.INFUSIONCLAW=Автоматическое наполнение
+tc.research_text.GADOMANCY.INFUSIONCLAW=Парящая штука!
+gadomancy.research_page.INFUSIONCLAW.1=Существует много ситуаций, когда хотелось бы иметь возможность активировать руническую матрицу, не находясь близко к ней. У вас появилась идея, что можно использовать пьедестал перезарядки, но сделать так, чтобы он не просто держал жезл, но и использовал его. Это оказалось сделать сложнее, чем вы думали, но не невозможно. Получившееся устройство немного разумнои, видимо, каким-то образом связано с вашей душой, но работает неплохо!<BR>В последнее время у вас немного дёргается глаз... но всё ведь хорошо... mнаверное...
+gadomancy.research_page.INFUSIONCLAW.2=Поместите устройство сверху над рунической матрицей и вставьте жезл.<BR>Палочки можно вставлять и извлекать с верхней стороны. Если установить галочку, то можно будет извлекать только пустые жезлы.<BR>Процесс активации добавляет нестабильность к каждому наполнению. Степень нестабильности зависит от того, насколько хорошую палочку вы используете. Посохи немного более стабильны, но главный фактор - это ёмкость жезла.<BR>Чтобы запустить наполнение достаточно подать на устройство сигнал красного камня.<BR>Также это устроство может использовать жезл на всём подряд. Например с его помощью можно производить тигели и таумономиконы. Наконец-то вы исполните свою мечту о массовом производстве тигелей и таумономиконов!
+
+tc.research_name.GADOMANCY.REMOTEJAR=Зеркальные банки
+tc.research_text.GADOMANCY.REMOTEJAR=Зеркальная передача
+gadomancy.research_page.REMOTEJAR.1=Зеркала для эссенции отлично подходят для передаци эссенции для наполнения, но у вас есть странное чувство, что они могут что-то ещё. Два зеркала могут успешно передавать эссенцию между двумя точками в пространстве. Поместив зеркало для эссенции внутрь специально защищённой банки, можно свзать пространства между связанными банками. Чтобы привязать банки нужно одну поставить в мире, а второй нажать ПКМ по первой.
+gadomancy.research_page.REMOTEJAR.2=Если сеть существует, то банка будет добавлена к ней. В отличии от зеркал, сеть из банок может содержать более двух банок.<BR>Пространство внутри сети является сбалансированным между всеми банками. Проще говоря, сеть из двух банок может содержать в себе 128 эссенции, из трёх - 192 и т.д. Также, если одна банка заполнена сильнее, она будет отдавать эссенцию в менее заполненные банки в своей сети.
+
+tc.research_name.GADOMANCY.ETHEREAL_FAMILIAR=Эфирный фамильяр
+tc.research_text.GADOMANCY.ETHEREAL_FAMILIAR=Тайный последователь
+gadomancy.research_page.ETHEREAL_FAMILIAR.1=Виспы уже давно привлекают ваше внимание. Многие из этих разумных частиц эфирной магии кажутся пассивными, но при нападении они наносят ответный удар с удивительной скоростью. Но иногда даже просто стремительное приближение к этому огоньку может спровоцировать его атаку.<LINE>Такое их поведение дало вам неожиданное вдохновение. Возможно есть какой-то способ подчинить защитные инстинкты виспа, чтобы использовать его как своего защитника. К сожалению, дикие виспы оказались слишком непредсказуемыми для этих целей.
+gadomancy.research_page.ETHEREAL_FAMILIAR.3=Наполняя образец эфирной эссенции большим количеством магии и вспомогательных веществ получилось создать искуссвенного виспа. Будучи надетым в слот амулета, этот эфирный фамильяр будет привязан к душе своего владельца и будет работать как туррель, стреляя искрами в любых враждебных существ, которые напали на владельца. Он значительно слабее и медленнее своих диких собратьев, но вы чувствуете, что есть какие-то методы для его усиления.
+gadomancy.research_page.ETHEREAL_FAMILIAR.4=Его атаки не потребляют никакой вис, пока вы его не улучшите. Следует отметить, что фамильяр также недостаточно силен, чтобы пережить любые изменения в диапазоне мощности или скорости, пока он не получит элементарное обновление для повышения своей силы.
+
+tc.research_name.GADOMANCY.AI_SHUTDOWN=NULL
+tc.research_text.GADOMANCY.AI_SHUTDOWN=NULL
+gadomancy.research_page.AI_SHUTDOWN.1=NULL
+
+tc.research_name.GADOMANCY.FAMILIAR_SHOCK=Удар молнии
+tc.research_text.GADOMANCY.FAMILIAR_SHOCK=Шокирующий опыт
+gadomancy.research_page.FAMILIAR_SHOCK.1=Фамильяр с этим усилением будет иметь значительно более мощную дугу при атаке, наносить больший урон и сильнее отбрасывать.<LINE>Потребляет 0.03 Aer и 0.02 Perditio вис за атаку и уровень.
+
+tc.research_name.GADOMANCY.FAMILIAR_FIRE=Обжигающая вспышка
+tc.research_text.GADOMANCY.FAMILIAR_FIRE=Давайте зажжём
+gadomancy.research_page.FAMILIAR_FIRE.1=При данном усилении вся энергия фамильяра используется для создания большого количества тепла, поджигая цель делая её чувствительной к слонечному свету.<LINE>Потребляет 0.04 Ignis и 0.02 Ordo вис за атаку и уровень.
+
+tc.research_name.GADOMANCY.FAMILIAR_POISON=Едкий яд
+tc.research_text.GADOMANCY.FAMILIAR_POISON=Кто-нибудь, вызовите скорую
+gadomancy.research_page.FAMILIAR_POISON.1=Фамильяр с этим улучшением будет впрыскивать большую дозу высококонцентрированного яда, вместо того, чтобы наносить урон. Также фамильяр с этим улучшением будет атаковать только тех врагов, которых можно отравить.<LINE>Потребляет дополнительно 0.03 Aqua и 0.04 Perditio вис за атаку и уровень.
+
+tc.research_name.GADOMANCY.FAMILIAR_WEAKNESS=Обессиливание
+tc.research_text.GADOMANCY.FAMILIAR_WEAKNESS=И это вся твоя сила?
+gadomancy.research_page.FAMILIAR_WEAKNESS.1=Это усиление полностью убирает у фамильяра возможность атаковать и заменяет её способностью высасывать из противников их энергию. Враги, поражённые этим фамильяром, станут вялыми, слабыми и их можно будет убить даже старым мечом.<LINE>Потребляет 0.03 Terra и 0.03 Perditio вис за атаку и уровеньl.
+
+tc.research_name.GADOMANCY.FAMILIAR_DAMAGE=Усиление дуги
+tc.research_text.GADOMANCY.FAMILIAR_DAMAGE=Каков уровень его силы?
+gadomancy.research_page.FAMILIAR_DAMAGE.1=Увеличивая концентрацию магической энергии, сила виспа увеличивается вдвое.<LINE>Потребляет 0.03 Ignis вис за атаку и уровень.
+
+tc.research_name.GADOMANCY.FAMILIAR_RANGE=Усиление чувствительности
+tc.research_text.GADOMANCY.FAMILIAR_RANGE=Куда ещё дальше?
+gadomancy.research_page.FAMILIAR_RANGE.1=Усилив чувствительность виспа к внешним воздействиям, вы можете увеличить его дальность атаки.<LINE>Потребляет дополнительно 0.02 Aer и 0.01 Ordo вис за атаку и уровень.
+
+tc.research_name.GADOMANCY.FAMILIAR_SPEED=Перегрузка частотного излучения
+tc.research_text.GADOMANCY.FAMILIAR_SPEED=Полностью научный рельсотрон
+gadomancy.research_page.FAMILIAR_SPEED.1=Некоторы из фамильяров могут испытывать значительные трудности, когда вокруг много врагов. Это усиление позволяет фамильяру атаковать в два раза быстрее, сем раньше. Также его атаки могут поражать сразу несколько врагов одним ударом.<LINE>Потребляет 0.02 Ordo и 0.01 Ignis вис за атаку и уровень.
+
+tc.research_name.GADOMANCY.KNOWLEDGE_BOOK=Книга знаний
+tc.research_text.GADOMANCY.KNOWLEDGE_BOOK=Знания - сила
+gadomancy.research_page.KNOWLEDGE_BOOK.1=Изучения и открытия являются основной частью тауматургии, но иногда одной только бумажной работы достаточно, чтобы самый крутой тауматург захотел спрыгнуть с утёса без таумостатического ранца. Решение этой проблемы кажется относительно простым. Оживить книгу, чтобы она делала записи, вместо вас ведь легко..............Ведь легко?<BR>Сделать книгу, способную хранить знания довольно просто (книги для этого и используются). А вот заставить их обощать свои знания в полезные изучения - это уже другой уровень.
+gadomancy.research_page.KNOWLEDGE_BOOK.3=Чтобы книга могла что-либо делать: открывать, закрывать и переворачивать страницы, её нужно оживить. Как только книга собрана, её необходимо поместить на плоскую поверхность, которая проводит магию. Для этого идеально подходит магический пьедестал.<BR>Как только книга знаний будет размещена на пьедестале, её можно будет использовать для исследований. Просто бросьте рядом с ней страницу с изучением и поставьте рядом банку с Cognitio, чтобы начать исследование. С этого момента вам нужно просто ждать.
+gadomancy.research_page.KNOWLEDGE_BOOK.4=Вы обнаружили, что если поставить рядом с книгой какие-то блоки, усиливающие зачарования, это может хоть и незначительно, но ускорить процесс изучения.<BR> Книга знаний имеет ещё одно применение: помимо её прямого назначения, её можно использовать и как обычный таумономикон, но который не нужно носить постоянно с собой.
+
+tc.research_name.GADOMANCY.ESSENTIA_COMPRESSOR=Конденсер эссенции
+tc.research_text.GADOMANCY.ESSENTIA_COMPRESSOR=БЕСШУМНОЕ хранилище эссенции
+gadomancy.research_page.ESSENTIA_COMPRESSOR.1= While experimenting with void materials, you discovered an odd reaction between void seeds and liquid essentia.  When a void seed is left in close proximity with a warded jar for an extended period of time, the energy it releases has the odd tendency to make the essentia in the jar condense into a slightly more dense state, freeing up a small amount of space in the jar without actually destroying any essentia. After some further testing, you found that the seed alone was not powerful enough to make any major difference, but with enhancements to increase the potency of the energy released by the seed, a device that can compress essentia into a super dense state could be made.
+gadomancy.research_page.ESSENTIA_COMPRESSOR.2=By condensing large amounts of void materials,  infusing the resulting mass into void seed to create a small cross dimensional rift, and freezing the resulting anomaly inside a crystal shell, it is possible to increase the potency the void energy the seed can release by several thousand times. Despite the fact that this new “Element of Darkness” seems to be incredibly stable, its effects are far to potent for a normal warded jar to handle. It also has the unfortunate side effect of sucking all of the light out of any space it is dropped in, blinding anything that holds it or stands near it when it is dropped on the ground.
+gadomancy.research_page.ESSENTIA_COMPRESSOR.4=By assembling a reinforced shell around the Element of Darkness and stabilizing essentia flow with an aqua aura core, a device that is capable of storing massive amounts of essentia can be created. In order to assemble the machine, place all three blocks on top of each other, and right click with a wand. The Essentia Condenser can store all types of essentia inside one construct, with a base capacity of 200 essentia that can be stored. The device does have some mechanical limitations though.
+gadomancy.research_page.ESSENTIA_COMPRESSOR.6=Due to the incredible amount of energy in the core of the Essentia Condenser, it cannot safely interact with pipes, nor can essentia be directly placed into the device by hand. Golems have to be used to insert the first bit of essentia into the condenser for it to start accepting on its own. Once essentia is stored however, the Condenser will actively pull in essentia from every available jar, reservoir, and mirror within 5 blocks of he device, however it only seems to pull from containers that have less essentia inside them than the main condenser. Although direct physical interaction with the Essentia Condenser is limited to golems, infusion altars as well any device that can pull from an essentia mirror can supply themselves.
+gadomancy.research_page.ESSENTIA_COMPRESSOR.8=The Essentia Condenser, like most things that contain large amounts of liquid essentia, does not deal with large amounts of physical stress very well. If any of the blocks in the structure are broken while any essentia is contained inside, the entire device will violently explode, leaving a large amount of flux and taint behind. Unlike its slightly more tame counterpart, the essentia reservoir, if the Essentia Condenser has any essentia within, it will release enough destabilized flux to immediately taint the land.
+gadomancy.research_page.ESSENTIA_COMPRESSOR.9=If an element of darkness is placed on an ancient pedestal near the condenser, the core of the condenser will consume it, allowing the condenser to increase its internal capacity by a reasonable amount. The highest point the capacity of the condenser can be pushed to with this method is 3000 per aspect.<LINE>You noticed while standing near the structure, that the pull of the Element of Darkness in the Condensers core is enough to gradually pull you closer. Could it be getting bigger? You don’t think so...hopefully...
+
+tc.research_name.GADOMANCY.NODE_MANIPULATOR=Манипулятор узлов
+tc.research_text.GADOMANCY.NODE_MANIPULATOR=Почти как рулетка
+gadomancy.research_page.NODE_MANIPULATOR.1=Узлы ауры интриговали вас в течении долгого времени. Откуда они берутся? Почему они бывают настолько разными? Через какое-то время вы поняли, что кудо полезнее будет задать другой вопрос: а можно ли как-то изменить их свойства? После путешествия по миру и в глубинах лабиринтов древних, вы нашли материалы, которые могут помочь изменить поведение узла. После тщательного изучения этих материалов, вы нашли способ создавать практически чистый вис и, тем самым, изменять узел. Это один из самых опасных механизмов, который вы когда-либо придумывали.. и теперь он в пределах вашей досягаемости.
+gadomancy.research_page.NODE_MANIPULATOR.3=Манипулятор узлов - это устройство, которое работает по принципу перезарядочного пьедестала, но совершенно наоборот. Извлекая вис из жезла и направляя его обратно в узел, он может разрушать его стабильность.<LINE> К сожалению, основной пьедестал манипулятора оказался слишком нестабильным, чтобы работать самостоятельно. Добавив специальный фокус для удержания жезла и несколько столбов для направления вис, стройство, наконец-то готово к использованию. Просто разместите жезл на пьедетал и манипулятор запустится автоматически.
+gadomancy.research_page.NODE_MANIPULATOR.6=Манипулятор узлов требуется хотя бы 70 вис каждого из основных аспектов, чтобы начать процесс, но если дать ему больше, это, по видимому, даст больший результат. <BR>Несмотря на все ваши изучения, связанные с узлами, вы всё ещё не имеете ни малейшего представления, что же на самом деле делает манипулятор с узлами...
+
+tc.research_name.GADOMANCY.E_PORTAL_CREATOR=Врата древних странников
+tc.research_text.GADOMANCY.E_PORTAL_CREATOR=Внутрь бездны...
+gadomancy.research_page.E_PORTAL_CREATOR.1="Кто сражается с чудовищами, тому следует остерегаться, чтобы самому при этом не стать чудовищем. И если ты долго смотришь в бездну, то бездна тоже смотрит в тебя."<BR>-Фридрих Ницше - По ту сторону добра и зла.<LINE> Когда вы получили свою первую сингулярную жемчужину, это было каким-то чудом. Её свет раскрывал многие тайны мира и его создания. Но через какое-то время вы начали чувствовать, что одной жемчужины вам недостаточно. Её свет уже больше не казался таким уж ярким, он, как будто, стал прерывистым.. тусклым.. как искра..
+gadomancy.research_page.E_PORTAL_CREATOR.3=Тёмный, древний шёпот проникает в ваше сознание. Более сильные и настойчивые, чем раньше, они говорят о дороге, по которой не следует идти. О пути, слишком тёмном, чтобы его увидеть. О пути к величайшей из сил, скрытой за границей пустоты. Вы точно уверены, о чём они говорят, ведь частица этой силы уже у вас в руках. Теперь вам осталось только найти этот невидимый и неосязаемый путь.
+gadomancy.research_page.E_PORTAL_CREATOR.4=Неудивительно, что на решение проблемы с поиском этого пути вас натолкнули обелиски. Каждое из этих древних устройств содержит узел, который при прохождении достаточного количества вис может быть расширен до стабильного портала. Изменив функции расщепителя аспектов, можно имитировать функции обелиска.<BR>Этот новый фокус мало чем отличается от манипулятора узлов, т.к. для его работы также необходимо разместить узел.
+gadomancy.research_page.E_PORTAL_CREATOR.6=Чтобы построить каркас ворот, манипулятор должен быть сконструирован также, как и обычно, но с четырьмя пьедесталами снаружи и фокусом перенаправления. Для актвации ворот требуется 150 вис каждого аспекта.<BR>Для активиции также необходимо разместить 4 глаза на пьедесталах вокруг, а в центр поставить жезл, содержащий не менее 120 вис.<BR>Как только манипулятор передаст необходимый вис, на вершине откроется портал.
+gadomancy.research_page.E_PORTAL_CREATOR.8=На первый взгляд, открывшийся портал напоминает обычный поратл древних, но приглядевшись, можно понять, что он намного более плотный и менее стабильный. Вы понимаете, что врата не переживут более одного существа, проходящего через них, поэтому вернуться через него уже не получится. Как только вы проходите через этот портал, вы испытываете странное чувство, как будто сотни древних глаз молча наблюдают, как вы входите в самые глубины бездны...
+
+tc.research_name.GADOMANCY.BLOCK_PROTECTOR=Enervation Field Emitter
+tc.research_text.GADOMANCY.BLOCK_PROTECTOR=ХВАТИТ УЖЕ ЭТИХ ЧЁРТОВЫХ КРИПЕРОВ!!!!!
+gadomancy.research_page.BLOCK_PROTECTOR.1=ВСЕ. НЕНАВИДЯТ. КРИПЕРОВ. It is practically a given that at some point in a builder's career, one of these indescribably rage inducing freaks will sneak up from behind, above, below, or even right in front of them and explode, ruining the project in progress completely.<LINE>Almost by chance, you discovered an interesting way to solve this problem with essential gas. By exposing gunpowder to a small trace of ordo essentia, you found could completely nullify its ability to explode when ignited.
+gadomancy.research_page.BLOCK_PROTECTOR.3=Turning essentia into gas directly without having it dissolve into flux is all but impossible, but some careful tinkering with various alchemical machinery components and redstone yields a device that can use a slightly different process to acquire the same effects as liquid essentia. <BR>The Arcane Enervation Emitter diffuses a light aura of ordo across a limited area. Any creepers in that affected area will be unable to explode. The emitter is slow to start, and when it receives fuel in the form of ordo essentia and a redstone signal, it will gradually expand its area of effect until it reaches maximum size.
+gadomancy.research_page.BLOCK_PROTECTOR.4=The size of its area can be controlled by changing the strength of the redstone signal used to activate the device, and monitored by placing a comparator running out of the device.<BR>After using this device for some time, you noticed, much to your delight, that the field that the Arcane Enervation Emitter emits is strong enough to affect more than just creepers. It appears to stop a variety of destructive mob behaviors as well as inhibiting enderman teleportation. It isn’t strong enough to affect players though…
+
+tc.research_name.GADOMANCY.ANCIENT_STONES=Древние камни
+tc.research_text.GADOMANCY.ANCIENT_STONES=Декорации древних
+gadomancy.research_page.ANCIENT_STONES.1=В древних лабиринтах есть нечто большее, чем может показаться на первый взгляд. Возможно, дизайн комнат, который они использовали для строительства, и не самый лучший, но камни, которые они использовали, демонстрируют их огромный магический потенциал.<BR>Подвергая обычные магический камни воздействию древней энергии, вы можете изменить их свойства, чтобы они регагироваи, как их древние "родственники".
+
+tc.research_name.GADOMANCY.GROWING=Рост узлов
+tc.research_text.GADOMANCY.GROWING=Покорми меня, Сеймур!
+gadomancy.research_page.GROWING.1=Этот узел немного... отличается. <BR>You did expect an Energized Node to be the only stable connection between us and the source of all Vis, but this Aura Node seems very stable too. Energizing an Aura Node channels Vis from its source into the world and breaks it down to the purest primal Aspects. <BR>But... this node behaves much differently from others. It feels as though it's looking for something... it seems... restless. Something about this behavior is disconcerting in the extreme.
+gadomancy.research_page.GROWING.2=What could it be searching for? Judging from what I know so far it is similar to a hungry Aura Node, but there is just something about it that is very disconcerting.
+
+tc.research_name.GADOMANCY.GROWING_AGGRESSION=Aggressive Behavior
+tc.research_text.GADOMANCY.GROWING_AGGRESSION=Кто-нибудь, позвоните Тесле
+gadomancy.research_page.GROWING_AGGRESSION.1=Suddenly, and completely out of nowhere, the Node released a huge bolt of energy.<BR>It may be the large amount of vis flowing through the Aura Node destabilized and released as an arc of energy. These bolts seem to be attracted to anything that even closely resembles a living entity.<BR>You should probably stand back a bit while researching to avoid any other close calls...
+
+tc.research_name.GADOMANCY.GROWING_GROWTH=Поведение роста
+tc.research_text.GADOMANCY.GROWING_GROWTH=Придирчивый.
+gadomancy.research_page.GROWING_GROWTH.1=The node has begun to display similarities to a hungry node, in that it has started to grow. <BR>The big difference between this node and an average hungry node  seems to be that this node only attracts things containing pure aspects, such as Wisps or Ethereal Essence. <LINE>As far as your research goes, it seems that the more pure the aspect is, the more likely it will fuse with the node. Aspect Orbs and Wisps are absorbed most because they are the most pure.
+gadomancy.research_page.GROWING_GROWTH.2=Materialized or solid vis in forms of essentia like Mana Beans, Ethereal Essence, or Crystallized Essentia may work too, but you feel you should take care with what you throw into this thing...<BR>Still it is more fascinating than a hungry node by far. In contrast to its hungry brother, this node seems to keep the complexity of its gained compound aspects instead of breaking them down to primal aspects. It seems to have something against primal aspects...
+
+tc.research_name.GADOMANCY.GROWING_ATTACK=Поведение уничтожения
+tc.research_text.GADOMANCY.GROWING_ATTACK=Прекратите издеваться!
+gadomancy.research_page.GROWING_ATTACK.1=Похоже, растущий узел не только запугивает другие узлы, но и полностью уничтожает их! Если растущий узел может дотянуться до другого узла, он атакует его и разбивает его на сферы аспектов. <BR>Дальнейшие исследования показывают, что стабилизаторы узлов не могут остановить растущий узел от разрушения других узлов, но растущий узел не атакует узлы, которые больше, чем он сам.
+
+tc.research_name.GADOMANCY.GROWING_GROWTHCLUE=Секреты роста
+tc.research_text.GADOMANCY.GROWING_GROWTHCLUE=Объяснение роста
+gadomancy.research_page.GROWING_GROWTHCLUE.1=Наконец-то вы смогли разгадать все секреты и потенциальные опасности растущих узлов! <LINE>Узел становится намного более стабильным при подаче различных аспектов. Если ему давать только один аспект, то он им перенасытится, потеряет стабильность и перестанет расти.<BR>Однако, он принимает только чистые аспекты. Эфирные эсенции, кристаллы эссенции и магические бобы являются слабыми формами материального вис. Узел не очень сильно реагирует на них...
+gadomancy.research_page.GROWING_GROWTHCLUE.2=Несмотря на то, что узел потребляет эфирную эссенцию, он, похоже, в больше степени предпочитает живые виспы и сферы аспектов. Лучшее, что вы можете предложить узлу - это другие узлы ауры... однако в таком случае этот метод становится очень дорогим.<LINE>Также существуют и риски. Чем более насыщенным становится узел, тем чаще он начинает атаковать своё окружение. Всё, что вы хотите узнать - это что произойдёт, если узел полностью насытится, и произойдёт ли это вообще...
+
+tc.research_name.GADOMANCY.AURA_CORE=Ядро ауры
+tc.research_text.GADOMANCY.AURA_CORE=Ваше окружение имеет значение!
+gadomancy.research_page.AURA_CORE.1=Странные свойства сингулярного амулета всегда вызывали у вас недоумение. Постоянно испуская маленькие искорки первичной энергии и меня цвета совершенно нестабильным образом, поведение этого амулета не похоже ни на что другое, что делает его очень сложным в обращении. Покрыв амулет слоем таум-металла, можно успокоить его нестабильные колебания и получить очень полезный объект, который вы назвали Ядро ауры.
+gadomancy.research_page.AURA_CORE.3=В отличии от амулета, из которого оно было создано. это ядро потеряло большую часть своей первичной энергии в процессе создания. Это делает из более чувствительными к ауре в окружающей среде. Бросив ядро рядом с кристальным кластером и дав некоторое количество вис из палочки, ядро покроется дополнительным слоем кристаллов, настроившись на один из шести первичных аспектов.<BR> Поиск применения для таких ядер требует их дальнейшего изучения.
+
+tc.research_name.GADOMANCY.CLEAN_AURA_CORE=Очитска ядер
+tc.research_text.GADOMANCY.CLEAN_AURA_CORE=Все мы делаем ошибки
+gadomancy.research_page.CLEAN_AURA_CORE.1=Вернуть ядро ауры в исходное состояние оказалось проще, чем вы думали. Бросив его в тигель со специальными эссенциями внутри, можно без проблем удалить верхний слой кристаллов, не повредив само ядро.
+
+tc.research_name.GADOMANCY.AURA_PYLON=Пилон ауры
+tc.research_text.GADOMANCY.AURA_PYLON=Рассеивание эссенции
+gadomancy.research_page.AURA_PYLON.1=Пилон ауры - это устройство, которое использует свойства ядра ауры, настроенного на Ignis. Это устройство способно дестабилизировать и испарять эссенцию в местную ауру. Этот процесс медленный и для достижения наибольшей концентрации потребуется время. Когда это произойдёт,, концентрации ауры должно быть достаточно, чтобы физически фоздействовать на окружающую среду.
+gadomancy.research_page.AURA_PYLON.4=После сборки пилона ауры, необходимо бросить рядом с ним кусочек критсллизированной эссенции, чтобы пилон настроился сам на неё. После того, как пилон всосал кристалл и пламя наверху изменило свой цвет, можно подать жидкую эссенцию в низ конструкции. Удалить кристалл также просто: достаточно подойти достаточно близко, чтобы поднять его.<BR>А что насчёт того, что делает каждый тип эссенции, единственный способ узнать это - проверить их самостоятельно.
+
+tc.research_name.GADOMANCY.AURA_EFFECTS=Эффекты ауры
+tc.research_text.GADOMANCY.AURA_EFFECTS=К чему приводит рассеивание эссенции
+gadomancy.research_page.AURA_EFFECTS.1=Большинство видов эссенции имеют свои уникальные эффекты. Может по началу не все они будут заметны, поэтому вести журнал для записи этих эффектов кажется хорошей идеей.
+
+tc.research_name.GADOMANCY.ARCANE_PACKAGER=Тайный упаковщик
+tc.research_text.GADOMANCY.ARCANE_PACKAGER=СОБИРАЙ СВОИ ВЕЩИ!!!
+gadomancy.research_page.ARCANE_PACKAGER.1=В подземельях, храмах и руинах по всему миру разбросаны странные предметы, которые называются мешками с сокровищами. Они кажутся маленькими, относительно прочными и довольно лёгкими, но когда ты их открываешь, ткань просто распадается, оставляя кучу раных предметов. Иногда даже сложно понять, как всё это помещалось в таком маленьком мешочке.<BR>При более тщательном осмотре выяснилось, что сумка, на самом деле, сделана не из ткани, а из тонких нитей стабильной эссенции Pannus.
+gadomancy.research_page.ARCANE_PACKAGER.3=Но дело не только в этом. Сами волокна эссенции сплетены очень плотно, что похоже на влияние ядра ауры, настроенного на Aer.<BR>Тайный упаковщик - это устройство, которое воспроизводит условия, необходимые для формирования нитей из эссенции Pannus. В результате получается небольшой мешочек, который ведёт себя также, как и мешок с сокровищами. Эти небольшие мешочки также можно замаскировать под обычные мешки с сокровищами.<BR>Этот процесс можно воспроизвести с помощью нитей и кожи, но результат выглядит более дешёвым.
+gadomancy.research_page.ARCANE_PACKAGER.4=В одну упаковку может поместиться до десяти стаков предметов, а при открытии мешок растварится и его содержимое упадёт в руки владельца. Вы даже можете помещать сумки в сумки. Однако, ядро Aer может только частично стабилизировать эти потоки. Если содержимое будет слишком тяжёлым, это может привести к избыточному давлению внутри мешка. Чтобы этого не произошло, вы нстроили упаковщик таким образом, чтобы предметы сбрасывались в мир при достижении критического уровня. <BR>Упаковщик можно запустить при помощи сигнала красного камня.
+
+tc.research_name.GADOMANCY.REVEALER=Таумическое зрение
+tc.research_text.GADOMANCY.REVEALER=У меня глаз намётан
+gadomancy.research_page.REVEALER.1=После тщательного изучения очков откровения, вы придумали как можно перенести их эффект на любой другой шлем.<BR> Это зачарование даёт любому шлему возможность показывать своему носителю узлы ауры и содержимое банок. Единственный минус - вы теряете 5% скидки вис.
+
+tc.research_name.GADOMANCY.ARMORDISGUISE=Маскировка доспехов
+tc.research_text.GADOMANCY.ARMORDISGUISE=Пусть игры начнутся!
+gadomancy.research_page.ARMORDISGUISE.1=Вы нашли способ изменить внешний вид брони. Эффекты от основной брони останутся, но вот выглядеть она будт как другая.<BR> Основная броня размещается в центре матрицы, а броня для маскировки - на внешнем кольце.<BR>Стоит учитывать, что маскировочная броня сольётся с основной и от неё останется только внешний вид.
+gadomancy.research_page.ARMORDISGUISE.4=Поразмыслив ещё немного, вы подумали над следующим. А что, если вместо маскировки использовать зелье невидимости, чтобы броня полностью стала прозрачной.<LINE>Чтобы убрать эффект маскировки, нужно бросить броню в очищающую жидкость. Броня, используемая для маскировки, после этой процедуры отслоится от основной и окажется лежащей рядом.
+
+gadomancy.golemblurb.default=??
+gadomancy.golemblurb.breakcore=Хозяин, я должен ломать всё подряд или что-то конкретное? И нужен ли мне для этого инструмент?
+gadomancy.golem.breakcore=Разрушение
+gadomancy.golem.bodyguardcore=Телохранитель
+
+gadomancy.upgrades.runicshield=Рунный щит
+
+gadomancy.lore.hasAdditionalLore=<Нажмите SHIFT>
+
+gadomancy.lore.stickyjar=Липкий
+gadomancy.lore.remotejar=§7Сеть: %s
+
+gadomancy.lore.disguise.item=Замаскирован под %s
+gadomancy.lore.disguise.none=Прозрачный
+
+gadomancy.eldritch.portalPlacerCreative=Устанавливает портал. Только для творческого режима.
+gadomancy.eldritch.noflyCreative=(даже в творческом режиме)
+gadomancy.eldritch.nobreakPortalNothing=Этот портал нельзя сломать
+gadomancy.eldritch.portalSpawned=Вы чувствуете, как вдалеке открывается портал.
+
+tile.BlockStickyJar.name=Липкая банка
+tile.BlockArcaneDropper.name=Тайный раздатчик
+tile.BlockInfusionClaw.name=Коготь наполнения
+tile.BlockRemoteJar.name=Зеркальная банка
+tile.BlockNode.name=Ядро ауры
+tile.BlockExtendedNodeJar.name=Узел в банке
+tile.BlockNodeManipulator.5.name=Манипулятор узлов
+tile.BlockStoneMachine.0.name=Фокус рандомизации
+tile.BlockStoneMachine.1.name=Древний пьедестал
+tile.BlockStoneMachine.2.name=Тайный передатчик слабости
+tile.BlockStoneMachine.3.name=Перенаправляющий фокус
+tile.BlockStoneMachine.4.name=Тайный упаковщик
+tile.BlockStoneMachine.5.name=Отключение ИИ (WIP)
+tile.BlockStoneMachine.11.name=Пилон управления
+tile.BlockStoneMachine.15.name=Пилон управления
+tile.BlockAuraPylon.0.name=Пилон ауры
+tile.BlockAuraPylon.1.name=Вершина пилона ауры
+tile.BlockKnowledgeBook.name=Книга знаний
+tile.BlockEssentiaCompressor.name=Конденсор эссенции
+
+gadomancy.nodes.GROWING=Растущий
+gadomancy.nodes.STARVING=Голодающий
+
+gadomancy.auracore.unused=(Не используется в данной версии мода)
+gadomancy.auracore.blank=Пустое
+
+gadomancy.aura.research.unlock=Вы обнаружили эффекты эссенции %s.
+
+gadomancy.aura.effect.aer=Создаёт ауру скорости
+gadomancy.aura.effect.alienis_0=Ближайшие сонстры становятся
+gadomancy.aura.effect.alienis_1=более опасными
+gadomancy.aura.effect.arbor_0=Ускоряет скорость роста
+gadomancy.aura.effect.arbor_1=ближайших растений
+gadomancy.aura.effect.auram_0=Рассеивает немного вис
+gadomancy.aura.effect.auram_1=в ауру
+gadomancy.aura.effect.bestia=Призывает зверей
+gadomancy.aura.effect.cognitio_0=Даёт больше знаний
+gadomancy.aura.effect.cognitio_1=о первичных аспектах
+gadomancy.aura.effect.exanimis=Поддерживает нежить
+gadomancy.aura.effect.fabrico=Улучшает ваших големов
+gadomancy.aura.effect.gelum_0=Создаёт охлаждающую
+gadomancy.aura.effect.gelum_1=ауру вокруг
+gadomancy.aura.effect.herba_0=Сильно
+gadomancy.aura.effect.herba_1=увелчивает скорость роста
+gadomancy.aura.effect.herba_2=ближайших растений
+gadomancy.aura.effect.humanus_0=Временно увеличивает
+gadomancy.aura.effect.humanus_1=ваше здоровье
+gadomancy.aura.effect.ignis=Распространяет огонь
+gadomancy.aura.effect.instrumentum_0=Увелививает вашу
+gadomancy.aura.effect.instrumentum_1=скорость копания
+gadomancy.aura.effect.limus_0=Аура становится
+gadomancy.aura.effect.limus_1=более склизкой
+gadomancy.aura.effect.lucrum=Увеличивает вашу удачу
+gadomancy.aura.effect.lux_0=Прекращает появление
+gadomancy.aura.effect.lux_1=монстров в ауре
+gadomancy.aura.effect.mortuus=Аура становится смертельной
+gadomancy.aura.effect.pannus=Создаёт шерсть на овцах
+gadomancy.aura.effect.perfodio_0=Сильно увеличивает
+gadomancy.aura.effect.perfodio_1=скорость копания
+gadomancy.aura.effect.praecantatio_0=Усиливает ваши
+gadomancy.aura.effect.praecantatio_1=магические способности
+gadomancy.aura.effect.spiritus_0=Аура кажется
+gadomancy.aura.effect.spiritus_1=более призрачной
+gadomancy.aura.effect.tempestas=Призывает молнии
+gadomancy.aura.effect.tenebrae_0=В ауре
+gadomancy.aura.effect.tenebrae_1=распространяется тьма
+gadomancy.aura.effect.venenum=Отравляет окружающих
+gadomancy.aura.effect.victus_0=Помогает животным
+gadomancy.aura.effect.victus_1=расти быстрее
+gadomancy.aura.effect.vinculum_0=Сковывает и замедляет
+gadomancy.aura.effect.vinculum_1=живых существ
+gadomancy.aura.effect.vitium=Распространяет заражение
+gadomancy.aura.effect.aqua_0=Помогает вам
+gadomancy.aura.effect.aqua_1=дышать под водой
+gadomancy.aura.effect.terra_0=Увеличивает вашу
+gadomancy.aura.effect.terra_1=защиту
+gadomancy.aura.effect.ordo_0=Создаёт слабую
+gadomancy.aura.effect.ordo_1=лечащую ауру
+gadomancy.aura.effect.motus=Увеличивает вашу скорость
+gadomancy.aura.effect.iter_0=Поддержит вас в
+gadomancy.aura.effect.iter_1=долгом путешествии
+gadomancy.aura.effect.sano_0=Создат сильную
+gadomancy.aura.effect.sano_1=лечащую ауру
+gadomancy.aura.effect.volatus=Увеличивает высоту прыжка
+gadomancy.aura.effect.tutamen_0=Сильно увеличивает
+gadomancy.aura.effect.tutamen_1=вашу защиту
+gadomancy.aura.effect.fames=Заставляет вас чувствовать голод
+gadomancy.aura.effect.sensus=Делает ночь светлой
+gadomancy.aura.effect.perditio_0=Создаёт ауру
+gadomancy.aura.effect.perditio_1=слабости
+gadomancy.aura.effect.potentia=Увеличивает вашу силу
+gadomancy.aura.effect.telum_0=Сильно увеличивает
+gadomancy.aura.effect.telum_1=вашу силу
+gadomancy.aura.effect.vitreus_0=Вы чувствуете
+gadomancy.aura.effect.vitreus_1=как воздух проходит
+gadomancy.aura.effect.vitreus_2=через ваш желудок
+
+gadomancy.info.InfusionClaw.owner=Вы не владелец.
+gadomancy.info.InfusionClaw.waila=§7Владелец:
+gadomancy.info.InfusionClaw.lock=Сохраняйте пригодный для использования жезл
+
+gadomancy.info.ArcanePackage=Нажмите, чтобы открыть
+gadomancy.info.ArcanePackager.useEssentia=Использовать эссенцию
+gadomancy.info.ArcanePackager.autoStart=Автоматический запуск
+gadomancy.info.ArcanePackager.disguisePackage=Замаскировать под мешок с сокровищами
+
+gadomancy.info.RemoteJar.new=Создана новая сеть банок
+gadomancy.info.RemoteJar.clear=Отключено от текущей сети
+gadomancy.info.RemoteJar.connected=Подключено к существующей сети
+
+familiar.augment.shock.name=Удар молнии
+familiar.augment.poison.name=Едкий яд
+familiar.augment.fire.name=Обжигающая вспышка
+familiar.augment.weakness.name=Ослабляющий импульс
+familiar.augment.damage.name=Усиление дуги
+familiar.augment.speed.name=Перегрузка частотного излучения
+familiar.augment.range.name=Усиление чувствительности
+
+potion.luck=Увеличенная удача
+potion.buffGolem=Усиление големов
+potion.achromatic=Ахроматический
+#бесцветный
+potion.eldritch=Древний
+potion.visdiscount=Родство вис
+
+gadomancy.enchantment.revealer=Таумическое зрение
