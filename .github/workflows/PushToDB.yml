@@ -35,4 +35,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: push
       run: |
+        npm install
         npm run push_to_db
