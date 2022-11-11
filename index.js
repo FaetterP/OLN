@@ -88,6 +88,6 @@ function isFolder(path) {
         const dbRef = ref(getDatabase(), `/Magic/${key}/`);
         await set(dbRef, ret[key])
     }
-    //fs.writeFileSync("ret.json", JSON.stringify(ret));
-    process.exit(1)
+
+    process.exit(0)
 }());
