@@ -1,0 +1,26 @@
+{
+  "name": "oln",
+  "version": "1.0.0",
+  "description": "Ресурс-пак для Minecraft 1.7.10     \r Также имеется поддержка большого количества модов.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "push_to_db": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaetterP/OLN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FaetterP/OLN/issues"
+  },
+  "homepage": "https://github.com/FaetterP/OLN#readme",
+  "dependencies": {
+    "firebase": "^9.14.0",
+    "glob": "^8.0.3",
+    "image-to-base64": "^2.2.0"
+  }
+}
