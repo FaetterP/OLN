@@ -1,0 +1,39 @@
+name: PushToDB
+
+on:
+  push:
+    branches: [ "Other" ]
+  pull_request:
+    branches: [ "Other" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  
+env:
+  apiKey: "AIzaSyCv0pwEy1yKZYNZhWWmbhv6lS-oLBCOMmc"
+  authDomain: "oln-assets.firebaseapp.com"
+  databaseURL: "https://oln-assets-default-rtdb.firebaseio.com"
+  projectId: "oln-assets"
+  storageBucket: "oln-assets.appspot.com"
+  messagingSenderId: "1091358066643"
+  appId: "1:1091358066643:web:6b821fc7338f958b565126"
+  
+  
+jobs:
+  pushToDB:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: push
+      run: |
+        npm install
+        npm run push_to_db
