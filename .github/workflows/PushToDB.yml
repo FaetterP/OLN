@@ -10,13 +10,13 @@ on:
   workflow_dispatch:
   
 env:
-  apiKey: "AIzaSyCv0pwEy1yKZYNZhWWmbhv6lS-oLBCOMmc"
-  authDomain: "oln-assets.firebaseapp.com"
-  databaseURL: "https://oln-assets-default-rtdb.firebaseio.com"
-  projectId: "oln-assets"
-  storageBucket: "oln-assets.appspot.com"
-  messagingSenderId: "1091358066643"
-  appId: "1:1091358066643:web:6b821fc7338f958b565126"
+  apiKey: "AIzaSyCmdvetArnso__3r8F9Qst8XPghuT4_Uh8"
+  authDomain: "o6i7ry.firebaseapp.com"
+  databaseURL: "https://o6i7ry-default-rtdb.firebaseio.com"
+  projectId: "o6i7ry"
+  storageBucket: "o6i7ry.appspot.com"
+  messagingSenderId: "713136587345"
+  appId: "1:713136587345:web:1d18406f69f1c3c356ae70"
   
   
 jobs:
