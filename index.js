@@ -85,7 +85,7 @@ function isFolder(path) {
 
     for (const key of Object.keys(ret)) {
         console.log(key)
-        const dbRef = ref(getDatabase(), `/Magic/${key}/`);
+        const dbRef = ref(getDatabase(), `OLN-assets/Magic/${key}/`);
         await set(dbRef, ret[key])
     }
 
