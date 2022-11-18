@@ -10,13 +10,13 @@ on:
   workflow_dispatch:
   
 env:
-  apiKey: "AIzaSyCmdvetArnso__3r8F9Qst8XPghuT4_Uh8"
-  authDomain: "o6i7ry.firebaseapp.com"
-  databaseURL: "https://o6i7ry-default-rtdb.firebaseio.com"
-  projectId: "o6i7ry"
-  storageBucket: "o6i7ry.appspot.com"
-  messagingSenderId: "713136587345"
-  appId: "1:713136587345:web:1d18406f69f1c3c356ae70"
+  apiKey: ${{ secrets.APIKEY }}
+  authDomain: ${{ secrets.AUTHDOMAIN }}
+  databaseURL: ${{ secrets.DATABASEURL }}
+  projectId: ${{ secrets.PROJECTID }}
+  storageBucket: ${{ secrets.STORAGEBUCKET }}
+  messagingSenderId: ${{ secrets.MESSAGINGSENDERID }}
+  appId: ${{ secrets.APPID }}
   
   
 jobs:
