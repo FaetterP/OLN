@@ -1,0 +1,64 @@
+﻿# Items
+item.ArcaneEngineering.drillhead.thaumium.name=Таумический шнек бура
+item.ArcaneEngineering.drillhead.void.name=Пустотный шнек бура
+item.ArcaneEngineering.impulse_boots.name=Импульсные ботинки
+item.ArcaneEngineering.wandupgrade.capacitor.name=Конденсатор вис
+item.ArcaneEngineering.wandupgrade.charger.name=Кристаллическое зарядное устройство
+item.ArcaneEngineering.wandupgrade.energizer.name=Сингулярный активатор
+item.ArcaneEngineering.wandcap.electrum.name=Электрумовый наконечник
+item.ArcaneEngineering.wandcap.steel.name=Стальной наконечник
+ 
+
+# Tiles
+tile.ArcaneEngineering.destabilizer.name=Узел-дестабилизатор
+
+# Research
+tc.research_category.ARCANEENGINEERING=Магическая инженерия
+# Formatting:
+# §l 	Bold
+# §m 	Strikethrough
+# §n 	Underline
+# §o 	Italic
+# §r 	Reset
+ArcaneEngineering.research_name.MAGITECH=Магические технологии
+ArcaneEngineering.research_text.MAGITECH="Любая достаточно анализируемая магия неотличима от науки!"
+ArcaneEngineering.research_page.MAGITECH.1=Не важно, насколько вы занимаетесь исследованием мира, иногда технологии могут достичь того, что было бы невозможно сделать с чистой магией. Сочитание тауматургии и технологий позволяет Вам взять лучшее из них и создать нечто действительно стоящее.
+ArcaneEngineering.research_name.NODEDESTABILIZER=Узел-дестабилизатор
+ArcaneEngineering.research_text.NODEDESTABILIZER=Я хочу кушать…
+ArcaneEngineering.research_page.NODEDESTABILIZER=После изучения узел-стабилизатора, вы решили углубиться в изучение этого вопоса, а как ещё можно повлиять на узлы. В итоге вы создали узел-дастабилизатор, который потребляет RF ля того, чтобы поддерживать узел в голодном состоянии.<BR>Всё, что Вам нужно - это поставить дестабилизатор под узлом и подать энергию.
+ArcaneEngineering.research_name.DRILLTHAUMIUM=Таумический шнек бура
+ArcaneEngineering.research_text.DRILLTHAUMIUM=Вроде железный, а вроде и магический
+ArcaneEngineering.research_page.DRILLTHAUMIUM=После того, как Вы узнали, на что способны инструменты из таум-металла, вы решили попробовать его использование в более продвинутом инструменте для копания. В итоге вы создали таумический шнек бура, который находится по характеристикам между железом и сталью.
+ArcaneEngineering.research_name.DRILLVOID=Пустотный шнек бура
+ArcaneEngineering.research_text.DRILLVOID=Много дырочек
+ArcaneEngineering.research_page.DRILLVOID=Наполняя железный шнек бура пустотными семенами и пустотными слитками, вы создали пустотный шнек бура. Он, как и любые пустотные вещи, способен к самопочинке, что фактически означает, что его можно использовать бесконечно. По характеристикам лучше, чем сталь.
+ArcaneEngineering.research_name.ROD_upgradeable=Стержень из обработанной древесины
+ArcaneEngineering.research_text.ROD_upgradeable="Улучшение"
+ArcaneEngineering.research_page.ROD_upgradeable=Древесина, обработанная креозотовым маслом, прочнее и полезнее в технике. И неудивительно, что палочка из этого материала будет немного лучше, чем из обычного дерева и может хранить 30 вис. Если разместить жезлы из обработанной древесины в верстаке инженера, то их можно будет улучшить дважды (?). Но Вы уверены, что есть какой-то способ увеличить количество слотов для улучшения.
+ArcaneEngineering.research_name.CAP_steel=Стальные наконечники
+ArcaneEngineering.research_text.CAP_steel=Не манасталь
+ArcaneEngineering.research_page.CAP_steel=Если Вы можете использовать железо для изготовления наконечников, то что мешает делать их из стали? Сталь по своей природе более упорядочена, чем железо, поэтому наконечники, изготовленные из нее, будут немного лучше. Если использовать эти наконечники с обработанным стержнем, то это даст 2 допольнительных слота для улучшений.
+ArcaneEngineering.research_name.CAP_electrum=Электрумовые наконечники
+ArcaneEngineering.research_text.CAP_electrum=Для нерешительных тауматургов
+ArcaneEngineering.research_page.CAP_electrum=Существует так много металлов, почему бы не попробовать сделть наконечник ещё из одного. На самом деле, только некоторые металлы могут быть использованы в тауматургии. Если вы не можете определиться с тем, что лучше: золото или серебро - используйте электрум! Или если вы не можете решить, что лучше: экономия вис или слоты для улучшения - используйте электрум!. Он даёт скидку вис в 5% и добавляет один дополнительный слот улучшения при использовании с обработанным жезлом.
+ArcaneEngineering.research_name.CAPACITOR=Конденсатор вис
+ArcaneEngineering.research_text.CAPACITOR=Интересно, а вис страдает кластрафобией?
+ArcaneEngineering.research_page.CAPACITOR=Вы всегда подозревали, что узлы ауры и виспы могут быть чем-то очень похожим. Во время изучений, вы обноружили, что можно хранить вис в эссенциях виспов, что привело Вас к созданию конденсатора, который может увеличить хранилище палочки. Его можно поставить как улучшение для обработанной палочки в верстаке инженера. Чем больше улучшений, тем сильнее эффект.
+ArcaneEngineering.research_name.CHARGER=Кристаллическое зарядное устройство
+ArcaneEngineering.research_text.CHARGER="CHAAAAAARGE!"
+ArcaneEngineering.research_page.CHARGER=Кристальные осколки имеют очень прочную связь с аурой. Древние тауматурги заметили, что кристаллы могут высасывать энергию из ауры, чтобы увеличиваться в размерах. Используя способности сбалансированного осколка, вы создали улучшение для палочки, которое позволяет быстрее высасывать вис из узлов. Его можно поставить как улучшение для обработанной палочки в верстаке инженера. Чем больше улучшений, тем сильнее эффект.
+ArcaneEngineering.research_name.ENERGIZER=Сингулярный активатор
+ArcaneEngineering.research_text.ENERGIZER=Никаких кроликов
+ArcaneEngineering.research_page.ENERGIZER=После открытия сингуляной жемчужины, вы решили узнать, как она повлияет на жезлы. Поскольку использовать целую жемчужину было бы очень дорого, Вы нашли ей замену. Сингулярный амулет. В итоге Вы создали улучшение, которое позволяет жезлу точнее работать с набалджниками. Это улучшение можно один раз поставить на обработанный жезл в верстаке инженера.
+ArcaneEngineering.research_name.IMPULSEBOOTS=Импульсные ботинки
+ArcaneEngineering.research_text.IMPULSEBOOTS=Что-то должно произойти
+ArcaneEngineering.research_page.IMPULSEBOOTS=Биодизель - очень эффекивный вид топлива, обладающий огромным потенциалом. Одно из применений - это использование энергии его сжигания в ракетах в импульсных ботинках. Сапоги будут сжигать биодизель, чтобы подбрасывать Вас вверх, пока вы держите кнопку прыжка. Нажатие кнопки бега позволит Вам передвигаться быстрее. Сапоги могут уменьшить урон от падения, если вы достаточно замедляете свой спуск перед приземлением.
+
+
+#Wand
+item.Wand.upgradeable.rod=обработанный
+item.Wand.steel.cap=Покрытый сталью 
+item.Wand.electrum.cap=Отделанный электрумом 
+
+# Creative
+itemGroup.arcaneengineering=Arcane Engineering
