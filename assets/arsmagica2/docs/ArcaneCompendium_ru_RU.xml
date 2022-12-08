@@ -1,0 +1,2606 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<compendium>
+  <version>1.0.3</version>
+  <shapes zeroItemText="You don't know any shapes yet, and aren't eligible to learn any!">
+    <shape id="Projectile">
+      <name>Снаряд</name>
+      <desc>Вы смогли сосредоточить свою магию в шар, который двигается вперед от вас.</desc>
+	  <modifiedBy>SPEED,GRAVITY,BOUNCE,DURATION,PIERCING,TARGET_NONSOLID_BLOCKS</modifiedBy>
+    </shape>
+    <shape id="Channel">
+      <name>Канал</name>
+      <desc>Через интенсивную концентрацию, маг может поддерживать поток магии в себе. Это полезно для таких вещей, как Телекинез, Лечение, Очарование, и Шторм.</desc>
+      <modifiedBy></modifiedBy>
+    </shape>
+    <shape id="Beam">
+      <name>Луч</name>
+      <desc>Изучая новые Типы, вы открыли Луч. Теперь вы моментально можете ударять магией по врагу.</desc>
+      <modifiedBy>RANGE,TARGET_NONSOLID_BLOCKS</modifiedBy>
+    </shape>
+    <shape id="Self">
+      <name>На себя</name>
+      <desc>Один из видов простых Типов магии, которая применяется на себя. Только не подожгите себя. Хе-хе...</desc>
+	  <modifiedBy></modifiedBy>
+    </shape>
+    <shape id="Touch">
+      <name>Прикосновение</name>
+      <desc>Оберните свою #3руку#0 магией... И ударьте мощьным кулаком своего врага!</desc>
+	  <modifiedBy>TARGET_NONSOLID_BLOCKS</modifiedBy>
+    </shape>
+    <shape id="Zone">
+      <name>Зона</name>
+     <desc>Вы смогли создать Тип, который работает по площади в течении некоторого времени.</desc>
+      <modifiedBy>RADIUS,GRAVITY,DURATION</modifiedBy>
+    </shape>
+    <shape id="AoE">
+      <name>Эффект по Площади</name>
+      <desc>Эффект по Площади - это массовый удар по площади.  Если применяется Модификатор "Гравитация", то Компоненты будут притягиватся к земле.  Это полезно, например ударять магией за холм.</desc>
+      <modifiedBy>RADIUS,GRAVITY</modifiedBy>
+    </shape>
+    <shape id="Chain">
+      <name>Цепь</name>
+      <desc>Вы можете формировать свою магию в сгусток энергии, который будет прыгать от одной цели к другой.  По умолчанию магия прыгает на 8 блоков (можно расширить Модификатором "Диапазон"),  Также можно увеличить радиус с помощью Модификатора #5Радиус#0, и увеличить кол-во прыжков с помощью #5Знака Прокс#0</desc>
+      <modifiedBy>RANGE,PROCS</modifiedBy>
+    </shape>
+    <shape id="Rune">
+      <name>Руна</name>
+      <desc>Вы можете создать магическую руну на земле, которая будет срабатывать при определенных условиях. Это может помочь создать мощное оружие ... или смертельную ловушку.</desc>
+      <modifiedBy>PROCS,TARGET_NONSOLID_BLOCKS</modifiedBy>
+    </shape>
+    <shape id="Contingency_Fall">
+      <name>Условие: Падение</name>
+      <desc>Вы создали форму заклинания, срабатывающую за момент до падения! О, гравитация, ты просто бессердечная!... Одновременно на себя можно наложить только 1 такое условие.</desc>
+      <modifiedBy></modifiedBy>
+    </shape>
+    <shape id="Contingency_Damage">
+      <name>Условие: Урон</name>
+      <desc>Вы создали форму заклинания, которая срабатывает при получении урона! Давай, играем выстрел на выстрел!... Одновременно на себя можно наложить только 1 такое условие.</desc>
+      <modifiedBy></modifiedBy>
+    </shape>
+    <shape id="Contingency_Fire">
+      <name>Условие: Огонь</name>
+      <desc>Вы решили, что вам действительно не нравится находиться в огне. Создана форма, срабатывающая при контакте с огнем. Что ж, теперь можно не бояться игр со спичками... Одновременно на себя можно наложить только 1 такое условие.</desc>
+      <modifiedBy></modifiedBy>
+    </shape>
+    <shape id="Contingency_Health">
+      <name>Условие: Здоровье</name>
+      <desc>Каким бы искусным не был мастер, нож в спине всегда является достаточно серьёзной проблемой. Вы думаете, что нашли способ закончить с этим! Форма заклинания срабатывает, когда ваше здоровье меньше или равно 25% от максимального. Одновременно на себя можно наложить только 1 такое условие.</desc>
+      <modifiedBy></modifiedBy>
+    </shape>
+    <shape id="Contingency_Death">
+      <name>Условие: Смерть</name>
+      <desc>Вы можете получить меня, но в эти последние несколько секунд, ситуация будет в моих руках! !d Одновременно на себя можно наложить только 1 такое условие.</desc>
+      <modifiedBy></modifiedBy>
+    </shape>
+    <shape id="Binding">
+      <name>Связывание</name>
+      <desc>You can create solid objects out of nothing!  The binding shape allows you to bind tools to yourself, which drain constant mana while bound, and burst mana when used instead of durability.  Dropping the item with the drop hotkey (default 'q') will instead unbind it.</desc>
+      <modifiedBy></modifiedBy>
+      <relatedEntries>bindingCatalyst@0,bindingCatalyst@1,bindingCatalyst@2,bindingCatalyst@3,bindingCatalyst@4,bindingCatalyst@5</relatedEntries>
+    </shape>
+    <shape id="Wall">
+      <name>Стена</name>
+      <desc>Вы можете создавать стены эффектов перед собой. Стена размещается всегда перпендикулярно вашему текущему направлению. Работает аналогично элементу "Зона", но имеет другой форм-фактор и быстрее применяет эффекты.</desc>
+      <modifiedBy>RADIUS,GRAVITY,DURATION</modifiedBy>
+    </shape>
+    <shape id="Wave">
+      <name>Волна</name>
+      <desc>Направить волну магии перед вами, применяющей свои эффекты на всем, что окажется у неё на пути.</desc>
+      <modifiedBy>RADIUS,DURATION,SPEED,GRAVITY,PIERCING</modifiedBy>
+    </shape>
+  </shapes>
+  <components zeroItemText="Вы еще не выучили никаких компонентов, и не можете начать изучать их!">
+    <component id="PhysicalDamage">
+      <name>Физический урон</name>
+      <desc>Часто, молодой маг начинает свое обучение с простой, физической силы. И не редкость, что он продолжает его так до тех пор, пока старшие маги не дадут ему подзатыльник более физической силой. Физический урон - простая сила, которую вполне способна остановить броня.</desc>
+      <modifiedBy>DAMAGE</modifiedBy>
+    </component>
+    <component id="MagicDamage">
+      <name>Магический урон</name>
+      <desc>Магический урон, в отличии от физического, поражает напряму ауру жертвы, обходя таким образом большую часть брони. Это делает особенно уязвимыми магических существ, нанося им тройной урон.</desc>
+      <modifiedBy>DAMAGE</modifiedBy>
+    </component>
+    <component id="FrostDamage">
+      <name>Урон холодом</name>
+      <desc>Многие недооценивают силы, которые может предоставить холод. Пассивный, ползучий мороз можно остановить множеством доспехов, но ничто не защитит обитателей Нижнего Мира от разрушительного эффекта льда.</desc>
+      <modifiedBy>DAMAGE,BUFF_POWER</modifiedBy>
+    </component>
+    <component id="LightningDamage">
+      <name>Урон молнией</name>
+      <desc>"Я держал руку перед собой, и с громким треском белая сверкающая молния пронеслась по небу... Его металлические доспехи лишь усиливали эффект." Молния - вообще исключительный тип урона, но плата за него - большие затраты маны.</desc>
+      <modifiedBy>DAMAGE</modifiedBy>
+    </component>
+    <component id="FireDamage">
+      <name>Урон Огнем</name>
+      <desc>"Словом, я выпустил мою волю и огонь вспыхнул передо мной, обжигая все на своем пути..." Урон огнем может быть очень актуальным в земном бою, но большинство существ Нижнего Мира имеют иммунитет от него.</desc>
+      <modifiedBy>DAMAGE</modifiedBy>
+    </component>
+    <component id="Ignition">
+      <name>Горение</name>
+      <desc>Many magi see fire as a damaging, destructive force, and that can be true.  But how many hear fire and imagine lighting a stove, campfire or candle?  </desc>
+      <modifiedBy>DURATION</modifiedBy>
+    </component>
+    <component id="Forge">
+      <name>Плавка</name>
+      <desc>You have gained fine control over fire and can use it to magically smelt blocks where they stand, without charring them to ash.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="Blind">
+      <name>Слепота</name>
+      <desc>Having a fireball to throw at dark mages is great.  Making it so they also can't see to retaliate is better.</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="Freeze">
+      <name>Замораживание</name>
+      <desc>Эира глубоко вздохнула и открыла глаза. Шапки гор теперь блестели белым снегом, а пробирающий до костей холод охватывал всё. Вода стала льдом. Враги двинулись в обход. Превосходно.</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="Knockback">
+      <name>Отбрасывание</name>
+      <desc>Не многие маги хотят быть на ближней дистанции со своими врагами. Это значит, что ситуация должна быть исправлена.</desc>
+      <modifiedBy>VELOCITY_ADDED</modifiedBy>
+    </component>
+    <component id="Storm">
+      <name>Thunderstorm</name>
+      <desc>The clouds darkened, and rain began to fall.  The wind howled, and a flash of lightning streaked across the sky, leaving bright flashes in my vision.  The thunder was deafening.  Lightning struck all around me at each enemy.  The strain of maintaining the storm was immense. </desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="AstralDistortion">
+      <name>Астральное Искажение</name>
+      <desc>"Когда я попытался войти в Пустоту, некий эффект помешал моему перемещению скачком... Мне кажется, я смогу повернуть это против Эндерменов.</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="Fling">
+      <name>Подкидывание</name>
+      <desc>Ветер внезапно закружил вокруг крипера, и подкинул того высоко в облака... Вы в безопасноти. Что ж, по крайней мере, пока крипер где-то в облаках. </desc>
+      <modifiedBy>VELOCITY_ADDED</modifiedBy>
+    </component>
+    <component id="WateryGrave">
+      <name>Подводная могила</name>
+      <desc>Вода, казалось, ожила, затягивая мага глубоко, к темному дну. Его друг стоял на берегу, и лишь беспомощно смотрел, ведь прыжок в воду означал такую же участь и для него...</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="Leap">
+      <name>Прыжок</name>
+      <desc>Собрав ветер прямо под ногами, я подкинул себя в воздух, после чего еще раз выпустил воздух вверх, избежав повреждений от падения.</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="Regeneration">
+      <name>Регенерация</name>
+      <desc>Я завернул свою руку в исцеляющий свет, наблюдая, как все мои повреждения, вплоть до последнего синяка, исчезли у меня на глазах.</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="Slowfall">
+      <name>Замедленное падение</name>
+      <desc>Стань легким, как перышко и падай без страха.</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="LifeTap">
+      <name>Жизнеотвод</name>
+      <desc>Если маг в отчаянии, и маны катастрофически не хватает, он может подпитывать свои заклинания ценой собственной жизненной силы.</desc>
+      <modifiedBy>DAMAGE</modifiedBy>
+    </component>
+    <component id="Heal">
+      <name>Лечение</name>
+      <desc>Затрачивая большое количество маны, маг может восстановить практически любую травму. эффект, однако, неприхотлив...</desc>
+      <modifiedBy>HEALING</modifiedBy>
+    </component>
+    <component id="Slow">
+      <name>Замедление</name>
+      <desc>Применяя эквивалент магического мяча и цепи, маг может сильно замедлить свою цель.</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="Haste">
+      <name>Спешка</name>
+      <desc>Маг в состоянии "зачаровать" собственные ноги, что может сильно ускорить его.</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="GravityWell">
+      <name>Гравитационная воронка</name>
+      <desc>Вы научились размещать небольшие гравитационные воронки прямо под Вашими врагами, что может увеличить скорость их падения...</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="LifeDrain">
+      <name>Вампиризм</name>
+      <desc>Создавая зловещую связь с жизненной силой цели, вы можете выкачать её себе, укрепляя свое здоровье.</desc>
+      <modifiedBy>DAMAGE</modifiedBy>
+    </component>
+    <component id="Dispel">
+      <name>Рассеивание</name>
+      <desc>Создание области дефицита энергии, приводит к снятию различных эффектов, а так же изгоняет призванных существ обратно в эфир.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="Repel">
+      <name>Отталкивание</name>
+      <desc>Вы можете создать сингулярность в пространстве, которая будет отталкивать врагов и отклонять стрелы, пока Вы будете её поддерживать.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="SwiftSwim">
+      <name>Быстрое плавание</name>
+      <desc>Манипулируя потоками воды, вы можете гораздо быстрее продвинуть себя вперед.</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="Levitate">
+      <name>Левитация</name>
+      <desc>Благодаря постоянным занятиям Магией Воздуха, вы научились держать себя в подвешенном состоянии. Постоянные ветровые потоки позволяют вам медленно двигаться.</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="ManaDrain">
+      <name>Иссушение маны</name>
+      <desc>Вы можете создать паразитическую связь с аурой жертвы, вытягиваю её ману, повышая свою.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="Entangle">
+      <name>Запутывание</name>
+      <desc>At your command, vines can burst from the ground and ensnare your target, holding them completely immobile.</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="Flight">
+      <name>Полет</name>
+      <desc>With a word, I rose into the air and mingled with the clouds and sky.  I flew effortlessly, quick and agile.  The skies were mine alone.</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="Shield">
+      <name>Щит</name>
+      <desc>Вы можете вызвать магическую энергию для собственной защиты. Этот магический щит будет уменьшать весь получаемый урон. Не может быть активен вместе с отражением.</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="Reflect">
+      <name>Отражение</name>
+      <desc>Вы изменили состав вашего щита, теперь заклинания отражаются, а не поглощаются. Не может быть активно вместе с щитом.</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="ChronoAnchor">
+      <name>Chrono Anchor</name>
+      <desc>You can anchor yourself in time.  When the timer runs out, you are transported back to the place you cast this spell, with your health, mana, burnout, and hunger returning to what they were when the spell was first cast.</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="Charm">
+      <name>Очарование</name>
+      <desc>You can charm creatures into fighting for you, and certain creatures will do special things when charmed.  Charming also causes creatures to breed (if they are capable of doing so by other means).</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="Dig">
+      <name>Копание</name>
+      <desc>The ground shatters with a snap of your fingers.  Harder blocks take more mana to break.  Dig starts out equivalent to an Iron pickaxe, but can be upgraded with the use of the #5Mining Power#0 modifier.</desc>
+      <modifiedBy>MINING_POWER,FORTUNE_LEVEL,SILKTOUCH_LEVEL</modifiedBy>
+    </component>
+    <component id="Light">
+      <name>Свет</name>
+      <desc>Теперь Вы способны создавать магический свет. Можно покрасить, нажав ПКМ на свет, держа в руках нужный краситель.</desc>
+      <modifiedBy>COLOR</modifiedBy>
+    </component>
+    <component id="Disarm">
+      <name>Разоруживание</name>
+      <desc>Now that you have learned to summon tools to your hand, it was a small step to be able to make others drop what they are holding.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="Rift">
+      <name>Rift Storage</name>
+      <desc>You can tear open a rift in space, granting access to a small dimension to store items in.  The rift lasts for 60 seconds before closing automatically.  More Buff Power modifiers give greater storage access.  Sneak+Right click to close the rift once it is opened.</desc>
+      <modifiedBy>BUFF_POWER</modifiedBy>
+    </component>
+    <component id="Attract">
+      <name>Притягивание</name>
+      <desc>You create an area of negative pressure around you, pulling everything living in towards you.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="Telekinesis">
+      <name>Телекинез</name>
+      <desc>Вы можете усиливать свои мозговые волны до такой силы, что они приобретают вполне физические свойства. Можно оперировать предметами, притягивая их к себе. С помощью колесика мышки можно отдалять или приближать точку притягивания.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="HarvestPlants">
+      <name>Сбор урожая</name>
+      <desc>Теперь Вы можете вызвать все расстения, их цветы и листья для сбора.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="Plow">
+      <name>Вспахивание</name>
+      <desc>Теперь, Вы можете вызывать на земле неглубокие борозды, отлично подходящие для засеивания.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="CreateWater">
+      <name>Create Water</name>
+      <desc>You can coalesce moisture from the air around into one location, creating water where there was none.  This will not work in the nether.  It can also be used to fill a cauldron.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="Grow">
+      <name>Рост</name>
+      <desc>Вливание магической энергии в растения - равно месяцу ухаживания за ними.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="BanishRain">
+      <name>Banish Rain</name>
+      <desc>Rain rain, go away.  Come again another day!  Who would have thought that those were the words to the spell?  If used in the corresponding ritual, this spell can also call rain too.  See the #5Rituals#0 page for details.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="WaterBreathing">
+      <name>Подводное дыхание</name>
+      <desc>Вашей магии достаточно, что б вытащить кислород с воды. Этого вполне хватит, что б не утонуть.</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="NightVision">
+      <name>Ночное зрение</name>
+      <desc>Знание света позволило Вам разработать заклинание, которое путем повышения уровня освещения, позволяет вам видеть в темноте.</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="TrueSight">
+      <name>True Sight</name>
+      <desc>Your magical sight allows you to see things as they really are.  Who knows what beauties...and horrors you will discover.</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="Invisibility">
+      <name>Invisibility</name>
+      <desc>You can bend light around yourself to become effectively invisible.</desc>
+      <modifiedBy>BUFF_POWER,DURATION</modifiedBy>
+    </component>
+    <component id="RandomTeleport">
+      <name>Случайный телепорт</name>
+      <desc>You can randomly teleport your target a short distance away.</desc>
+      <modifiedBy>RANGE</modifiedBy>
+    </component>
+    <component id="Blink">
+      <name>Скачек</name>
+      <desc>You can teleport a short distance directly forward the way you are facing.  Blink can take you through solid walls, but will make every effort to ensure you don't get stuck in one.</desc>
+      <modifiedBy>RANGE</modifiedBy>
+    </component>
+    <component id="Transplace">
+      <name>Перемещение</name>
+      <desc>Your knowledge of teleportation magic has grown.  You can now switch places with your target.</desc>
+      <modifiedBy></modifiedBy>
+	  <relatedEntries>rituals_overview,otherworldly_ritual</relatedEntries>
+    </component>
+    <component id="Mark">
+      <name>Mark</name>
+      <desc>You can magically mark a location, which you can recall to from almost anywhere.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="Recall">
+      <name>Recall</name>
+      <desc>You can tune your teleportation magic to home in on a mark you have left, transporting you or your target back to its location.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="EnderIntervention">
+      <name>Ender Intervention</name>
+      <desc>You have mastered teleportation magic, to the level at which you can transcend interdimensional barriers, and can enter the nether from almost anywhere.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="DivineIntervention">
+      <name>Divine Intervention</name>
+      <desc>You have mastered teleportation magic, to the level at which you can transcend interdimensional barriers, and can enter the overworld from almost anywhere.  If cast when you are already in the overworld, you will be returned to your bed, or to spawn if no bed exists.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="Summon">
+      <name>Призыв</name>
+      <desc>You have learned to harvest the souls of creatures you defeat in combat.  These souls can be used in creating a spell to summon that creature to protect you. !d To summon a creature, first craft a #5Crystal Phylactery#0.  Once you kill something while holding an empty phylactery, that phylactery will become #9attuned#0 to that specific mob.  Kill enough of the same mob and you will fill the phylactery. !d During spell creation, you can throw in any filled phylactery when prompted by the lectern.  This step is what determines what your spell will summon. !d Summoned creatures drop no loot, and no xp, but can be interacted with normally, such as breeding, milking cows, or riding horses.  Horses are the exception to the item drop rule and will drop saddles and armor given to them. !l Tameable creatures such as wolves and cats are automatically tamed to their owner upon summoning. !d Bosses cannot be trapped in phylacteries in survival/adventure mode. </desc>
+      <modifiedBy>DURATION</modifiedBy>
+    </component>
+    <component id="Blizzard">
+      <name>Метель</name>
+      <desc>You have learned to summon a fearsome blizzard, which will slow and damage any entities in its radius.  Blizzard has a built-in AoE to it.  A blizzard cannot be summoned within 5 blocks of another existing blizzard.  It initially does less damage than other attacks, but scales more quickly with modifiers.  It also has the unique capability to deal damage more often than regular attacks. Though blizzard will harm all entities in its radius, it will never harm its caster.</desc>
+      <modifiedBy>RADIUS,DAMAGE,DURATION</modifiedBy>
+    </component>
+    <component id="Daylight">
+      <name>Дневной свет</name>
+      <desc>You have gained the ability to control time.  This spell will cause the time to move to Dawn.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="FallingStar">
+      <name>Звездопад</name>
+      <desc>You can call down a star from the skies and cause it to strike all entities within the blast radius.  It will harm friendly targets but not the caster.  There is a short delay between casting the spell and the impact.  This spell will not work underground (the star will fall onto the surface).</desc>
+      <modifiedBy>DAMAGE</modifiedBy>
+    </component>
+    <component id="FireRain">
+      <name>огненный шторм</name>
+      <desc>You have learned to summon a terrible firestorm, which will do large amounts of damage any entities in its radius.  Firestorm has a built-in AoE to it.  A firestorm cannot be summoned within 5 blocks of another existing firestorm.  It initially does less damage than other attacks, but scales more quickly with modifiers.  It also has the unique capability to deal damage more often than regular attacks.  Firestorm does not ignite the ground.  Though firestorm will harm all entities in its radius, it will never harm its caster.</desc>
+      <modifiedBy>RADIUS,DAMAGE,DURATION</modifiedBy>
+    </component>
+    <component id="ManaLink">
+      <name>Mana Link</name>
+      <desc>You have discovered the secret to linking your mana together with another entity.  When you cast this spell, your target will be able to draw upon your mana pool as if it were their own. !d The target will use their own mana first, then will begin to draw upon yours. !d It has a limited radius, but can have radius modifiers if you so desire.  If the target leaves the radius, the link is not broken, but is rather temporarily disabled.  When they again return into the radius, the link will reactivate and will function again.  To end the link, simply cast the spell on the target again. !d You can link your own mana to multiple entities, and on the other side, you can have multiple links coming in from other sources.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="ManaShield">
+      <name>Mana Shield</name>
+      <desc>Your target becomes shielded by their available mana, causing damage to drain 250 mana per half heart absorbed, and preventing HP damage entirely.</desc>
+      <modifiedBy>DURATION,BUFF_POWER</modifiedBy>
+    </component>
+    <component id="Moonrise">
+      <name>Восход Луны</name>
+      <desc>You have gained the ability to control time.  This spell will cause the time to move to Dusk.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="Drought">
+      <name>Drought</name>
+      <desc>You have taken your knowledge of creating water and have reversed the process.  This spell will draw water out of whatever it hits, removing water blocks and turning dirt, grass, sandstone and mycelium to sand, withering plants it hits, and stone to cobblestone.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="Plant">
+      <name>Засеивание</name>
+      <desc>Вы можете задействовать семена с Вашего инвентаря для засеивания. Лучшее сочетание - с элементом Эффект по площади.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="Accelerate">
+      <name>Ускорение</name>
+      <desc>Эта форма заклинания заставляет время по отношению к блокам идти быстрее. Что б добится какого-либо реального эффекта, лучше задействовать с такими элементами, как Луч, Зона и подобные.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="Drown">
+      <name>Утопление</name>
+      <desc>Вы можете создавать воду прямо в легких цели, создавая таким образом эффект утопления.</desc>
+      <modifiedBy>DAMAGE</modifiedBy>
+    </component>
+    <component id="WizardsAutumn">
+      <desc>You have learned to focus your digging magic into a small radius that directly affects leaves.  This component has a built in AoE that can be modified with Radius modifiers.  You can use it to clear those pesky hard to reach leaves.</desc>
+      <name>Wizard's Autumn</name>
+      <modifiedBy>RADIUS</modifiedBy>
+    </component>
+    <component id="Fury">
+      <name>Fury</name>
+      <desc>You can send yourself into an absolute rage, dealing increased damage, moving extremely fast, passively regenerating, and mining at inhuman speeds.  When the effect ends, you are left exhausted for a few moments and must recover.</desc>
+      <modifiedBy>DURATION,BUFF_POWER</modifiedBy>
+    </component>
+    <component id="Appropriation">
+      <name>Appropriation</name>
+      <desc>You can appropriate one block or entity into your spell.  Casting the spell again will place a picked up entity or block at the targeted location.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="Silence">
+      <name>Тишина</name>
+      <desc>Вы можете заставить замолчать другого мага, не дать ему произнести ни единого заклинания. Эффект нельзя продолжить.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+    <component id="Shrink">
+      <name>Shrink</name>
+      <desc>You can make yourself tiny!  When this effect is active, you are physically smaller, so you can fit through 1x1 gaps.  Due to your light weight, you fall slowly enough that landing doesn't hurt either.  However, all damage you do is halved.</desc>
+      <modifiedBy>DURATION,BUFF_POWER</modifiedBy>
+    </component>
+    <component id="PlaceBlock">
+      <name>Place Block</name>
+      <desc>You can use this spell part to place blocks!  Can be extremely powerful when combined with different shape combinations.  In order to place a block, you need to set the spell to place it, and you need to have at least one of said block in your inventory.  No creating them out of thin air, sorry!  To set the block to be placed, cast the spell on a block while sneaking.  You need to be sneaking when the spell actually applies, so keep that in mind when using something like Projectile.  It's recommended to not use AoE to set the block, as it can sometimes set it to something you don't expect (as it will apply to everything in a radius, setting the block over and over).  To see what block the spell will place, hover your mouse over it in your inventory and press SHIFT.</desc>
+      <modifiedBy></modifiedBy>
+    </component>
+  </components>
+  <modifiers zeroItemText="You don't know any modifiers yet, and aren't eligible to learn any!">
+    <modifier id="Gravity">
+      <name>Гравитация</name>
+      <desc>Применяет эффект гравитации на ваших заклинаниях. Снаряды и зоны будут иметь меньший вес, чем АоЕ (эффект по площади). Может быть полезно, например если враг укрылся за холмом.</desc>
+      <modifies>GRAVITY</modifies>
+    </modifier>
+    <modifier id="Bounce">
+      <name>Отскок</name>
+      <desc>Применяет к заклинаниям свойство отскакивать от различных поверхностей.</desc>
+      <modifies>BOUNCE</modifies>
+    </modifier>
+    <modifier id="Damage">
+      <name>Урон</name>
+      <desc>Усиливает урон от Ваших заклинаний.</desc>
+      <modifies>DAMAGE</modifies>
+    </modifier>
+    <modifier id="Healing">
+      <name>Лечение</name>
+      <desc>Усиливает эффект лечения ваших заклинаний. Негативно влияет на нежить - наносит им урон.</desc>
+      <modifies>HEALING</modifies>
+    </modifier>
+    <modifier id="Speed">
+      <name>Скорость</name>
+      <desc>Добавляет скорости к эффектам ваших заклинаний.</desc>
+      <modifies>SPEED</modifies>
+    </modifier>
+    <modifier id="Duration">
+      <name>Продолжительность</name>
+      <desc>Повышает время действия наложенных баффов\дебаффов. Также действует и на зоны.</desc>
+      <modifies>DURATION</modifies>
+    </modifier>
+    <modifier id="Range">
+      <name>Дальность</name>
+      <desc>Добавляет больше дальности действия Ваших заклинаний.</desc>
+      <modifies>RANGE</modifies>
+    </modifier>
+    <modifier id="Radius">
+      <name>Радиус</name>
+      <desc>Increases the radius of zone and AoE spell shapes.</desc>
+      <modifies>RADIUS</modifies>
+    </modifier>
+    <modifier id="RuneProcs">
+      <name>Rune Procs</name>
+      <desc>Increases the number of times a rune can apply it's effect before being destroyed.</desc>
+      <modifies>PROCS</modifies>
+    </modifier>
+    <modifier id="VelocityAdded">
+      <name>Добавление скорости</name>
+      <desc>Добавляет скорости к таким элементам заклинаний, как #5Подкидывание#0.</desc>
+      <modifies>VELOCITY_ADDED</modifies>
+    </modifier>
+    <modifier id="TargetNonSolid">
+      <name>Target Non-Solid Blocks</name>
+      <desc>Allows the spell to target non-solid blocks (grass, water, lava) rather than passing through it.</desc>
+      <modifies>TARGET_NONSOLID_BLOCKS</modifies>
+    </modifier>
+    <modifier id="Lunar">
+      <name>Lunar</name>
+      <desc>Powers up your spell at night.  The closer to midnight time is (Starting at Dusk), the more damage and healing the spell does.  After midnight, as dawn approaches, the spell will become weaker.  Range, Duration, and Radius are all increased where applicable based on the phase of the moon (more power approaching full moon).  More powerful than Solar due to nights not lasting as long as day.</desc>
+      <modifies>DAMAGE,HEALING,RANGE,RADIUS,DURATION</modifies>
+    </modifier>
+    <modifier id="Solar">
+      <name>Solar</name>
+      <desc>Powers up your spell during the day.  The closer to noon time is (Starting at Dawn), the more damage and healing the spell does.  After noon, as dusk approaches, the spell will become weaker.  Range, Duration, and Radius are all increased where applicable based on the phase of the moon (more power approaching new moon).</desc>
+      <modifies>DAMAGE,HEALING,RANGE,RADIUS,DURATION</modifies>
+    </modifier>
+    <modifier id="Piercing">
+      <name>Piercing</name>
+      <desc>Allows the spell to pierce through entities and blocks.  2 pierces are added per modifier, with a maximum of 6.</desc>
+      <modifies>PIERCING</modifies>
+    </modifier>
+    <modifier id="MiningPower">
+      <name>Mining Power</name>
+      <desc>You have learned to put more power into your digging spells.  This causes them to be able to dig more dense blocks that would require a better pickaxe.  Each modifier bumps the spell up by one tool level.  The base Dig spell operates at Stone pickaxe mining level.</desc>
+      <modifies>MINING_POWER</modifies>
+    </modifier>
+    <modifier id="Prosperity">
+      <name>Prosperity</name>
+      <desc>Fortune strikes!  You can make your digging spells more likely to drop additional ores, and your damaging spells more likely to cause enemies to drop better loot.  Each modifier added is equivalent to one level of fortune/looting on the spell.</desc>
+      <modifies>FORTUNE_LEVEL</modifies>
+    </modifier>
+    <modifier id="BuffPower">
+      <name>Buff Power</name>
+      <desc>You can put more power into your buffs.  Each modifier added increases the level of the buff applied.  This will not affect duration.</desc>
+      <modifies>BUFF_POWER</modifies>
+    </modifier>
+    <modifier id="Dismembering">
+      <name>Dismembering</name>
+      <desc>You've decided that you like souvenirs.  So much so, that you have discovered how to make your damaging spells leave some pieces intact.  Each modifier adds 5% chance to drop a head when defeating an enemy.</desc>
+      <modifies>DISMEMBERING_LEVEL</modifies>
+    </modifier>
+    <modifier id="FeatherTouch">
+      <name>Feather Touch</name>
+      <desc>With great power comes broken valuables.  You've learned to be more careful when casting your digging spells and break things less often.  Each modifier is equivalent to one level of Silk Touch on the spell.</desc>
+      <modifies>SILKTOUCH_LEVEL</modifies>
+    </modifier>
+  </modifiers>
+  <talents zeroItemText="You don't know any talents yet, and aren't eligible to learn any!">
+    <talent id="AffinityGains">
+      <name>Ускорение создания Родства</name>
+      <desc>Вы решили, что получение власти над Стихией является более важным, чем тайные знания. Теперь, родство набирает силу быстрее. Это постоянный эффект.</desc>
+    </talent>
+    <talent id="AugmentedCasting">
+      <name>Усиление заклинаний</name>
+      <desc>Теперь, все Ваши заклинания имеют большую силу. Длительность эффектов, радиус и урон повышены!</desc>
+    </talent>
+    <talent id="ExtraSummon">
+      <name>Extra Summon</name>
+      <desc>Why do things yourself when you can have others do them for you?  You can now have one additional summoned/charmed creature or recruited mage (if you have the #5Mage Posse#0 talent)</desc>
+    </talent>
+    <talent id="MageBandI">
+      <name>Помощь магов I</name>
+      <desc>Ваши таланты удивляют окрудающих, и Ваша репутация движется далеко впереди. Вы можете попросить другого Светлого мага сопровождать и охранять Вас.</desc>
+    </talent>
+    <talent id="MageBandII">
+      <name>Помощь магов II</name>
+      <desc>Вы завоевали доверие других магов, они чувствуют себя в безопасности рядом с вами! В бою, они поделятся собственной маной.</desc>
+    </talent>
+    <talent id="ManaRegenI">
+      <name>Регенерация маны I</name>
+      <desc>Вы лучше себя натренировали, для большего потока энергии через вас. Ваш запас маны восстанавливается быстрее, чем обычно.</desc>
+    </talent>
+    <talent id="ManaRegenII">
+      <name>регенерация маны II</name>
+      <desc>Вы лучше себя натренировали, для большего потока энергии через вас. Заменяет эффект таланта Регенерация маны I.</desc>
+    </talent>
+    <talent id="ManaRegenIII">
+      <name>Регенерация маны III</name>
+      <desc>Вы лучше себя натренировали, для большего потока энергии через вас. Заменяет эффект таланта Регенерация маны II.</desc>
+    </talent>
+    <talent id="SpellMotion">
+      <name>Ловкость чтения заклинаний</name>
+      <desc>Вы поняли: ключ ко всему - ловкость. После специальных тренировок, Вы можете двигаться быстрее во время чтения заклинания!</desc>
+    </talent>
+    <talent id="Colour">
+      <name>Покраска</name>
+      <desc>Этот модификатор позволяет изменить цвет частиц Вашего заклинания. Зеленые огненные шары? Пожалуйста! Краситель необходимо бросить в алтарь во время сборки заклинания, в любой момент.</desc>
+    </talent>
+  </talents>
+  <items>
+    <item id="ores">
+      <name>Руды Ars Magica 2</name>
+      <desc>Ars Magica 2 добавляет несколько новых руд в игру, которые вам нужно будет собирать и переплавлять.</desc>
+      <subitem id="itemOre@0">
+        <name>Пыль Винтеума</name>
+        <desc>Обнаруженная в маленькой деревне, Руда Винтеума сразу дала знать, что она потребуется в магии.</desc>
+        <relatedEntries>ores@0,calefactor,vinteumTorch</relatedEntries>
+      </subitem>
+      <subitem id="itemOre@1">
+        <name>Магическая Смесь</name>
+        <desc>Комбинируя различные материалы, вы умудрились создать Магическую смесь, которое при переплавке превращается в Магическую Пыль.</desc>
+        <relatedEntries>itemOre@2,calefactor</relatedEntries>
+	</subitem>
+      <subitem id="itemOre@2">
+        <name>Магическая Пыль</name>
+		<desc>Созданная путем переплавки #5Магической смеси#0 в печи, Магическая Пыль хранит суть тайной магии Пепла.</desc>
+		<relatedEntries>itemOre@1,calefactor</relatedEntries>
+      </subitem>
+      <subitem id="itemOre@3">
+        <name>Очищенная Пыль Винтеума</name>
+        <desc>Добавляя #5Тайную Пыль#0 для укрепления магии, #5Церюблоссом#0 в качестве катализатора и #5Пустынную Нову#0 для извлечения нестабильности, Вы создаете Очищенную Пыль Винтеума, которая имеет более высокие способности перед магией.</desc>
+		 <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="itemOre@4">
+        <name>Химерит</name>
+        <desc>Радужный камень, принесенный путниками земли, Химерит используется в заклинаниях, которые требуют много изменений или иллюзий.</desc>
+		<relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="itemOre@5">
+        <name>Синий Топаз</name>
+        <desc>Относительно частый драгоценный камень, Синий Топаз часто используется магами в создании различных механизмов и заклинаний.</desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="itemOre@6">
+        <name>Солнечный Камень</name>
+        <desc>Камень Солнца довольно редкий. Найти такой можно только в очень горячих местах. Зачастую он генерируется в Аду, но иногда может и в обычном мире.</desc>
+		<relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="itemOre@7">
+        <name>Лунный Камень</name>
+        <desc>Если смотреть в небо в нужное время, можно увидеть падающий метеор.  Эти метеоры содержат редкий минерал - Камень Луны.  Откуда взялись эти метеоры, никто не знает, но магические свойства Камня Луны в несколько раз превосходят что-либо в нашем мире.  Как выяснилось, метеоры часто падают в Полную Луну.</desc>
+		<relatedEntries></relatedEntries>
+      </subitem>
+      <relatedEntries>calefactor</relatedEntries>
+    </item>
+    <item id="essence">
+      <name>Материальные Эссенции</name>
+      <desc>Материальная Эссенция используется в создании магических предметов, а также как реагент при создании Заклинаний. Эссенции падают с Боссов AM2, или могут быть сделаны с помощью #5Очистителя Эссенции#0.</desc>
+	<subitem id="essence@0">
+        <name>Тайная Эссенция</name>
+        <desc></desc>
+        <relatedEntries>essence_bag,essence_refiner</relatedEntries>
+      </subitem>
+      <subitem id="essence@1">
+        <name>Эссенция Земли</name>
+        <desc></desc>
+        <relatedEntries>essence_bag,essence_refiner</relatedEntries>
+      </subitem>
+      <subitem id="essence@2">
+        <name>Эссенция Воздуха</name>
+        <desc></desc>
+        <relatedEntries>essence_bag,essence_refiner</relatedEntries>
+      </subitem>
+      <subitem id="essence@3">
+        <name>Эссенция Огня</name>
+        <desc></desc>
+        <relatedEntries>essence_bag,essence_refiner</relatedEntries>
+      </subitem>
+      <subitem id="essence@4">
+        <name>Эссенция Воды</name>
+        <desc></desc>
+        <relatedEntries>essence_bag,essence_refiner</relatedEntries>
+      </subitem>
+      <subitem id="essence@5">
+        <name>Эссенция Природы</name>
+        <desc></desc>
+        <relatedEntries>essence_bag,essence_refiner</relatedEntries>
+      </subitem>
+      <subitem id="essence@6">
+        <name>Эссенция Льда</name>
+        <desc></desc>
+        <relatedEntries>essence_bag,essence_refiner</relatedEntries>
+      </subitem>
+      <subitem id="essence@7">
+        <name>Эссенция Молний</name>
+        <desc></desc>
+        <relatedEntries>essence_bag,essence_refiner</relatedEntries>
+      </subitem>
+      <subitem id="essence@8">
+        <name>Эссенция Жизни</name>
+        <desc></desc>
+        <relatedEntries>essence_bag,essence_refiner</relatedEntries>
+      </subitem>
+      <subitem id="essence@9">
+        <name>Эссенция Края</name>
+        <desc></desc>
+        <relatedEntries>essence_bag,essence_refiner</relatedEntries>
+      </subitem>
+      <subitem id="essence@10">
+        <name>Чистая Эссенция</name>
+        <desc></desc>
+        <relatedEntries>essence_bag,essence_refiner</relatedEntries>
+      </subitem>
+      <subitem id="essence@11">
+        <name>Улучшенное Ядро Эссенции</name>
+        <desc></desc>
+        <relatedEntries>essence_bag,essence_refiner</relatedEntries>
+      </subitem>
+      <subitem id="essence@12">
+        <name>Ядро Эссенции</name>
+        <desc></desc>
+        <relatedEntries>essence_bag,essence_refiner</relatedEntries>
+      </subitem>
+      <subitem id="essence@13">
+        <name>Эфир</name>
+        <desc>Эфир будет показан в некоторых рецептах Заклинаний.  Когда появится такой значек на книжкой, убедитесь что ваш Алтарь подключен к Обелиску, Чистой Призме или Чревоточине (зависит от нужного типа Эфира) и нажмите рычаг.</desc>
+		<relatedEntries>altarOfCreation</relatedEntries>
+      </subitem>
+      <subitem id="essence_bag">
+        <name>Сумка для Эссенций</name>
+        <desc>Дополнительное пространство для Эссенция. Хорошо, не правда ли?</desc>
+        <relatedEntries>essence_refiner</relatedEntries>
+      </subitem>
+      <relatedEntries></relatedEntries>
+    </item>
+    <item id="runes">
+      <name>Руны</name>
+      <desc>Руны являются компонентами при создании Заклинаний. С помощью Рун можно создавать комбинации в Краеугольном Камне.  Также, иногда используются при крафтах.</desc>
+	  <subitem id="runes@0" unlocked="true">
+        <name>Черная руна</name>
+        <desc></desc>
+        <relatedEntries>runebag,keystone</relatedEntries>
+      </subitem>
+      <subitem id="runes@1" unlocked="true">
+        <name>Пустая руна</name>
+        <desc></desc>
+        <relatedEntries>runebag,keystone</relatedEntries>
+      </subitem>
+      <subitem id="runes@2" unlocked="true">
+        <name>Голубая руна</name>
+        <desc></desc>
+        <relatedEntries>runebag,keystone</relatedEntries>
+      </subitem>
+      <subitem id="runes@3" unlocked="true">
+        <name>Коричневая руна</name>
+        <desc></desc>
+        <relatedEntries>runebag,keystone</relatedEntries>
+      </subitem>
+      <subitem id="runes@4" unlocked="true">
+        <name>Синяя руна</name>
+        <desc></desc>
+        <relatedEntries>runebag,keystone</relatedEntries>
+      </subitem>
+      <subitem id="runes@5" unlocked="true">
+        <name>Серая руна</name>
+        <desc></desc>
+        <relatedEntries>runebag,keystone</relatedEntries>
+      </subitem>
+      <subitem id="runes@6" unlocked="true">
+        <name>Зеленая руна</name>
+        <desc></desc>
+        <relatedEntries>runebag,keystone</relatedEntries>
+      </subitem>
+      <subitem id="runes@7" unlocked="true">
+        <name>Светло-синяя руна</name>
+        <desc></desc>
+        <relatedEntries>runebag,keystone</relatedEntries>
+      </subitem>
+      <subitem id="runes@8" unlocked="true">
+        <name>Светло-серая руна</name>
+        <desc></desc>
+        <relatedEntries>runebag,keystone</relatedEntries>
+      </subitem>
+      <subitem id="runes@9" unlocked="true">
+        <name>Лаймовая руна</name>
+        <desc></desc>
+        <relatedEntries>runebag,keystone</relatedEntries>
+      </subitem>
+      <subitem id="runes@10" unlocked="true">
+        <name>Пурпурная руна</name>
+        <desc></desc>
+        <relatedEntries>runebag,keystone</relatedEntries>
+      </subitem>
+      <subitem id="runes@11" unlocked="true">
+        <name>Оранжевая руна</name>
+        <desc></desc>
+        <relatedEntries>runebag,keystone</relatedEntries>
+      </subitem>
+      <subitem id="runes@12" unlocked="true">
+        <name>Розовая руна</name>
+        <desc></desc>
+        <relatedEntries>runebag,keystone</relatedEntries>
+      </subitem>
+      <subitem id="runes@13" unlocked="true">
+        <name>Фиолетовая руна</name>
+        <desc></desc>
+        <relatedEntries>runebag,keystone</relatedEntries>
+      </subitem>
+      <subitem id="runes@14" unlocked="true">
+        <name>Красная руна</name>
+        <desc></desc>
+        <relatedEntries>runebag,keystone</relatedEntries>
+      </subitem>
+      <subitem id="runes@15" unlocked="true">
+        <name>Белая руна</name>
+        <desc></desc>
+        <relatedEntries>runebag,keystone</relatedEntries>
+      </subitem>
+      <subitem id="runes@16" unlocked="true">
+        <name>Желтая руна</name>
+        <desc></desc>
+        <relatedEntries>runebag,keystone</relatedEntries>
+      </subitem>
+      <subitem id="runebag" unlocked="true">
+        <name>Сумка для рун</name>
+        <desc>Сумка для рун поможет вам сохранить пространство в инвентаре. Также руны, находящиеся в сумке будут взаимодействовать с Краеугольным Камнем.</desc>
+        <relatedEntries>keystone</relatedEntries>
+      </subitem>
+      <relatedEntries>keystone</relatedEntries>
+    </item>
+    <item id="armorMage">
+      <name>Магическая Броня</name>
+      <desc>Специальная одежда магов. Имеет больше прочности и защиты. Доспехи, из-за инкрустированных глифов, имеют шанс быть зачарованными. Доспех восстанавливает свою прочность за счет маны владельца. При экипировки полного доспеха, ваша скорость регенерации маны увеличивается и все заклинания наносят дополнительный урон.</desc>
+	<subitem id="helmet_mage">
+        <name>Капюшон Мага</name>
+        <desc></desc>
+        <relatedEntries>infusion,armor_xp_infusion</relatedEntries>
+      </subitem>
+      <subitem id="chest_mage">
+        <name>Роба Мага</name>
+        <desc></desc>
+        <relatedEntries>infusion,armor_xp_infusion</relatedEntries>
+      </subitem>
+      <subitem id="legs_mage">
+        <name>Поножи Мага</name>
+        <desc></desc>
+        <relatedEntries>infusion,armor_xp_infusion</relatedEntries>
+      </subitem>
+      <subitem id="boots_mage">
+        <name>Ботинки Мага</name>
+        <desc></desc>
+        <relatedEntries>infusion,armor_xp_infusion</relatedEntries>
+      </subitem>
+      <relatedEntries>infusion,armor_xp_infusion</relatedEntries>
+    </item>
+    <item id="armorBattlemage">
+      <name>Броня Боевого Мага</name>
+      <desc>Доступный только истиным магам, доспех Боевого Мага дает хорошую защиту. Он имеет более высокую прочность, чем у Магический Брони, но имеет низкую скорость восстановления, а также дает мешьше бонусов. Доспеху можно передать XP, который разблокирует защитные заклинания, которые активируются при ношении.</desc>
+		<subitem id="helmet_battlemage">
+        <name>Диадема Боевого Мага</name>
+        <desc></desc>
+        <relatedEntries>infusion,armor_xp_infusion</relatedEntries>
+      </subitem>
+      <subitem id="chest_battlemage">
+        <name>Броня Боевого Мага</name>
+        <desc></desc>
+        <relatedEntries>infusion,armor_xp_infusion</relatedEntries>
+      </subitem>
+      <subitem id="legs_battlemage">
+        <name>Поножи Боевого Мага</name>
+        <desc></desc>
+        <relatedEntries>infusion,armor_xp_infusion</relatedEntries>
+      </subitem>
+      <subitem id="boots_battlemage">
+        <name>Ботинки Боевого Мага</name>
+        <desc></desc>
+        <relatedEntries>infusion,armor_xp_infusion</relatedEntries>
+      </subitem>
+      <relatedEntries>infusion</relatedEntries>
+    </item>
+    <item id="affinityTomes">
+      <name>Том Родства</name>
+      <desc>Тома содержат записи древних магов, относящиеся к определенному Родству.  Читая Том, который относится к определенному Родству, вы будете получать 10% этого родства, в это же время, вы будете понижать остальные на 10%.</desc>
+		<subitem id="affinity_tome@0">
+        <name>Том Родства: Общий</name>
+        <desc>Том Родства: Общий особенный в том, что он может разблокировать заблокированное родство.  Это приведет к снижению Родства на 10% без повышения любых других.</desc>
+		<relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="affinity_tome@1">
+        <name>Том Родства: Тайна</name>
+        <desc></desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="affinity_tome@2">
+        <name>Том Родства: Вода</name>
+        <desc></desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="affinity_tome@3">
+        <name>Том Родства: Огонь</name>
+        <desc></desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="affinity_tome@4">
+        <name>Том Родства: Земля</name>
+        <desc></desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="affinity_tome@5">
+        <name>Том Родства: Воздух</name>
+        <desc></desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="affinity_tome@6">
+        <name>Том Родства: Молния</name>
+        <desc></desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="affinity_tome@7">
+        <name>Том Родства: Лед</name>
+        <desc></desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="affinity_tome@8">
+        <name>Том Родства: Природа</name>
+        <desc></desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="affinity_tome@9">
+        <name>Том Родства: Жизнь</name>
+        <desc></desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="affinity_tome@10">
+        <name>Том Родства: Край</name>
+        <desc></desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <relatedEntries></relatedEntries>
+    </item>
+    <item id="foci">
+      <name>Магические Фокусы</name>
+      <desc>Нет. Это не те фокусы, которые нам показывают в цирке. Магические Фокусы используются в некоторых механизмах Ars Magica 2, чтобы изменить их свойства.</desc>
+      <subitem id="chargefocus">
+        <name>Заряжающий Фокус</name>
+        <desc>
+					Заряжающий Фокус используется для ускорения работы механизма.  В #9Эфирной Печи#0 и #9Тайном Реконструкторе#0, он также увеличивает скорость, с которой машина выполняет свое действие.  В #9Передатчике Эфира#0, заряжающий фокус уменьшает количество дефицита, позволяя передавать больше Эфира.
+				</desc>
+        <relatedEntries>summoner,arcanereconstructor,arcane_deconstructor</relatedEntries>
+      </subitem>
+      <subitem id="manafocus">
+        <name>Фокус Маны</name>
+       <desc>
+					Фокусы Маны используются для уменьшения затрат Эфира на работу механизма. Если поставить фокусы в #9Передатчик Эфира#0 или #9Эфирную Печь#0, то увеличится скорость накопления дефицита.
+				</desc>
+        <relatedEntries>summoner,calefactor</relatedEntries>
+      </subitem>
+      <subitem id="lesserfocus">
+        <name>Малый Фокус</name>
+        <desc>
+					Малый Фокус используются в различных AM2 механимах, и заставляет их работать по-разному.
+				</desc>
+        <relatedEntries>blockseerstone</relatedEntries>
+      </subitem>
+      <subitem id="standardfocus">
+        <name>Стандартный Фокус</name>
+        <desc>
+					Стандартный Фокус используются в различных AM2 механимах, и заставляет их работать по-разному.
+				</desc>
+        <relatedEntries>blockseerstone</relatedEntries>
+      </subitem>
+      <subitem id="greaterfocus">
+        <name>Большой Фокус</name>
+        <desc>
+					Большой Фокус используются в различных AM2 механимах, и заставляет их работать по-разному.
+				</desc>
+        <relatedEntries>blockseerstone</relatedEntries>
+      </subitem>
+      <subitem id="item_focus">
+        <name>Фокус Предмета</name>
+        <desc>
+					Фокус Предмета используется в #9Всевидящем Камне#0, и настраивает его на поиск близлежащих предметов.
+				</desc>
+        <relatedEntries>blockseerstone</relatedEntries>
+      </subitem>
+      <subitem id="player_focus">
+        <name>Фокус Игрока</name>
+        <desc>
+					Фокус Игрока используется в #9Всевидящем Камне#0, и настраивает его на поиск игроков вблизи камня.
+				</desc>
+        <relatedEntries>blockseerstone</relatedEntries>
+      </subitem>
+      <subitem id="monster_focus">
+        <name>Фокус Монстра</name>
+        <desc>
+					Фокус Монстра используется в #9Всевидящем Камне#0, и настраивает его на поиск монстров (Зомби, Скелеты, Пауки, и тд) вблизи камня.
+				</desc>
+        <relatedEntries>blockseerstone</relatedEntries>
+      </subitem>
+      <subitem id="creature_focus">
+        <name>Фокус Существа</name>
+        <desc>
+					Фокус Существ используется в #9Всевидящем Камне#0, и настраивает его на поиск мирных существ (Овцы, Свиньи, Курицы, и тд) вблизи камня.
+				</desc>
+        <relatedEntries>blockseerstone</relatedEntries>
+      </subitem>
+      <relatedEntries>flicker_lure</relatedEntries>
+    </item>
+    <item id="keystone">
+      <name>Краеугольный Камень</name>
+      <desc>Краеугольный Камень служит для связи Звездных Врат с друг другом, а так-же для защиты некоторых механизмов от наглых игроков. (#5Сундук с Краеугольным Камнем#0, #5Всевидящий Камень#0, #5Астральный Барьер#0 и #5Блок с Краеугольным Камнем#0).  Интерфейс этих блоков не откроется, если вы не держите Краеугольный Камень с такой-же комбинацией глифов как в блоке.</desc>
+	<relatedEntries>keystonechest,blockkeystonerecepticle,blockastralbarrier,blockseerstone,keystoneDoors,gateways</relatedEntries>
+    </item>
+    <item id="mana_cake">
+      <name>Мана-торт</name>
+      <desc>Тортик Маны и голод восстановит, и даст регенерацию маны. Плюс, это Торт!</desc>
+      <relatedEntries>mana_potion</relatedEntries>
+    </item>
+    <item id="mana_potion">
+      <name>Зелья Маны</name>
+      <desc>После применения Зелья Маны, ваша мана мгновенно восстановится. Вы получите пустую бутылку обратно. Зелья Маны можно соеденить в пакет из 3 зелий того же типа.</desc>
+		<subitem id="mana_potion_lesser">
+        <name>Малое Зелье Маны</name>
+        <desc>Самое маленькое зелье маны. Восстанавливает 100 единиц маны.</desc>
+        <relatedEntries>mana_cake</relatedEntries>
+      </subitem>
+      <subitem id="mana_potion_standard">
+        <name>Зелье Маны</name>
+        <desc>Зелье Маны, которое восстанавливает 200 единиц маны.</desc>
+        <relatedEntries>mana_cake</relatedEntries>
+      </subitem>
+      <subitem id="mana_potion_greater">
+        <name>Большое Зелье Маны</name>
+        <desc>Большое Зелье Маны сделано из #5Пыли Винтеума#0 и #5Стандартого Зелья Маны#0. Восстанавливает 2000 маны.</desc>
+        <relatedEntries>mana_cake</relatedEntries>
+      </subitem>
+      <subitem id="mana_potion_epic">
+        <name>Огромное Зелье Маны</name>
+        <desc>Огромное Зелье Маны сделано из силы #5Тайной Пыли#0 и #9Большого Зелья Маны#0. Восстанавливает 5000 маны.</desc>
+        <relatedEntries>mana_cake</relatedEntries>
+      </subitem>
+      <subitem id="mana_potion_legendary">
+        <name>Легендарное Зелье Маны</name>
+        <desc>Легендарное Зелье Маны сделано из #5Очищенной Пыли Винтеума#0 и #9Уникального Зелья Маны#0. Восстанавливает 10000 маны!</desc>
+        <relatedEntries>mana_cake</relatedEntries>
+      </subitem>
+      <subitem id="mana_boost_potion">
+        <name>Заряженное Эфиром Зелье</name>
+        <desc>Взяв #5Ведро Жидкой Эссенции#0, маг может кинуть в него #5Химерит#0 и #5Корень Тармы#0, чтобы создать зелье, которое временно будет поддерживать вашу ману на максимуме. Эффект висит 5 минут.</desc>
+		<relatedEntries></relatedEntries>
+      </subitem>
+	  <subitem id="mana_martini">
+        <name>Mana Martini</name>
+        <desc>In honour of Mithion's final release of AM2, which happens to be #9version 007#0, you can now make a Mana Martini that, when drank, will give you a 25% reduction in burnout gained from casting spells.</desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <relatedEntries></relatedEntries>
+    </item>
+    <item id="crystal_wrench">
+      <name>Кристальный ключ</name>
+      <desc>
+	  Кристальный ключ используется в нескольких целях.  Во-первых, его можно использовать для связи источника Эфира с потребляемым блоком.  
+	  Чтобы сделать, достаточно нажать #9Правой Кнопкой Мыши по источнику Эфира#0.  Это действие выделит источник Эфира. Затем, #9Правой Кнопкой Мыши нажать по блоку, в который хотите передать Эфир#0.  
+	  #5Примечание: Тыкать по каждому Передатчику Эфира нет необходимости.  Достаточно соеденить источник и блок. Эфир сам найдет ближайший путь#0.  
+	  !d 
+	  Если вы #9присядите и нажмете Правую Кнопку Мыши#0, посох переключит режим.  Этот режим позволит посоху запомнить местонахождение источника Эфира, и сделать разделение направлений Эфира 
+	  без необходимости каждый раз возвращаться к источнику. 
+	  !p 
+	  Также Кристальный Посох может быть использован, чтобы показать скрытые Создатели Частиц. Он также может копировать настройки из одного Создателя Частиц в другой.  
+	</desc>
+      <relatedEntries>obelisk,mana_battery</relatedEntries>
+    </item>
+    <item id="spell_parchment">
+      <name>Пергамент для заклинаний</name>
+      <desc>Каждый маг хочет создать свое заклинание. Пергамент для заклинаний один из объязательных компонентов при создании заклинания. Также Пергамент используется в некоторых крафтах.</desc>
+      <relatedEntries>altarOfCreation,inscriptionTable</relatedEntries>
+    </item>
+    <item id="crystal_phylactery">
+      <name>Фиалы</name>
+      <desc>В фиалы можно наполнять жизненные силы монстра или существа. Магу, который пользуется умением Вызова, эта вещь просто необходима. Убивая монстров, фиал медленно наполняется частичками души монстра. Как только фиал заполняется до 100%, его можно использовать в рецепте заклинания, с помощью которого можно вызывать это существо себе на помощь.</desc>
+      <relatedEntries>Summon</relatedEntries>
+    </item>
+    <item id="spell_staff_magitech">
+      <name>Посох Магистра</name>
+      <desc>Посох Магистра - это улучшенная версия посоха заклинаний, настроеный на окружающую ману. С помощью него можно узнать, сколько Эфира содержится в ваших узлах или механизмах.  Он получает дополнительный функционал, если вы носите #9Магические Очки#0.  
+			!d
+			Посох Магистра также может вернуть #9Магическую Метлу#0 на место.  Нужно лишь просто нажать Правой Кнопкой Мыши по метле.</desc>
+      <relatedEntries>magitechGoggles,magic_broom</relatedEntries>
+    </item>
+    <item id="spell_book">
+      <name>Книга Заклинаний</name>
+      <desc>Книга Заклинаний очень нужная вещь, которая позволяет хранить заклинания в ней.  Открыть книгу можно, нажав #4Shift+Правая Кнопка Мыши#0. Заклинания, помещенные в книгу в 1 ряд, можно прокручивать нажатием #4Shift и прокручивать колесико мышки#0.  Книгу Заклинаний можно покрасить с помощью красителей. Также книгу можно #5зачаровать#0.</desc>
+	<relatedEntries></relatedEntries>
+    </item>
+    <item id="magic_broom">
+      <name>Волшебная Метла</name>
+      <desc>Вы посыпали Волшебную Метлу Тайной Пылью.  Зачем? Вы не понимаете зачем это сделали...  Эта метла любит держать все в чистоте, подбирая выкинутые вещи возле нее и ложить в привязанный сундук.  Разместить метлу, после ее крафта, можно только нажав правую кнопку мыши метлой #5по сундуки или другому блоку, в который можно складывать вещи#0.  Иначе она не будет работать. Метла будет собирать все брошенные вещи возле нее и ложить в сундук.
+			!d
+			Метлу можно принудительно "отозвать от работы", щелкнув Правой Кнопкой Мыши #9Посохом Магистра#0.</desc>
+      <relatedEntries>spell_staff_magitech</relatedEntries>
+    </item>
+    <item id="nature_scythe">
+      <name>Коса Природы</name>
+      <desc>Коса Природы самого Защитника Леса. Коса владеет большой силой. Она может очищать поля травы и листья деревьев с большой эффективностью. Также ее можно кидать, как бумеранг, щелкнув правой кнопкой мыши. Бросок Косой стоит 250 маны.</desc>
+		<relatedEntries></relatedEntries>
+    </item>
+    <item id="arcane_spellbook">
+      <name>Тайная Книга Заклинаний</name>
+      <desc>Написаная Древними Магами, Тайная Книга Заклинаний способна улучшить ваши умения. Она #9повышает урон и снижает потребление маны заклинаниям#0. Но такие вещи, как продолжительность и радиус она не изменяет.</desc>
+	<relatedEntries></relatedEntries>
+    </item>
+    <item id="winter_arm">
+      <name>Хватка зимы</name>
+      <desc>Рука зимы, выбитая из Стража Зимы, может быть использовано как оружие. Созданное при помощи Белого Хлада, копье способно замедлять и ослаблять ваших врагов. Также, если кинуть копье во врага, его притянет к вам и наложит более мощный ослабляющий эффект. Но бросок будет вам стоить 250 маны, учтите это.</desc>
+	<relatedEntries></relatedEntries>
+    </item>
+    <item id="air_sled">
+      <name>Воздушная упряжка</name>
+      <desc>Куб, сделанный из молекул воздуха. Он позволит вам летать почти как в творческом режиме, но контроль полета будет хуже обычного.</desc>
+		<relatedEntries></relatedEntries>
+    </item>
+    <item id="earth_armor">
+      <name>Каменная Броня</name>
+      <desc>Броня самого Защитника Земли.  Броня придает владельцу очень хорошее сопротивление физическому урону. Также броня увеличивает урон на (+4) и отбрасывает при ударе кулаком.</desc>
+	<relatedEntries></relatedEntries>
+    </item>
+    <item id="water_orbs">
+      <name>Пояс Водных Сфер</name>
+      <desc>Пояс Водных Сфер позволит вам управлять водой.  Надетый пояс (слот для штанов), дает вам преимущества в воде. Вас не будет толкать в проточной воде, и вы будете иметь бесконечное дыхание под водой. Не плохо да?</desc>
+		<relatedEntries></relatedEntries>
+    </item>
+    <item id="fire_ears">
+      <name>Щупальце Стража Пламени</name>
+      <desc>Щупальце Стража дает вам иммунитет перед огнем и лавой. Коротко, но ясно.</desc>
+      <relatedEntries></relatedEntries>
+    </item>
+    <item id="workbenchUpgrade">
+      <name>Улучшение Магического Верстака</name>
+      <desc>Вы нашли способ создать улучшение верстака Мага, которое увеличивает сетку крафта 2х2 до 3х3. Для улучшения, просто нажмите правой кнопкой мыши по верстаку. Однако, если вы сломаете улучшенный верстак, то модификация слетит и вам придется делать улучшение заного. </desc>
+	<relatedEntries>magiciansWorkbench</relatedEntries>
+    </item>
+    <item id="bindingcatalysts">
+      <name>Связывающие Катализаторы</name>
+      <desc>Связывающие Катализаторы используются в создании Заклинания #5Привязка#0, чтобы определить, какой тип инструмента или оружия будет привязан.</desc>
+			<subitem id="bindingCatalyst@0">
+        <name>Связывающий Катализатор: Кирка</name>
+        <desc></desc>
+        <relatedEntries>Binding</relatedEntries>
+      </subitem>
+      <subitem id="bindingCatalyst@1">
+        <name>Связывающий Катализатор: Топор</name>
+        <desc></desc>
+        <relatedEntries>Binding</relatedEntries>
+      </subitem>
+      <subitem id="bindingCatalyst@2">
+        <name>Связывающий Катализатор: Меч</name>
+        <desc></desc>
+        <relatedEntries>Binding</relatedEntries>
+      </subitem>
+      <subitem id="bindingCatalyst@3">
+        <name>Связывающий Катализатор: Лопата</name>
+        <desc></desc>
+        <relatedEntries>Binding</relatedEntries>
+      </subitem>
+      <subitem id="bindingCatalyst@4">
+        <name>Связывающий Катализатор: Мотыга</name>
+        <desc></desc>
+        <relatedEntries>Binding</relatedEntries>
+      </subitem>
+      <subitem id="bindingCatalyst@5">
+        <name>Связывающий Катализатор: Лук</name>
+        <desc>На данный момент это нереализованный контент. Скоро будет!</desc>
+        <relatedEntries>Binding</relatedEntries>
+      </subitem>
+      <relatedEntries></relatedEntries>
+    </item>
+    <item id="warding_candle">
+      <name>Зачарованная Свеча</name>
+      <desc>Зачарованные Свечи являются переносимым источником света.  Их также можно #9переключить#0 в режим поиска блоков. #9Shift+Правая Кнопка Мыши по блоку, который хотите задать для поиска#0. Синее пламя будет обозначать, что нужный вам блок в 15 блоках от вас, а красное пламя - в 5 блоках.  Свеча горит 15 минут, но только когда вы ее держите в руке.
+			!d
+			Зачарованные Свечи также используются в #5Ритуалах#0, и распологаются на земле, как часть конструкции.  Свечи, переведенные в режим поиска блоков, не могут быть использованы в ритуалах. Помните это!</desc>
+      <relatedEntries></relatedEntries>
+    </item>
+    <item id="flicker_jar">
+      <name>Банки для Светлячков</name>
+      <desc>Банки для Светлячков нужны, чтобы поймать светлячков.  Просто нажмите Правой Кнопкой Мыши по Светлячку, тем самым заманив его в банку.  Звучит просто, да?  Веселитесь...</desc>
+      <relatedEntries>Flicker</relatedEntries>
+    </item>
+    <item id="enderBoots">
+      <name>Ботинки Края</name>
+      <desc>Ботинки Края являются редким дропом #5Защитника Края#0.  Когда вы носите эти ботинки, нажмите #9Shift+Space чтобы изменить гравитацию#0!  Вы начнете падать вверх. Это применимо только к вам. Попробуйте, вам должно понравится. Хе-хе...</desc>
+      <relatedEntries></relatedEntries>
+    </item>
+    <item id="lightningcharm">
+      <name>Брошь Молний</name>
+      <desc>Брошь Молний являются редким дропом #5Защитника Молний#0.  Шифт+ПКМ включает и выключает эту безделушку. Когда она включена, все близлежащие предметы будут тянутся к вам.</desc>
+      <relatedEntries></relatedEntries>
+    </item>
+    <item id="lifeward">
+      <name>Щит Жизни</name>
+      <desc>Щит Жизни являются редким дропом #5Защитника Жизни#0.  Находясь у вас на панели, он будет генерировать щить вокруг вас, правда медленно. Но за то этот щит поглощает урон. Он будет генерировать до 20 дополнительных очков. Очки будут оставатся, даже если убрать Щит из инвентаря, но генерироватся новые уже не будут.</desc>
+      <relatedEntries></relatedEntries>
+    </item>
+    <item id="magitechGoggles">
+      <name>Очки техномага</name>
+      <desc>Очки техномага являются компаньоном #9Посоха Магистра#0.  Когда вы их носите, вы можете присесть и нажать ПКМ посохом по блоку, который питается Эфиром.  Вы также сможете увидеть, откуда поступает Эфир.  Очки также показывают, где нарушена передача эфира (например, где нехватает Передатчика Эфира).  Показаные блоки нельзя разбить рукой или чем-либо, но можно заменить любым блоком.</desc>
+      <relatedEntries>spell_staff_magitech,brokenLink</relatedEntries>
+    </item>
+    <item id="flickerFocus">
+      <name>Фокусы Светлячков</name>
+      <desc>Эти фокусы используются для созданий нормальных условий в #9Клетке для Светлячков#0.  Это позволит им выполнять определенные задачи, описанные далее.</desc>
+      <relatedEntries>flickerHabitat,Flicker,crystalMarker</relatedEntries>
+      <subitem id="flickerFocus@1">
+        <name>Фокус Светлячков: Перенос Вещей</name>
+        <desc>The air flickers contained within this crystal have been attuned to the movement of items. Placing this within a #9Flicker Habitat#0 will allow you to link it with #9Crystal Markers#0 to interact with inventories containing items. To link the habitat containing this foci with a #9Crystal Marker#0 simply right click on the #9Flicker Habitat#0 then right click on the #9Crystal Marker#0. This foci can be upgraded using additional #9Flicker Habitats#0 with flickers inside them. This foci can operate without access to Etherium however it is very slow. Adding power increases the speed and allows the foci to make use of attached upgrades. !d Arcane: !l Increases the number of items the flickers inside can move at one time. The first arcane flicker will increase the count to 32, each additional arcane flicker will add an additional 32 items to the air flickers carrying capacity !d Lightning: !l Lightning flickers will increase the speed at which the flickers move items. Additional lightning flickers after the first will still increase the speed but suffer from diminishing returns. Most Magitechs belive its a waste to go higher then three lightning flickers.</desc>
+        <relatedEntries>flickerFocus,crystalMarker</relatedEntries>
+      </subitem>
+      <subitem id="flickerFocus@3">
+        <name>Flicker Focus: Interdiction</name>
+        <desc>Arcane and air flickers working together can create a wall around their habitat if they are provided enough Etherium to do so. By placing this focus in a #9Flicker Habitat#0 and providing it with Etherium a nearly invisible wall is created in a 6 block radius from the #9Flicker Habitat#0.  Modifying this with an #9Ender Flicker Jar#0 will also cause the #9Containment#0 effect to apply. !d Placing #9Ice Flicker Upgrades#0 to this focus will increase the radius of the containment field by one per ice flicker added.</desc>
+        <relatedEntries>flickerFocus</relatedEntries>
+      </subitem>
+      <subitem id="flickerFocus@9">
+        <name>Flicker Focus: Containment</name>
+        <desc>Ender and air flickers working in tandem can create a wall surrounding their #9Flicker Habitat#0 provided they have been given the Etherium to do so. Placing this focus in a habitat and providing it with Etherium will create a nearly invisible wall in a 6 block radius from their #9Flicker Habitat#0 that non-player entities can not pass out of.  Modifying this with an #9Arcane Flicker Jar#0 will also cause the #9Interdiction#0 effect to apply. !d Placing #9Ice Flicker Upgrades#0 to this focus will increase the radius of the containment field by one per ice flicker added.</desc>
+        <relatedEntries>flickerFocus</relatedEntries>
+      </subitem>
+      <subitem id="flickerFocus@4">
+        <name>Flicker Focus: Packed Earth</name>
+        <desc>Earth flickers when contained within this focus can flatten terrain in a 6 block radius around their #9Flicker Habitat#0 using materials stored in an inventory below their habitat. While these flickers can operate without access to Etherium they are much faster when they have access to a source of power.</desc>
+        <relatedEntries>flickerFocus</relatedEntries>
+      </subitem>
+      <subitem id="flickerFocus@36">
+        <name>Flicker Focus: Flat Lands</name>
+        <desc>The earth and ice flickers inside this focus will flatten a 6 block radius area surrounding their #9Flicker Habitat#0. They can operate without power but are much more effective when connected to a source of Etherium.</desc>
+        <relatedEntries>flickerFocus</relatedEntries>
+      </subitem>
+      <subitem id="flickerFocus@64">
+        <name>Flicker Focus: Progeny</name>
+        <desc>The life flickers inside this focus can use a source of Etherium to cause animals within 8 blocks to breed.  This focus requires etherium of any kind for each operation.  The default operation time is 2000 ticks (100 seconds), but this can be reduced by placing additional habitats adjacent to the original and placing lightning flicker jars in them.  There isn't much point in adding more than 4, as the minimum is 600 ticks (30 seconds).  Each upgrade multiplies the current duration by 0.75, so the effect is diminishing.</desc>
+        <relatedEntries>flickerFocus</relatedEntries>
+      </subitem>
+      <subitem id="flickerFocus@80">
+        <name>Flicker Focus: Butchery</name>
+        <desc>The flickers inside this focus are constantly at odds. The fire flicker seeks to consume the life around its self, while the life flicker seeks to defend it. The balance that is struck in this conflict is that all but two of every animal type with a 6 block radius around the #9Flicker Habitat#0 that contains this focus will eventually be killed. Provided that the fire flicker has access to a source of Etherium to do its grisly work.</desc>
+        <relatedEntries>flickerFocus</relatedEntries>
+      </subitem>
+      <subitem id="flickerFocus@134">
+        <name>Flicker Focus: Lunar Tides</name>
+        <desc>The three flickers inside this focus can use their combined power to pull moonstone meteors that would land within 128 blocks of their #9Flicker Habitat#0 to land within 8 blocks. However to accomplish this they need a trickle of Etherium to keep them alert and watching for meteors.</desc>
+        <relatedEntries>flickerFocus</relatedEntries>
+      </subitem>
+      <subitem id="flickerFocus@144">
+        <name>Flicker Focus: Light</name>
+        <desc>The fire and lightning flickers contained within can use the power of the sun stone used in the construction of their focus to light a 16 block radius around their #9Flicker Habitat#0.</desc>
+        <relatedEntries>flickerFocus</relatedEntries>
+      </subitem>
+      <subitem id="flickerFocus@384">
+        <name>Flicker Focus: Felled Oak</name>
+        <desc>The nature flicker contained within this focus will seek out trees within a 6 block radius around their #9Flicker Habitat#0, once they do the lightning flickers will fell the tree one block at a time. These flickers can operate without a source of power but they are much faster when they have a source of Etherium to fuel themselves. !d Lightning flickers can be used as augments to make the process faster as well. !d If a nature flicker augment is added, the flickers will also re-plant saplings from an adjacent chest.</desc>
+        <relatedEntries>flickerFocus</relatedEntries>
+      </subitem>
+      <subitem id="flickerFocus@512">
+        <name>Flicker Focus: Gentle Rains</name>
+        <desc>The water flicker contained within this focus will hydrate the terrain in a 6 block radius around it's #9Flicker Habitat#0.</desc>
+        <relatedEntries>flickerFocus</relatedEntries>
+      </subitem>
+      <subitem id="flickerFocus@832">
+        <name>Flicker Focus: Nature's Bounty</name>
+        <desc>The life, nature and water flickers contained within this focus will work together to help all plants within a 6 block radius grow faster. These hard working flickers will help all nearby plants with or without Etherium but providing them with a source of power will allow them to do their work faster.  When powered, modifying this habitat with a #9Water Flicker Jar#0 will also cause the #9Gentle Rains#0 effect to apply.</desc>
+        <relatedEntries>flickerFocus</relatedEntries>
+      </subitem>
+	  <subitem id="flickerFocus@768">
+        <name>Flicker Focus: Fishing</name>
+        <desc>The combination of Water and Nature flickers causes them to be able to find creatures that live in water.  It does require power to maintain the search, however, as the flickers cover a great distance in a short time.  If augmented with adjacent habitats containing lightning flickers, they are able to move even faster, causing them to naturally find fish more often.  Doing so will increase the overall power use. !d The focus requires a 3x3 square of water below it that is also at least 2 blocks deep in order to function.  It will output fish into an adjacent inventory if possible, or drop them as an item if no inventory is present. !d A redstone signal must be provided for the flickers to start working.</desc>
+        <relatedEntries>flickerFocus</relatedEntries>
+      </subitem>
+    </item>
+    <item id="wizardChalk">
+      <name>Мел волшебника</name>
+      <desc>Мел волшебника используется для нанесения рун, которые нужны для #9Ритуалов#0.</desc>
+      <relatedEntries>corruption,purification,hourglass</relatedEntries>
+    </item>
+    <item id="playerjournal">
+      <name>Журнал</name>
+      <desc>Журнал используется для #9записи вашего опыта#0 для последующего использования.  Затем #9последний сохраненный опыт#0 можно восстановить обратно. Некий банк опыта...</desc>
+      <relatedEntries />
+    </item>
+	<item id="deficit_crystal">
+      <name>Дефицитные Кристаллы</name>
+      <desc>Дефицит часто отмечают как антиматерию магии, он представляет собой пустоту в пространстве реальности. Вам удалось создать кристаллизированную версию Дефицита.</desc>
+      <relatedEntries>essence_refiner,arcane_deconstructor</relatedEntries>
+    </item>
+    <item id="inscriptionUpgrades">
+		<name>Стол начертаний: Улучшения</name>
+		<desc>Эти улучшения усилят ваш #9Стол Заклинаний#0, и позволят создавать больше комбинаций Основ.</desc>
+		<subitem id="inscription_upgrade@0">
+			<name>Улучшение 1 Уровня</name>
+			<desc></desc>
+			<relatedEntries>inscriptionTable</relatedEntries>
+		</subitem>
+		<subitem id="inscription_upgrade@1">
+			<name>Улучшение 2 Уровня</name>
+			<desc></desc>
+			<relatedEntries>inscriptionTable</relatedEntries>
+		</subitem>
+		<subitem id="inscription_upgrade@2">
+			<name>Улучшение 3 Уровня</name>
+			<desc></desc>
+			<relatedEntries>inscriptionTable</relatedEntries>
+		</subitem>
+		<relatedEntries>inscriptionTable</relatedEntries>
+	</item>
+  </items>
+  <structures>
+    <structure id="obelisk_structure">
+      <name>Обелиск</name>
+      <controller>TileEntityObelisk</controller>
+      <desc>Обелиск подобен волшебной печи. Он может генерировать Эфир путем сжигания #5Пыли Винтеума#0 или #5Ведра Жидкой Эссенции#0.  Обелиск генерирует #5Нейтральный Эфир#0.
+			!d
+			Структура, изображенная здесь может быть построена не целиком; она разделена на уровни.  Рунный круг из #9Мела волшебника#0 не является необходимой структурой. Его можно нанести после установки Обелиска. Круг увеличивает кол-во выходного Эфира.  #9Столбы#0 также являются обновлением для Обелиска и могут быть установлены после.  
+			!d
+			Рунный Круг и Столбы не являются обязательными структурами. Они ставятся по желанию.</desc>
+      <relatedEntries>obelisk,crystal_wrench,spell_staff_magitech,magitechGoggles,rituals_overview</relatedEntries>
+    </structure>
+    <structure id="blackaurem_structure">
+      <name>Чревоточина</name>
+      <controller>TileEntityBlackAurem</controller>
+      <desc>Зловещая структура, Чревоточина медленно будет притягивать живых существ в себя.  Она всасывает жизненную силу монстра, а самого его убивает. Чревоточина генерирует #4Темный Эфир#0.  Убитые монстры не выбрасывают опыт и дроп. Даже не мечтайте о халявной качалке!
+			!d
+			Чревоточина создается путем #9Ритуала Коррупции#0 над #9Обелиском#0. Как и Обелиск, Чревоточина может быть улучшена путем установки структур. Первая структура, это #5Рунный Круг#0, который увеличит кол-во вырабатываемого Эфира из Монстра.  Вторая структура, это #5Столбы#0, которые увеличат кол-во выработки Темного Эфира.  Столбы также имеют разные варинаты, зависящие от #5шапки#0.
+			!d
+			Обсидиан и Химерит, находясь на одном уровне с Солнечным Камнем, дают большой бонус к генерации Темного Эфира.
+			!d
+			Рунный Круг и Столбы не являются обязательными структурами. Они ставятся по желанию.</desc>
+      <relatedEntries>obelisk,corruption,crystal_wrench,spell_staff_magitech</relatedEntries>
+    </structure>
+    <structure id="celestialprism_structure">
+      <name>Небесная Призма</name>
+      <controller>TileEntityCelestialPrism</controller>
+      <desc>Небесная Призма является очищенной формой Обелиска, которая генерирует #9Светлый Эфир#0.  Генерирует она его медленно, но стабильно.  Ей ненужно ничего, кроме дневного света.  Если вокруг Призмы вращаются руны - значит она работает исправно.
+			!d
+			Чтобы создать Чистую Призму, необходимо провести #9Ритуал Очищения#0 над #9Обелиском#0.  Как и Обелиск, Чистая Призма может быть улучшена путем установки структур.  Первая структура, это #5Рунный Круг#0, который увеличит кол-во вырабатываемого Эфира.  Вторая структура, это #5Столбы#0, которые увеличат скорость выработки Светлого Эфира.  Столбы также имеют разные варинаты, зависящие от #5шапки#0.  
+			!d
+			Значительным эффектом обладают #9Шапки из Лунного Камня#0, которые значительно увеличивают кол-во вырабатываемого Эфира, но переключают призму в ночной режим, который работает только ночью.</desc>
+      <relatedEntries>obelisk,rituals_overview,crystal_wrench,spell_staff_magitech</relatedEntries>
+    </structure>
+    <structure id="gateways">
+      <name>Врата</name>
+      <controller>TileEntityKeystoneRecepticle</controller>
+      <desc>
+				Врата очень эффективные на малых расстояниях, на дальние же растояния, врата требуют большее количество Эфира. Максимальное расстояние равно 12км (12 000 блоков). Но за такое расстояние вы портратите очень много Эфира. !d В Блок с Краеугольным Камнем вы можете поставить Краеугольный Камень с комбинацией из глифов, чтобы закрыть врата от публичного доступа. Только владелец Краеугольно Камня с такой-же комбинацией сможет попасть в ваш портал.
+			</desc>
+	<relatedEntries>rituals_overview</relatedEntries>
+    </structure>
+    <structure id="craftingAltar">
+      <name>Алтарь Создания</name>
+      <controller>TileEntityCraftingAltar</controller>
+<desc>
+			Используя силу творения, Алтарь Заклинаний позволит создавать заклинания.  Это структура, где вы будете создавать все заклинания из Ars Magica 2.  Структура делится на 2 основные группы: "шапки" и основной материал.  Обе группы индивидуально увелчивают мощь алтаря и позволят ему сделать более мощьные заклинания. !d Основные блоки являются следющие:
+			!l
+			Деревянные Доски (+1 Эффект)
+			!l
+			Каменные Кирпичи (+1 Эффект)
+			!l
+			Песчаник (+1 Эффект)
+			!l
+			Кирпичи (+2 Эффекта)
+			!l
+			Доски с Ведьминного дерева (+3 Эффекта)
+			!l
+			Адские Кирпичи (+3 Эффекта)
+			!l
+			Кварцевые Блоки (+3 Эффекта)
+			!l
+			!l
+			Для "шапок" (общее количество которых равно 5), используются следующие блоки:
+			!l
+			Стекло (+1 Эффект)
+			!l
+			Блоки Угля (+2 Эффекта)
+			!l
+			Блоки Редстоуна (+3 Эффекта)
+			!l
+			Железные Блоки (+4 Эффекта)
+			!l
+			Лазуритные Блоки (+5 Эффекта)
+			!l
+			Золотые Блоки (+6 Эффекта)
+			!l
+			Алмазные Блоки (+7 Эффекта)
+			!l
+			Изумрудные Блоки (+8 Эффекта)
+			!l
+			Блоки Лунного Камня (+9 Эффекта)
+			!l
+			Блоки Солнечного Камня (+10 Эффекта)
+			!l
+			!l
+			Все блоки складываются в сумму, например, деревянные доски и стекло дают не больше 2 эффектов, в то время как каменные кирпичи и блоки редстоуна дадут не больше 4 эффектов. Максимальное количество эффектов равно 13.
+			</desc>
+      <relatedEntries></relatedEntries>
+    </structure>
+    <structure id="inlays_structure">
+      <name>Пиктограммы</name>
+      <desc>Пиктограммы создаются при помощи Красных, Желтых или Белых инкрустаций и выложенных 3х3 с пустым, центральным блоком. Все символы должны находится на одном уровне и должны быть одинакового цвета.</desc>
+	<relatedEntries></relatedEntries>
+    </structure>
+    <ritual id="rituals_overview">
+      <name>Ритуалы</name>
+      <desc>Rituals are created using Wizard's Chalk and Warding Candles.  Arranging them in the correct pattern can enable you to do some truly powerful magic.  !d Rituals will usually require additional items to be thrown on the ground in order for the ritual to succeed.  These items can be thrown anywhere on the ground inside the radius of the Wizard's Chalk.  !d Once you have your ritual laid out, and your items thrown in, you will need to cast the proper spell in order to kick everything off.  The reagents will depend on the spell being cast,and order does matter.  For example, when throwing down runes to recall to a gateway using a ritual, the order of the runes will become the keystone combination. !d  The spell must target the exact center block of the ritual, on the same y-level as the chalk and candles.  This is usually a block placed in the center, or an entity standing in the middle.  !d  If it doesn't work, make sure you are in the middle of the chalk, that the layout is correct, and that you have the correct reagents for the correct ritual!</desc>
+      <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+      <subitem id="purification">
+        <name>Ritual of Purification</name>
+        <desc>The ritual of Purification is used to purify an obelisk into a celestial prism.</desc>
+        <relatedEntries>obelisk,wizardChalk,warding_candle</relatedEntries>
+        <ritualName>purification</ritualName>
+        <ritualController>Light</ritualController>
+      </subitem>
+      <subitem id="corruption_prism">
+        <name>Ritual of Corruption (Obelisk)</name>
+        <desc>The Ritual of Corruption is used to corrupt an Obelisk into a Black Aurem.</desc>
+        <relatedEntries>obelisk,wizardChalk,warding_candle</relatedEntries>
+        <ritualName>corruption</ritualName>
+        <ritualController>FireDamage</ritualController>
+      </subitem>
+      <subitem id="corruption_obelisk">
+        <name>Ritual of Corruption (Monster Spawner)</name>
+        <desc>The Ritual of Corruption can be used to pick up a Monster Spawner to be used later.  The ritual removes the spawning capabilities of the spawner, so they will need to be re-added to it somehow.  Rift or Life Tap can be used as well, so each tree specialization can perform this.  The reagents are the same for all three spell options.</desc>
+        <relatedEntries>Rift,LifeTap,wizardChalk,warding_candle</relatedEntries>
+        <ritualName>corruption</ritualName>
+        <ritualController>AstralDistortion</ritualController>
+      </subitem>
+      <subitem id="extend_blind">
+        <name>Hourglass Ritual (Blind)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>Blind</ritualController>
+      </subitem>
+      <subitem id="extend_charm">
+        <name>Hourglass Ritual (Charm)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>Charm</ritualController>
+      </subitem>
+      <subitem id="extend_entangle">
+        <name>Hourglass Ritual (Entangle)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>Entangle</ritualController>
+      </subitem>
+      <subitem id="extend_flight">
+        <name>Hourglass Ritual (Flight)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>Flight</ritualController>
+      </subitem>
+      <subitem id="extend_freeze">
+        <name>Hourglass Ritual (Freeze)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>Freeze</ritualController>
+      </subitem>
+      <subitem id="extend_fury">
+        <name>Hourglass Ritual (Fury)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>Fury</ritualController>
+      </subitem>
+      <subitem id="extend_gravitywell">
+        <name>Hourglass Ritual (Gravity Well)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>GravityWell</ritualController>
+      </subitem>
+      <subitem id="extend_haste">
+        <name>Hourglass Ritual (Haste)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>Haste</ritualController>
+      </subitem>
+      <subitem id="extend_invisibility">
+        <name>Hourglass Ritual (Invisibility)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>Invisibility</ritualController>
+      </subitem>
+      <subitem id="extend_leap">
+        <name>Hourglass Ritual (Leap)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>Leap</ritualController>
+      </subitem>
+      <subitem id="extend_levitation">
+        <name>Hourglass Ritual (Levitation)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>Levitate</ritualController>
+      </subitem>
+      <subitem id="extend_manashield">
+        <name>Hourglass Ritual (Mana Shield)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>ManaShield</ritualController>
+      </subitem>
+      <subitem id="extend_nightvision">
+        <name>Hourglass Ritual (Night Vision)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>NightVision</ritualController>
+      </subitem>
+      <subitem id="extend_shield">
+        <name>Hourglass Ritual (Shield)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>Shield</ritualController>
+      </subitem>
+      <subitem id="extend_slow">
+        <name>Hourglass Ritual (Slow)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>Slow</ritualController>
+      </subitem>
+      <subitem id="extend_slowfall">
+        <name>Hourglass Ritual (Slowfall)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>Slowfall</ritualController>
+      </subitem>
+      <subitem id="extend_swiftswim">
+        <name>Hourglass Ritual (Swift Swim)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>SwiftSwim</ritualController>
+      </subitem>
+      <subitem id="extend_truesight">
+        <name>Hourglass Ritual (True Sight)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>TrueSight</ritualController>
+      </subitem>
+      <subitem id="extend_waterbreathing">
+        <name>Hourglass Ritual (Water Breathing)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>WaterBreathing</ritualController>
+      </subitem>
+      <subitem id="extend_waterygrave">
+        <name>Hourglass Ritual (Watery Grave)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>WateryGrave</ritualController>
+      </subitem>
+      <subitem id="extend_shrink">
+        <name>Hourglass Ritual (Shrink)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>Shrink</ritualController>
+      </subitem>
+	  <subitem id="call_rain">
+        <name>Hourglass Ritual (Call Rain)</name>
+        <desc>The hourglass ritual can be used to modify the banish rain spell to instead call rain forth.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>BanishRain</ritualController>
+      </subitem>
+      <subitem id="recall_to_gateway">
+        <name>Recall to Gateway</name>
+        <desc>The ringed cross ritual can be used to re-target the Recall spell so you travel to a specified gateway instead of your marked location.  The three runes used need to match a gateway combination.  The chalk and runes will be consumed as part of the teleportation.</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <ritualName>ringedCross</ritualName>
+        <ritualController>Recall</ritualController>
+      </subitem>
+      <subitem id="recall_other">
+        <name>Recall Other</name>
+        <desc>The ringed cross ritual can be used to re-target the Recall spell so you pull another player to you.  The combination can be obtained by the player using the True Sight spell, and can vary in length from player to player.  Be careful when giving out your player rune combination, as it can be used to target you specifically.  This recall also works cross-dimensionally.</desc>
+        <relatedEntries>TrueSight,wizardChalk,warding_candle</relatedEntries>
+        <ritualName>ringedCross</ritualName>
+        <ritualController>Recall</ritualController>
+      </subitem>
+	  <subitem id="otherworldly_ritual">
+        <name>Otherworldly Ritual</name>
+        <desc>The ringed cross ritual can be used to re-activate an #5Inert Spawner#0 in an interesting way.  It causes the spawner to turn into an #5Otherworldly Aura#0!</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <ritualName>ringedCross</ritualName>
+        <ritualController>Transplace</ritualController>
+      </subitem>
+      <relatedEntries>wizardChalk</relatedEntries>
+    </ritual>
+  </structures>
+  <mobs>
+    <mob id="MobHecate">
+      <name>Геката</name>
+      <desc>Геката - воплощение пустоты.  Иногда, создается разлом между Пустотой и нашим миром, который позволяет пройти гекатам.  Геката очень опасна - она быстро двигается и способна использовать невидимость при атаке.  Они наносят не слабый урон. Если вы будете двигатся медленно и спокойно, то сможете пройти мимо Гекаты незамеченным до тех пор, пока не подойдете слишком близко.</desc>
+	<relatedEntries></relatedEntries>
+    </mob>
+    <mob id="MobManaElemental">
+      <name>Элементаль Маны</name>
+      <desc>
+				Элементаль Маны представляет собой сочетание осколько Винтеума и Эфира. 
+				Часто Элементаль достигает до 3 метров в высоту. 
+				Они атакуют на расстоянии и воруют вашу ману. 
+				Они очень устойчивы к физическим атакам. 
+			</desc>
+      <relatedEntries></relatedEntries>
+    </mob>
+    <mob id="MobManaCreeper">
+      <name>Крипер Маны</name>
+      <desc>
+				Крипер Маны похож на своего родственника, обычного крипера, 
+				но вместо обычного взрыва, крипер маны распадается на вихрь из маны, 
+				который поглощает ману вокруг. Вихрь длится не более нескольких секунд, 
+				однако его размеры непредсказуемы. 
+				Вихрь поглощает ману намного больше, чем есть у мага. 
+				Поэтому такие криперы опасны даже для продвинутых магов.
+			</desc>
+      <relatedEntries></relatedEntries>
+    </mob>
+    <mob id="MobLightMage">
+      <name>Светлый Маг</name>
+      <desc>
+				Светлые Маги являются членами белого совета. 
+				Они мощные маги, которые посвятили себя в силы света. 
+				Они будут лечить дружественных игроков и помогать им в бою. 
+				Они очень ненавидят Темных Магов.
+			</desc>
+      <relatedEntries></relatedEntries>
+    </mob>
+    <mob id="MobDarkMage">
+      <name>Темный Маг</name>
+      <desc>
+				Темные Маги являются частью Темной Цитадели.
+				Они маги, изучившие черную магию. 
+				Они убивают всех, кроме нежити и криперов. 
+				Они будут старатся изо всех сил убить вас и Светлых Магов.
+			</desc>
+      <relatedEntries></relatedEntries>
+    </mob>
+    <mob id="MobFireElemental">
+      <name>Огненный Элементаль</name>
+      <desc>
+				Огненные Элементали - это существа чистого огня. 
+				Они разрушительны и сжигают все на своем пути. 
+				Расположены только в Аду.
+			</desc>
+      <relatedEntries></relatedEntries>
+    </mob>
+    <mob id="MobWaterElemental">
+      <name>Водный Элементаль</name>
+      <desc>
+				Водные элементали являются существами чистой воды. 
+				Они находятся в любом месте, где есть вода в очень больших колличествах. 
+				Они нападают группой и используя воду, толкают и тянут свою цель. 
+				Они могут использовать Водную Могилу и топить врага до конца его жизни.
+			</desc>
+      <relatedEntries></relatedEntries>
+    </mob>
+    <mob id="EarthElemental">
+      <name>Элементаль Земли</name>
+      <desc>
+				Элементали Земли живут глубоко в недрах пещер.
+				У них Родство с Природой и хорошая физическая защита.
+				Их атаки провоцируют и заставляют сосредоточится на них, 
+				но боженька не обделил их умом, они также будут отскакивать от своей цели в случае опастности.
+			</desc>
+      <relatedEntries></relatedEntries>
+    </mob>
+    <mob id="MobDryad">
+      <name>Дриада</name>
+		<desc>
+				Дриады мирные существа. 
+				Часто встречаются в лесах и лугах. 
+				Говорят, если убить много дриад, появится хранитель леса...
+				Но это ведь просто слухи, да?
+			</desc>
+      <relatedEntries></relatedEntries>
+    </mob>
+    <mob id="MobDarkling">
+      <name>Пустой</name>
+      <desc>
+				Подобно небольшим собако-подобным существам, 
+				которые находятся в Аду. Их тело становится менее заметно в ночное время, 
+				и исчезает в полночь. А на рассвете их тело вновь начинает проявлятся.
+		</desc>
+		<relatedEntries></relatedEntries>
+    </mob>
+    <mob id="HellCow">
+      <name>Адская Корова</name>
+      <desc>Му? Му му мууу, му мууу му му.  Му.  Мууу му муу муу му, мууу му му?  Му!  Муу му мууу му му - му муу му. !d 1.) Муу му му муу !d 2.) Муу му му муу. !d 3.) Муууу! !d Му, муу му му му муу.  Му муу му му муу.  Му, мууу. !l (Зачем Диабло надругался над коровами?)</desc>
+      <relatedEntries></relatedEntries>
+    </mob>
+    <mob id="Flicker">
+      <name>Светлячки</name>
+      <desc>Светлячки - это маленькие летающие элементали различных стихий, которые уже перешли в наш мир. Но их связь с нашим миром очень слаба. Они являются началом #5Автоматизации в Ars Magica 2#0. 
+	  !d
+			Светлячки очень чувствительны. Они быстро скрываются в другом измерении, если на них напали или они если они почувствуют угрозу. Дайте им немного волшебства #5в виде какого-нибудь длительного эффекта#0, чтобы они почувствовали себя более комфортно и не сбежали от вас.  #5После их можно поймать в Банку для Светлячков#0.
+			!d
+			Существует один тип для каждого Родства.  Светлячки каждого Родства ведут себя по-разному. Например, Светлячки Воздуха, как правило, любят быть высоко над землей, в то время как Светлячки Земли предпочитают глубокие недра земли.
+			!d
+			Светлячков каждого Родства можно найти рядом с регионом, которые очень будут напоминать им об их Родстве.</desc>
+      <subitem id="waterflicker">
+        <name>Светлячок Воды</name>
+        <desc>#5Светлячки Воды#0 могут быть найдены в местах, которых преобладает кол-во воды. Болота, реки или океаны.</desc>
+      </subitem>
+      <subitem id="airflicker">
+        <name>Светлячок Воздуха</name>
+        <desc>#5Светлячки Воздуха#0 могут быть найдены в открытых местах, не под землей, и высоко в небе (~25 блоков над землей).</desc>
+      </subitem>
+      <subitem id="earthflicker">
+        <name>Светлячок Земли</name>
+        <desc>#5Светлячки Земли#0 могут быть найдены любых местах, но предрочитают подземные места.  Они редко выходят на поверхность.</desc>
+      </subitem>
+      <subitem id="fireflicker">
+        <name>Светлячок Огня</name>
+        <desc>#5Светлячки Огня#0 могут быть найдены в аду... А где-же еще так горячо?</desc>
+      </subitem>
+      <subitem id="lightningflicker">
+        <name>Светлячок Молний</name>
+        <desc>#5Светлячков Молний#0 можно найти на пляжах и над океанами в небе. Если бушует шторм и бьют молнии их можно часто встретить и на земле.</desc>
+      </subitem>
+      <subitem id="natureflicker">
+        <name>Светлячок Природы</name>
+        <desc>#5Светлячки Природы#0 могут быть найдены в лесу. Нужно лишь хорошенько поискать.</desc>
+      </subitem>
+      <subitem id="iceflicker">
+        <name>Светлячок Льда</name>
+        <desc>#5Светлячков Льда#0 можно найти в морозных зонах, таких как Тайга.</desc>
+      </subitem>
+      <subitem id="arcaneflicker">
+        <name>Светлячок Тайны</name>
+        <desc>#5Светлячков Тайны#0 можно отыскать в магических зонах. Например их много в Ведьмачем Лесу.</desc>
+      </subitem>
+      <subitem id="lifeflicker">
+        <name>Светлячок Жизни</name>
+        <desc>#5Светлячков Жизни#0 можно найти в любом месте.  Любой спаун светлячка несет шанс появления Светлячка Жизни. Все зависит от удачи.</desc>
+      </subitem>
+      <subitem id="enderflicker">
+        <name>Светлячок Края</name>
+        <desc>#5Светлячки Края#0 обитают только в Краю.  Иногда Странники Края, из-за своей телепортации, могут открыть кратковременный разлом, через который может проскочить Светлячок Края.</desc>
+      </subitem>
+      <subitem id="xycraftflicker">
+        <name>Светлячок XyCraft</name>
+        <desc>#5Светлячки XyCraft#0 реализованны, но ничего не делают.</desc>
+      </subitem>
+      <relatedEntries>flicker_jar,flickerFocus,flickerHabitat,crystalMarkers</relatedEntries>
+    </mob>
+  </mobs>
+  <bosses>
+    <boss id="BossNatureGuardian">
+      <name>Страж Природы</name>
+      <desc>Страж Природы очень серьезный враг.  Обладая смертельной косой и умением использовать ее, только глупец будет сражатся с ним. Те немногие, кто выжил в схватке с ним, говорят что дальний бой такой-же опасный, как и ближний, если не больше. !l Рекомендуемый Магический Уровень: 60 !p Ходят слухи, что если убить достаточно Дриад, то появится Страж.  !d  Внимание: !l Это очень трудный босс, который может убить даже хорошо одетого и обученного мага. </desc>
+	<relatedEntries></relatedEntries>
+    </boss>
+    <boss id="BossEarthGuardian">
+      <name>Страж Земли</name>
+      <desc>
+				Сформированный из серца земли, Страж Земли очень выносливый соперник, который может противостоять множествам физических атак.
+				!l
+				Рекомендованный Магический Уровень: 25 !p Чтобы вызвать Стража,
+				постройте платформу 3x3 из Обсидиана, а в центре Резной Каменный Кирпич.
+				На обсидиан выложите круг из рунических символов, сделанные из железных инкрустаций.
+				По бокам поставьте Винтеумный Факел.
+				А после киньте в центр Синий топаз, Изумруд и Химерит.
+				!d 
+				После вызова, Голем сломает блоки вокруг. Будьте внимательны!
+			</desc>
+      <relatedEntries></relatedEntries>
+    </boss>
+    <boss id="BossWaterGuardian">
+      <name>Хранитель Океана</name>
+      <desc>
+				Хранитель Океана необычное существо. Еге тело состоит из воды, что позволяет проходить мечу сквозь него. 
+				Также он может создавать свои копии и нападать со спины. !l Рекомендуемый Магический Уровень: 10 
+				!p Вызвать Хранителя Океана можно только там, где много воды. !d 
+				Чтобы вызвать Хранителя Океана, нужно сделать круг из рунических символов, сделанных из красных инкрустаций.
+				Затем кинуть лодку и ведро воды. Но помните, вызвать его вы сможете только во время дождя!
+				
+			</desc>
+      <relatedEntries></relatedEntries>
+    </boss>
+    <boss id="BossWinterGuardian">
+      <name>Хранитель Зимы</name>
+      <desc>
+				Хранитель зимы, который наделен силой льда.
+				Его тело окруженно холодным вихрем, который замедляет его врагов.
+				Каждый его удар будет накладывать эффект замедления.
+				Также он кидает свои руки, способные притянуть жертву к нему.
+				!l Рекомендованный Магический Уровень: 30
+				!p Чтобы вызвать Хранителя Зимы, найдите снежный биом.
+				Постройте круг из рунических символов, сделанные из золотых инкрустаций.
+				В центр круга поставьте 2 блока льда, а на них блок Синего Топаза.
+				Затем создайте 3 снеговига рядом.
+				!l Внимание: !g Это очень сложный босс, который может одолеть даже очень сильного мага!
+			</desc>
+      <relatedEntries></relatedEntries>
+    </boss>
+    <boss id="BossArcaneGuardian">
+      <name>Страж Знаний</name>
+      <desc>
+				Маг древних времен, Страж Знаний владеет большим количество заклинаний.
+				От магических атак до положительных и отрицательных эффектов, которые покажут, насколько вы сильны.
+				Защищенный мощным сигилем, Чернокнижник имеет столько трюков в ближнем бою, сколько имеет и в дальнем. 
+				!l Рекомендованный Магический Уровень: 45
+				!p Чтобы вызвать Стража Знаний, постройте Святыню Знаний.
+				Святыня строится из 2 столбов по 3 книжной полки в высоту, а между ними Подставка с Компедиумом.
+				Постройте круг из рунических символов, сделанные из железных инкрустаций, прямо перед Святыней. Бросьте в центр Тайную Эссенцию и СРАЖАЙТЕСЬ!
+				</desc>
+      <relatedEntries></relatedEntries>
+    </boss>
+    <boss id="BossAirGuardian">
+      <name>Дух Ветра</name>
+      <desc>
+				Дух Ветра - существо, которому покоряется ветер. Он сбивает противника с ног.
+				Глупо идти на этого босса в одиночку.
+				Дух Ветра владеет сильными заклинаниями, но повторяет он их не так часто.
+				!l Рекомендованный Магический Уровень: 35 
+				!p Чтобы призвать Духа, вам нужно поднятся на Уровень (Y) 150 блоков и построить небольшую платформу.
+				Постройте круг из рунических символов, сделанные из золотых инкрустаций и киньте в центр 1 Эссенцию Воздуха.
+			</desc>
+      <relatedEntries></relatedEntries>
+    </boss>
+    <boss id="BossFireGuardian">
+      <name>Страж Пламени</name>
+      <desc>
+				Страж Пламени - это воплощение глубин ада.
+				Чтобы вызвать Стража, постройте круг из рунических символов, сделанные из золотых инкрустаций. Все это должно быть на обсидиане.
+				В центре должен быть блок угля. 
+				!l После киньте на блок угля Эссенцию Воды.
+				!p Обратите внимание, что рунический круг нужно строить над озером лавы.  
+				!l Рекомендованный Магический Уровень: 90
+			</desc>
+      <relatedEntries></relatedEntries>
+    </boss>
+    <boss id="BossLifeGuardian">
+      <name>Хранитель Жизни</name>
+      <desc>
+			The life guardian generally prefers to let the natural order of things take their course, 
+			not intervening unless a true sacriledge against life is performed.  
+			Luckily (or unluckily, depending on how you look at it) for you, you have come up with a way to commit such an act.  
+			Create a 5x5 ring using wizard's chalk, and place a warding candle in the center part of each side, 
+			on the outside of the ring (4 candles in total).  
+			The circle will help to contain and focus the deed.  
+			Then, on the night of a full moon, sacrifice a villager child inside the circle.  
+			That should be enough to anger the life guardian to action. !d You monster you. 
+			!p The life guardian doesn't attack much on its own, though it may decide to throw you around a little.  
+			It generally prefers to let others do the fighting for it, infusing them with its tremendous power.  
+			In return, the others will often lay down their lives for the guardian's protection.  
+			The life guardian is a different kind of fight than the other guardians.  
+			!d Recommended level: 50</desc>
+      <relatedEntries></relatedEntries>
+    </boss>
+    <boss id="BossLightningGuardian">
+      <name>Lightning Guardian</name>
+      <desc>The lightning guardian is as unpredictable as it is powerful.  It can fire bolts of lightning at extreme range, and has been known to mess with the synapses inside the brains of living creatures.  It has also on occasion been able to replicate an effect similar to telekinesis using massive amounts of concentrated static electricity, which leaves the unfortunate victim open to several other effects. !d To summon the lightning guardian, create a #5Gold Inlay Ring#0 and place a mana battery in the middle.  Then, place 2 iron bars on top, creating a lightning rod.  !d  Finally, wait for a storm. !d This guardian is capable of doing extreme damage in a short amount of time.  Make sure you are well protected.  Recommended Level: 70</desc>
+      <relatedEntries></relatedEntries>
+    </boss>
+    <boss id="BossEnderGuardian">
+      <name>Ender Guardian</name>
+      <desc>Tales are told in hushed whispers of the true guardian of the End.  Of eyes glowing with an abhorrent light, and scaly skin as black as a moonless night.  Alas, the tales of this waking nightmare are vague at best and always shrouded in the veil of speculation.  The truth is, nobody has ever seen the guardian and lived.  The most common tale is that of Magnus Severinus, the Archmage of the Second Era.  At the height of his power, he was rumored to be able to move mountains with a thought, create lush gardens out of the most barren terrain, and create wards that could stop an army cold.  Alas, his most trusted advisor took ill, and her spiteful stepson had taken her place.  Goaded by honeyed words encouraging his power and making him arrogant, he gathered the conclave together and in front of them all, tore open the fabric between worlds, opening a portal to the end that pulsed with a soft purple glow that almost seemed to draw light away from its surroundings.  He stepped in, and summoned the guardian.  He never had time to scream.  A piece of paper, flecked with bits of dark blood, flitted back through the portal and it winked shut.  Upon the paper was the following ritual: !d In the End, around a black aurem atop a platform of blackest coal, create an inlay of gold.  Light a burning fire on each side of the inlay.  Throw in an Ender Essence and an Eye of Ender to destabilize the aurem and summon the guardian. !d The paper was locked away in magical valuts and forgotten for millenia...until now.</desc>
+      <relatedEntries></relatedEntries>
+    </boss>
+  </bosses>
+  <blocks>
+    <block id="illusionBlocks">
+      <name>Блоки Иллюзий</name>
+      <desc>
+			Блоки Иллюзий настолько реалистичны, что ваш мозг не позволяет вам пройти через них из-за самосохранения. 
+			Только истинный вгляд может убедить вас, что это всего лишь иллюзия.
+		
+			</desc>
+      <subitem id="illusionBlock@0">
+        <name>Блок Иллюзий</name>
+        <desc>Стандартные блоки иллюзий выглядят и функционируют как обычные блоки, и только применив заклинание #9Истинное Зрение#0, вы сможете пройти сквозь них.</desc>
+		<relatedEntries>illusionBlock@1,everstone</relatedEntries>
+      </subitem>
+      <subitem id="illusionBlock@1">
+        <name>Эфирный Блок Иллюзий</name>
+        <desc>Эфирный Блок Иллюзий выглядит так-же как обычный Блок Иллюзий, за исключением того, что через них можно проходить без всяких заклинаний.</desc>
+		<relatedEntries>illusionBlock@0,everstone</relatedEntries>
+      </subitem>
+      <relatedEntries></relatedEntries>
+    </block>
+    <block id="essence_refiner">
+      <name>Очиститель Эссенции</name>
+      <desc>
+				Суть работы переработчика проста. 
+				Он перерабатывает обычные ресурсов и
+				#5Магическую Пыль#0, получая при этом одну из #5Эссенций#0. 
+				Рецепты каждй Эссенции можно найти в #9Предметы -> Материальные
+				Эссенции#0. Очиститель не будет работать без #2Эфира#0.
+				Рунное кольцо, в интерфейсе переработчика будет вращатся от синего до фиолетого.
+				Если кольцо загорает красным цветом, то переработчику не хватает Эфира.
+			</desc>
+      <relatedEntries>essence</relatedEntries>
+    </block>
+    <block id="essenceconduit">
+      <name>Передатчик Эфира</name>
+      <desc>
+				Когда древние маги построили Обелиск, то сразу задумались о передаче Эфира на дальние расстояния.
+				Ими был создан Передатчик Эфира, который способен передавать Эфир на 10 блоков от себя.
+				Но, при передаче, в Передатчике накапливается #4дефицит#0 магии, который способен вывести из строя передатчик.
+				Если не правильно подавать Эфир в передатчик, то можно даже взорвать его.
+			</desc>
+      <relatedEntries></relatedEntries>
+    </block>
+    <block id="casters">
+      <name>Заклинающие Блоки</name>
+      <desc>
+				A spell is nothing more than directed essence. The will
+				of a magic user dictates what the essence does, and if
+				they have enough capacity for essence, the magic will
+				flow forth. The caster was designed to replicate that
+				ability, converting raw essence into a burst of magic
+				that is directed through a spell focus (as well as the
+				occasional mana focus) and shaped via the instructions
+				on a spell scroll. Because of the extreme essence draw
+				of certain spells, the internal crystals were fitted
+				with a slot to allow a charge focus which causes the
+				amount of incoming essence to be increased
+				substantially. Alternately, a mana focus can be fitted
+				into the same slots, causing the internal essence
+				routing to be much more efficient.
+			</desc>
+      <subitem id="casterRune">
+        <name>Рунный Заклинатель</name>
+        <desc>Функции Рунного Заклинателя схожи с обычным #5Заклинателем#0, за исключением одной функции:  Он не требует редстоун сигнала для активации.  Активируется он тогда, когда кто-то прошел по нему или кинул на него предмет.</desc>
+			 <relatedEntries>foci</relatedEntries>
+      </subitem>
+      <subitem id="blockcaster">
+        <name>Заклинатель</name>
+        <desc>Читает Ваши заклинания при подаче на них редстоун сигнала.</desc>
+        <relatedEntries>foci</relatedEntries>
+      </subitem>
+      <relatedEntries>foci</relatedEntries>
+    </block>
+    <block id="blockseerstone">
+      <name>Всевидящий Камень</name>
+      <desc>
+				Всевидящий Камень используя Фокусы, подает редстоун сигнал, 
+				когда "увидит" выкинутый предмет, игрока или иного существа рядом. 
+				Если поставить Краеугольный камень с набором глифов во Всевидящий Камень, 
+				и выдать такой-же игроку, то Камень не будет "видеть" данного игрока. 
+			</desc>
+      <relatedEntries>lesserfocus,standardfocus,greaterfocus,item_focus,player_focus,monster_focus,creature_focus,keystone,foci</relatedEntries>
+    </block>
+    <block id="blockastralbarrier">
+      <name>Астральный Барьер</name>
+      <desc>
+				Астральный Барьер - устройство древних, которое не дает телепортироватся.
+				В барьер можно поставить фокусы, которые определят радиус действия.
+				Так-же в барьер можно поставить Краеугольный Камень.
+				!l
+				Отличная штука против Эндерменов.
+			</desc>
+      <relatedEntries>lesserfocus,standardfocus,greaterfocus,keystone,foci</relatedEntries>
+    </block>
+    <block id="blockkeystonerecepticle">
+      <name>Блок с Краеугольным Камнем</name>
+      <desc>
+				В период войны Темных и Светлых Магов, был создан Краеугольный Камень.
+				С виду -  бесполензый камень с углублением. Однако, он один из главных компонентов в создании Врат. 
+				Темные Маги разгромили не один лагерь светлых при помощи врат...
+				Астральные Барьеры не помогали, ведь врата контролировались.
+				!l Но однажды, один и Светлых Магов обнаружил, что можно заблокировать врата с помощью Краеугольного Камня.
+				С годами, они научились создавать координаты для врат с помощью камня.
+			</desc>
+      <relatedEntries>keystone,gateways</relatedEntries>
+    </block>
+    <block id="ores@0">
+      <name>Руда Винтеума</name>
+      <desc>
+				Винтеум был обнаружен в период войны Света и Тьмы, когда Тайная Стрела столкнулась с Стрелой Края...
+				В результате взрыва образовался кратер, в котором сияла руда Винтеума.
+				!l
+				Переплавив эту руду, вы получите Пыль Винтема, основной компонент в магии.
+			</desc>
+      <relatedEntries>itemOre@0,vinteumTorch,warding_candle</relatedEntries>
+    </block>
+    <block id="mana_battery">
+      <name>Эфирный аккумулятор</name>
+      <desc>
+				Изучив пыль Винтеума и создав Передатчик Эфира, 
+				маги создали рамку из железа и золота, которая способна хранить Эфир в себе.
+				Эфирный аккумулятор всегда будет обеспечивать питание для механизмов из своих запасов, 
+				которые она пополняет от любого из трех Узлов.
+			</desc>
+      <relatedEntries></relatedEntries>
+    </block>
+    <block id="cerublossom">
+      <name>Церюблоссом</name>
+      <desc>
+				Церюблоссом, растение процветающие в зеленых средах. 
+				Так же, был одним из первых магических растений, которые обнаружили маги.
+				Церюблоссом испускает слабое, игристое свечение вокруг него. 
+				Его часто используют в алхимических рецептах.
+				Через некоторе время после открытия, выяснили, что Церюблоссом может быть использован в процессе очистки пыли Винтеума.
+			</desc>
+      <relatedEntries></relatedEntries>
+    </block>
+    <block id="desert_nova">
+      <name>Пустынная звезда</name>
+      <desc>
+				Пустынная звезда растет в сухих условиях. Она получила свое название из-за небольших всплесков магии вокруг себя.
+				Звезда обладает экстраординарными магическими свойствами для растения пустыни, и высоко ценится.
+				Это один из двух растений, используемое в процессе очистки пыли Винтеума.
+			</desc>
+      <relatedEntries></relatedEntries>
+    </block>
+    <block id="keystonechest">
+      <name>Сундук с Краеугольным Камнем</name>
+      <desc>С виду, обычный сундук. На деле же, вариант сейфа.
+			!l Сундук с Краеугольным Камнем можно запереть от посторонних при помощи Краеугольно Камня.
+			Если запереть его, то открыть его можно только при помощи Краеугольного Камня с такой-же комбинацией глифов.</desc>
+      <relatedEntries>keystone</relatedEntries>
+    </block>
+    <block id="magicWall">
+      <name>Магическая Стена</name>
+      <desc>Это ранняя попытка блока иллюзий. Магическая Стена не могла смешатся с окресностью. Светлый Маг Леонидус смотрел за процессом создания Магической Стены. Когда же создали первую, то не знали, что с ней сделать. Тогда Леонидус запустил в нее огненный шар. Никто не ожидал, но шар отскочил от стены и сжег бороду Леонидуса. Тогда все поняли что с ней делать...</desc>
+	<relatedEntries></relatedEntries>
+    </block>
+    <block id="arcanereconstructor">
+      <name>Магический реконструктор</name>
+      <desc>Магия может восстанавливать вещи. Да-да. Может. Магический реконструктор используя Эфир, чинит поврежденные вещи.</desc>
+	<relatedEntries>chargefocus,arcane_deconstructor</relatedEntries>
+    </block>
+    <block id="lectern">
+      <name>Аналой</name>
+      <desc>У каждого истинного мага, есть подставка под книги, журналы, компедиум и таумономикон. Книги великолепно лежат на ней, и могут быть прочитаны прямо на подставке.
+				Подставка так-же важная вещь в Алтаре Создания.
+			</desc>
+	<relatedEntries></relatedEntries>
+    </block>
+    <block id="occulus" unlocked="true">
+      <name>Око Обозрения</name>
+      <desc>Врата к звездам, которые показывают Вам внутреннее я. Именно здесь вы можете тратить очки умений, чтобы разблокировать новые Основы, Компоненты и Модификаторы. Существует 3 вида очков умений, которые могут быть получены с помощью Сфер бесконечности, найденных в мире или выбитых с боссов. Также очки можно увеличить подняв свой Магический уровень.</desc>
+	<relatedEntries>inscriptionTable,lectern,unlockingPowers</relatedEntries>
+    </block>
+    <block id="calefactor">
+      <name>Эфирный нагреватель</name>
+     <desc>Эфирный нагреватель, способный производить пыль Винтеума. Печь питается 3 видами Эфира: Светлым, Нейтральным и Темным. Печь также удваивает переплавку руд. И с небольшим шансом удваивает приготовление еды.</desc>
+	<relatedEntries>foci,manafocus,chargefocus</relatedEntries>
+    </block>
+    <block id="inscriptionTable">
+      <name>Стол Заклинаний</name>
+      <desc>Стол Заклинаний является объязательным элементом для каждого мага. Если он конечно хочет им быть.
+				Используя Стол, вы можете создавать заклинания, которые вы изучили.
+				!l
+				Вы ведь умеете создавать их?
+				!l
+				Помните, что для создание заклинания, нужна Книга с Пером.
+			</desc>
+	<relatedEntries>altarOfCreation,craftingAltar,magiciansWorkbench,spellComponents101,spell_parchment,inscriptionUpgrades</relatedEntries>
+    </block>
+    <block id="particleEmitter" unlocked="true">
+      <name>Создатель Частиц</name>
+      <desc>
+			Декоративный Блок. Создатель Частиц может быть использован для создания магических частиц. Создатель можно настроить, щелкнув Правой кнопкой мыши Кристальным Посохом по нему.
+			</desc>
+		<relatedEntries></relatedEntries>
+    </block>
+    <block id="aum">
+      <name>Аум</name>
+      <desc>Цветок с целебными свойствами, Аум является компонентом во многих заклинаниях.  Растет только в тени Ведьмачего Дерева.</desc>
+	<relatedEntries></relatedEntries>
+    </block>
+    <block id="tarmaroot">
+      <name>Корень Тармы</name>
+      <desc>Корень Тармы растет в пещерах и темных местах. Является компонентом в заклинаниях, и в создании Эссенции Ветра.</desc>
+	<relatedEntries></relatedEntries>
+    </block>
+    <block id="wakebloom">
+      <name>Цветок пробуждения</name>
+      <desc>Растет только на воде в жарком климате. Используется в заклинаниях на водной основе, и в создании Водной Эссенции.</desc>
+		<relatedEntries></relatedEntries>
+    </block>
+    <block id="summoner">
+      <name>Призыватель</name>
+      <desc>Призыватель служит для вызова существ при подачи Эфира и редстоун сигнала. Если редстоун сигнал изсчезает - сущетво отзывается. Призыв стоит гораздо дороже, чем вызов через заклинание. Если существо убито или отозвано, то должно пройти время, чтобы призвать существо заного. Для призыва требуется умение с призывом.
+			</desc><relatedEntries>crystal_phylactery,chargefocus,manafocus,foci</relatedEntries>
+    </block>
+    <block id="inlays">
+      <name>Рунические Символы</name>
+      <desc>Рунические Символы применяются для вызова боссов или для украшений.  Всего существует 3 типа Рунических Символов.</desc>
+      <subitem id="redstone_inlay">
+        <name>Красная Пиктограмма</name>
+        <desc>Красная Пиктограмма является самым основным из символов. Она используются для вызова боссов. Но может быть использована в качестве рельс. Она будет ускорять вагонетку.</desc>
+		<relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="iron_inlay">
+        <name>Белая Пиктограмма</name>
+        <desc>Белая Пиктограмма является средней из символов. Она используется для вызова боссов. Но может быть использована в качестве рельс. Она будет менять направление вагонетки.</desc>
+		<relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="gold_inlay">
+        <name>Желтая Пиктограмма</name>
+        <desc>Желтая Пиктограмма является сильной из символов. Она используется для вызова могучих боссов. Но может быть использована в качестве рельс. Она будет телепортировать вагонетку на 8 и меньше блоков. Но существует задержка перед телепортацией. Учтите это.</desc>
+		<relatedEntries></relatedEntries>
+      </subitem>
+      <relatedEntries></relatedEntries>
+    </block>
+    <block id="stonebricksmooth@3" unlocked="true">
+      <name>Резной Каменный Кирпич</name>
+      <desc>Теперь вы сможете создать Резной Каменный Кирпич, выложив обычные Каменные Кирпичи в сетку 2х2.</desc>
+      <relatedEntries></relatedEntries>
+    </block>
+    <block id="saplingWitchwood">
+      <name>Саженцы Ведьмачего Дерева</name>
+      <desc>Саженцы Ведьмачего Дерева редко падают с листьев Ведьмачего Дерева.
+				Их можно посадить, однако расти они будут только если под ними есть Жидкая Эссенция в 1 блок. Но, чем больше Жидкой Эссенции, тем быстрее вырастит дерево. Иногда под выросшими деревьями может появится Аум.</desc>
+		<relatedEntries></relatedEntries>
+    </block>
+    <block id="altarOfCreation">
+      <name>Алтарь Созданий</name>
+      <desc>Используя силы творения, Алтарь Создания позволит магам творить чудеса магии. Это то место, где вы будете создавать все ваши заклинания. Этот блок является частью #9структуры#0.
+			</desc>
+      <relatedEntries>runes,yourFirstSpell,gainingMagicLevels,obelisk,otherworldly_aura</relatedEntries>
+    </block>
+    <block id="magiciansWorkbench">
+      <name>Магический Верстак</name>
+      <desc>Верстак Мага очень нужный блок. В нем есть и маленький сундук, и запоминание последних 8 рецептов и сетка 3х3 и 2х2. А если улучшить его, то сетка 2х2 станет 3х3.
+			</desc>
+		<relatedEntries>workbenchUpgrade</relatedEntries>
+    </block>
+    <block id="everstone" unlocked="true">
+      <name>Бесконечный Камень</name>
+      <desc>Бесконечный Камень является прототипом #5Блока Иллюзий#0, который может принять любую форму блока.  Однако, если сломать его то #9он не выпадет, а станет эфирным. И через некоторое время восстановится#0.  Чтобы снять его, щелкните правой кнопкой мыши Кристалльным Посохом по нему.</desc>
+	<relatedEntries>illusionBlock@0,illusionBlock@1</relatedEntries>
+    </block>
+    <block id="vinteumTorch">
+      <name>Винтеумные Факела</name>
+      <desc>Винтеумные Факела аналогичны обычным. Могут быть частью декораций. Но так-же имеют алтернативное применение.</desc>
+	  <relatedEntries>ores</relatedEntries>
+    </block>
+    <block id="slipstreamGenerator">
+      <name>Паровой Генератор</name>
+      <desc>You have managed to create a device that can project a cushion of air around you to make you float upwards or gently lower down towards the ground.  The machine only works on mages above it (#5players only#0), but has a large vertical range.  In testing, you note that if you are falling when you enter its effect radius, it takes a little while before it can completely catch you.  You have also managed to make it work #9based on the direction you are looking#0.  Look up, go up.  Look down, go down.  Look forward, hover.  You can also #9sneak to remain vertically stationary#0, regardless of where you are looking.</desc>
+    </block>
+    <block id="obelisk">
+      <name>Обелиск</name>
+      <desc>Обелиск является руническим блоком, который генерирует #5Эфир#0 (система энергии в Ars Magica 2). Потребляет Пыль Винтеума или Ведра Жидкой Эссенции.
+			!d
+			Обелиск может быть изменен с помощью #9Ритуалов#0 и стать #4Чревоточиной#0 или #9Чистой Призмой#0.</desc>
+      <relatedEntries>obelisk_structure,blackaurem_structure,celestialprism_structure,essenceAllAround,powerTypes,mana_battery,essence_refiner,essenceconduit,casters,arcanereconstructor,slipstreamGenerator,crystal_wrench</relatedEntries>
+    </block>
+    <block id="brokenLink">
+      <name>Сломанные Связи Эфира</name>
+      <desc>If a power path is created, and at some point a relay (conduits, etc.) or generator (obelisk, prism, aurem, etc.) is broken, the power system will attempt to let you know that there was something there, and something is amiss.  These blocks will be placed automatically by the power system if a broken link is detected.  The block will be placed at the point where the relay or generator used to be.
+			!d
+			These blocks will only ever be placed where no other block exists.  They cannot be broken by hand, but can be replaced with any block.  Broken power link blocks are only visible if you are wearing a pair of #9Magitech's Goggles#0.</desc>
+      <relatedEntries>magitechGoggles</relatedEntries>
+    </block>
+    <block id="flickerHabitat">
+      <name>Flicker Habitat</name>
+      <desc>The flicker habitat is a series of crystals designed to allow Flickers to remain in our world.  If a #9Flicker Focus#0 is added, the flickers inside the focus will use the habitat to perform several tasks around the area, such as growing plants, sorting items, fishing, creating magical barriers, and many other functions.
+			!d
+			You can also place a #9Flicker Jar#0 in the habitat and it will serve to modify the functionality of adjacent habitats with a Flicker Focus in them.
+			!d
+			See the flicker focus entries for more information on how they can be modified.</desc>
+      <relatedEntries>flickerFocus,flicker_jar,crystalMarkers</relatedEntries>
+    </block>
+    <block id="crystalMarker">
+      <name>Crystal Markers</name>
+      <desc>Crystal Markers are used to instruct Flickers inside of a Flicker Habitat on how to sort items.  When wearing #9Magitech Goggles#0, you can see the priority level of the different crystals.  This priority indicates the order in which the flickers will attempt to move items.  Lower priority crystals are tried first.  You can change the priority of any crystal by rght clicking it while holding a #9Magitech's Staff#0.</desc>
+      <subitem id="crystalMarker@0">
+        <name>Import Crystal</name>
+        <desc>This crystal instructs the flickers to collect items from the inventory it is attached to and bring it into the item transportation network.  Import crystals cannot have a priority level.</desc>
+        <relatedEntries>flickerFocus,crystal_wrench</relatedEntries>
+      </subitem>
+      <subitem id="crystalMarker@1">
+        <name>Export Crystal</name>
+        <desc>This crystal instructs the flickers that all items in the item transportation network can be exported to the inventory this crystal is attached to.</desc>
+        <relatedEntries>flickerFocus,spell_staff_magitech,magitechGoggles,crystal_wrench</relatedEntries>
+      </subitem>
+      <subitem id="crystalMarker@2">
+        <name>Mimic Export Crystal</name>
+        <desc>This crystal instructs the flickers that items maybe exported from the item transportation network to the inventory this crystal is attached to so long as the inventory already contains that item.</desc>
+        <relatedEntries>flickerFocus,spell_staff_magitech,magitechGoggles,crystal_wrench</relatedEntries>
+      </subitem>
+      <subitem id="crystalMarker@3">
+        <name>Set Export Crystal</name>
+        <desc>This crystal instructs the flickers that items may be exported from the item transportation network to the inventory this crystal is attached to so long as the item has been set through this crystal's GUI.</desc>
+        <relatedEntries>flickerFocus,spell_staff_magitech,magitechGoggles,crystal_wrench</relatedEntries>
+      </subitem>
+      <subitem id="crystalMarker@4">
+        <name>Regulate Export Crystal</name>
+        <desc>This crystal instructs the flickers that items may be exported from the item transportation network to the inventory this crystal is attached to so long as the item has been set through this crystal's GUI and the inventory contains less then number of items set in the crystal's GUI.</desc>
+        <relatedEntries>flickerFocus,spell_staff_magitech,magitechGoggles,crystal_wrench</relatedEntries>
+      </subitem>
+      <subitem id="crystalMarker@5">
+        <name>Regulate Bidirectional Crystal</name>
+        <desc>This crystal instructs the flickers that they may both import and export from the inventory this crystal is attached to !d Import: !l Flickers will take items from the inventory so long as the item has been added to this crystal's GUI and the number of items in the chest is greater then the number set in the GUI !d Export: !l Flickers will put items into the inventory so long as the item has been added to this crystal's GUI and the number of items is below the number set in the GUI.</desc>
+        <relatedEntries>flickerFocus,spell_staff_magitech,magitechGoggles,crystal_wrench</relatedEntries>
+      </subitem>
+      <subitem id="crystalMarker@6">
+        <name>Set Import Crystal</name>
+        <desc>This crystal instructs the flickers that they may import items into the item transportation network from the inventory this crystal is attached to so long as the item has been added to this crystal's GUI.</desc>
+        <relatedEntries>flickerFocus,spell_staff_magitech,magitechGoggles,crystal_wrench</relatedEntries>
+      </subitem>
+	  <subitem id="crystalMarker@7">
+        <name>Final Export Crystal</name>
+        <desc>This crystal instructs the flickers that they should put any items that can't otherwise be placed in the inventory marked by this crystal.  These crystals always have the highest priority number, meaning items will be placed there last.</desc>
+        <relatedEntries>flickerFocus,spell_staff_magitech,magitechGoggles,crystal_wrench</relatedEntries>
+      </subitem>
+	  <subitem id="crystalMarker@8">
+        <name>Spell Export Crystal</name>
+        <desc>This crystal instructs the flickers to watch any crafting altar within 10 blocks. If it is crafting a spell, the flickers will attempt to fetch the next item required for the spell and place it in the inventory marked by this crystal.</desc>
+        <relatedEntries>flickerFocus,spell_staff_magitech,magitechGoggles,crystal_wrench</relatedEntries>
+      </subitem>
+    </block>
+    <block id="keystoneDoors">
+      <name>Keystone Doors</name>
+      <desc>Keystone Doors can be locked using a rune combination.  If locked, they will only open if you have a keystone with the matching key in your inventory.  If not locked, they function simply as a door.  Zombies cannot break them down either way.</desc>
+      <subitem id="keystoneDoor">
+        <name>Keystone Door</name>
+        <desc></desc>
+        <relatedEntries>keystone, keystoneTrapdoor</relatedEntries>
+      </subitem>
+      <subitem id="keystoneTrapdoor">
+        <name>Keystone Trapdoor</name>
+        <desc></desc>
+        <relatedEntries>keystone, keystoneDoor</relatedEntries>
+      </subitem>
+    </block>
+    <block id="armor_infuser_index">
+      <name>Стол наполнения доспехов</name>
+      <desc>Стол наполнения доспехов может использоваться для наложения особого зачарования на любую броню. Что б понять, как именно броня набирает опыт - читать #5Механика -&gt; Опыт брони#0. Открыв интерфейс Стола наполнения доспехов - Вы увидите, что всего есть 4 Ступени зачарования. Зачарование начинается с первой ступени -  сверху вниз. Положите нужный элемент брони в соответствующий слот и просто щелкните по нужному зачарованию. Внимание! Зачарования, наложенные Столом наполнения брони, невозможно снять! Так что, выбирайте с умом. !d Ступени зачарования: !l Ступень 1: 30 уровней !l Ступень 2: 42 уровней !l Ступень 3: 54 уровней !l Ступень 4: 66 уровней !d Каждый раз, во время наложения зачарования, опыт вычитается с брони!</desc>
+	  <subitem id="armor_infuser">
+		<name>Рецепт создания</name>
+		<desc></desc>
+		<relatedEntries></relatedEntries>
+	  </subitem>
+      <subitem id="imbuement_burnout_reduction">
+        <name>Бонус к уменьшению Истощения</name>
+        <desc>Зачарование, позволяющее Вашему Истощению быстрее уменьшаться. Бонус к уменьшению : 150%, всеми компонентами брони максимально можно набрать 600% бонуса. !d Можно зачаровать:  Шлем, Нагрудник, Поножи, Ботинки</desc>
+      </subitem>
+      <subitem id="imbuement_fall_damage">
+        <name>Сопротивление урону от падения</name>
+        <desc>Это зачарование уменьшает получаемый урон от падения на 15%. !d Можно зачаровать:  Шлем, Нагрудник, Поножи, Ботинки</desc>
+      </subitem>
+      <subitem id="imbuement_drown_damage">
+        <name>Сопротивление урону от утопления</name>
+        <desc>Это зачарование уменьшает получаемый урон от утопления на 15%. !d Можно зачаровать:  Шлем, Нагрудник, Поножи, Ботинки</desc>
+      </subitem>
+      <subitem id="imbuement_explosive_damage">
+        <name>Сопротивление урону от взрывов</name>
+        <desc>Это зачарование уменьшает получаемый урон от взрывов на 15%. !d Можно зачаровать:  Шлем, Нагрудник, Поножи, Ботинки</desc>
+      </subitem>
+      <subitem id="imbuement_phys_damage">
+        <name>Сопротивление физическому урону</name>
+        <desc>Это зачарование уменьшает получаемый физический урон на 15%. !d Можно зачаровать:  Шлем, Нагрудник, Поножи, Ботинки</desc>
+      </subitem>
+      <subitem id="imbuement_fire_damage">
+        <name>Сопротивление урону от огня</name>
+        <desc>Это зачарование уменьшает получаемый урон от огня на 15%. !d Можно зачаровать:  Шлем, Нагрудник, Поножи, Ботинки</desc>
+      </subitem>
+      <subitem id="imbuement_frost_damage">
+        <name>Сопротивление урону от холода</name>
+        <desc>Это зачарование уменьшает получаемый урон от холода на 15%. !d Можно зачаровать:  Шлем, Нагрудник, Поножи, Ботинки</desc>
+      </subitem>
+      <subitem id="imbuement_lightning_damage">
+        <name>Сопротивление урону от молнии</name>
+        <desc>Это зачарование уменьшает получаемый урон от молнии на 15%. !d Можно зачаровать:  Шлем, Нагрудник, Поножи, Ботинки</desc>
+      </subitem>
+      <subitem id="imbuement_magic_damage">
+        <name>Сопротивление магическому урону</name>
+        <desc>Это зачарование уменьшает получаемый магический урон на 15%. !d Можно зачаровать:  Шлем, Нагрудник, Поножи, Ботинки</desc>
+      </subitem>
+      <subitem id="imbuement_mana_regeneration">
+        <name>Регенерация маны</name>
+        <desc>Это зачарование повышает скорость регенерации Вашей маны на 10% от базовой скорости. !d Можно зачаровать:  Шлем, Нагрудник, Поножи, Ботинки</desc>
+      </subitem>
+      <subitem id="imbuement_magitech">
+        <name>Интеграция Очков техномага</name>
+        <desc>Данное зачарование добавляет Вашему Шлему эффект как у #5Очков Техномага#0. !d Можно зачаровать:  Шлем</desc>
+        <relatedEntries>magitechGoggles</relatedEntries>
+      </subitem>
+      <subitem id="imbuement_pinpoint_ores">
+        <name>Указывание руд</name>
+        <desc>Зачарование указания руд эффективно работает с Свечами оберега. !d Можно зачаровать:  Шлем</desc>
+        <relatedEntries>warding_candle</relatedEntries>
+      </subitem>
+      <subitem id="imbuement_hunger_regen">
+        <name>Регенерация голода</name>
+        <desc>Это зачарование добавляет Вашему шлему эффект восстановления голода! !d Можно зачаровать:  Шлем</desc>
+      </subitem>
+      <subitem id="imbuement_mining_speed">
+        <name>Повышение скорости копания</name>
+        <desc>Это зачарование повышает скорость разрушения блоков на 50% от базовой скорости. !d Можно зачаровать:  Шлем</desc>
+      </subitem>
+      <subitem id="imbuement_thaumic_vision">
+        <name>Таумическое зрение</name>
+        <desc>Это зачарование добавляет шлему эффект Очков откровения. !d Можно зачаровать:  Шлем</desc>
+      </subitem>
+      <subitem id="imbuement_water_breathing">
+        <name>Подводное дыхание</name>
+        <desc>Это зачарование даст Вам возможность дольше находится под водой. !d Можно зачаровать:  Шлем</desc>
+      </subitem>
+      <subitem id="imbuement_flicker_lure">
+        <name>Мерцающая приманка</name>
+        <desc>Эта приманка действует на Вспышки, которые теперь не будут убегать при Вашем приближении. !d Можно зачаровать: Нагрудник</desc>
+      </subitem>
+      <subitem id="imbuement_soulbound">
+        <name>Привязка к душе</name>
+        <desc>Уникальное зачарование, позволяющее Вам привязать определенный предмет к собственной душе, что даст возможность не терять его при смерти. !d Можно зачаровать: Нагрудник, Поножи, Ботинки</desc>
+      </subitem>
+      <subitem id="imbuement_healing">
+        <name>Лечение</name>
+        <desc>Это зачарование будет налаживать на Вас мощный восстановительный эффект, когда запас здоровья опустится до низкого уровня. !d Можно зачаровать: Нагрудник</desc>
+      </subitem>
+      <subitem id="imbuement_life_saving">
+        <name>Сохранение жизни</name>
+        <desc>Уникальное зачарование, позволяющее при смерти мгновенно восстановить 50% запаса здоровья. При использовании, очень сильно повреждает броню, и имеет очень долгую перезарядку. !d Можно зачаровать: Нагрудник</desc>
+      </subitem>
+      <subitem id="imbuement_bonus_xp">
+        <name>Бонус к магическому опыту</name>
+        <desc>Это зачарование добавляет бонус 50% к набираемому магическому опыту. !d Можно зачаровать: Нагрудник</desc>
+      </subitem>
+      <subitem id="imbuement_recoil">
+        <name>Отдача</name>
+        <desc>Зачарование отдачи будет отталкивать атакующих, при получении урона. !d Можно зачаровать: Нагрудник</desc>
+      </subitem>
+      <subitem id="imbuement_stepassist">
+        <name>Шаг на 1 блок выше</name>
+        <desc>Это зачарование позволит Вам шагать на 1 блок выше, без прыжка. !d Можно зачаровать: Поножи</desc>
+      </subitem>
+      <subitem id="imbuement_dispelling">
+        <name>Рассеивание</name>
+        <desc>Это зачарование снимает с Вас негативные эффекты. Имеет время перезарядки. !d Можно зачаровать: Поножи</desc>
+      </subitem>
+      <subitem id="imbuement_lava_prot">
+        <name>Защита от лавы</name>
+        <desc>С этим зачарованием, когда вы упадете в лаву, вокруг вас образуется защитный "купол" с булыжника или обсидиана. !d Можно зачаровать: Поножи</desc>
+      </subitem>
+      <subitem id="imbuement_jump_boost">
+        <name>Усиление прыжка</name>
+        <desc>Это зачарование добавляет бонус к высоте прыжка. Будьте осторожны! !d Можно зачаровать: Поножи</desc>
+      </subitem>
+      <subitem id="imbuement_swim_boost">
+        <name>Бонус к скорости плавания</name>
+        <desc>Это зачарование позволит Вам плавать быстрее! !d Можно зачаровать: Поножи</desc>
+      </subitem>
+      <subitem id="imbuement_run_speed">
+        <name>Бонус к скорости бега</name>
+        <desc>Это зачарование повысит скорость плавания. !d Можно зачаровать: Ботинки</desc>
+      </subitem>
+      <subitem id="imbuement_fall_protection">
+        <name>Защита от падения</name>
+        <desc>Это зачарование сработает прямо перед падением, поглощая весь потенциальный урон. Имеет время перезарядки. !d Можно зачаровать: Ботинки</desc>
+      </subitem>
+      <subitem id="imbuement_freedom">
+        <name>Легкость движений</name>
+        <desc>Это зачарование предотвращает любые замедляющие Вас физические эффекты. !d Можно зачаровать: Ботинки</desc>
+      </subitem>
+      <subitem id="imbuement_water_walking">
+        <name>Хождение по воде</name>
+        <desc>С этим зачарованием вы получаете возможность ходить по воде, как по обычному блоку, но с меньшей скоростью. Думаю, не стоит напоминать, что Вы не сможете нормально плавать, пока не снимете ботинки. !d Можно зачаровать: Ботинки</desc>
+      </subitem>
+      <subitem id="imbuement_light_step">
+        <name>Светлый шаг</name>
+        <desc>Это зачарование позволит Вам призвать Светлого мага (если это возможно) там, где уровень освещения достаточно низок для появления враждебных мобов. !d Можно зачаровать: Ботинки</desc>
+      </subitem>
+    </block>
+	<block id="flicker_lure">
+      <name>Мерцающая приманка</name>
+      <desc>Flickers aren't normally able to enter our world, but with a little help and incentive, you can make that happen.  Placing this block and powering it with Etherium will allow flickers to be pulled into our world!  When you want them, just apply a redstone signal.  The type of flicker will depend on where the lure is.  See the entry on #9Flickers#0 for information on where to find specific ones.</desc>
+      <relatedEntries>Flicker</relatedEntries>
+    </block>
+	<block id="arcane_deconstructor">
+      <name>Магический разрушитель</name>
+      <desc>Магический разрушитель будет розбирать предметы на составные элементы их крафта. Требует постоянное питание Темным Эфиром. Да! может разобрать заклинание! Однако, вы не получите такие предметы, как Пустая руна, пергамент заклинания или вложенный во время крафта эфир. Разрушитель будет складывать предметы в собственном интерфейсе. Если места не достаточно - предмет просто будет выброшен в мир.</desc>
+      <relatedEntries>chargefocus</relatedEntries>
+    </block>
+	<block id="otherworldly_aura">
+      <name>Otherworldly Aura</name>
+      <desc>The Otherworldly Aura is used to automate spell creation.  It summons a shadow copy of whoever created it to complete the spell.  !d To use it, you need the following: !l -Within 10 blocks of the #5Crafting Altar#0 !l -#4Dark#0 or #9Neutral#0 Etherium (have a good amount on hand, interdimensional travel is costly!) !l -One or more block inventories (chest, hopper, etc) within 8 blocks of the Aura.  These inventories are what will be searched for spell reagents. !d The aurem will maintain the shadow for as long as needed, provided it has enough power.  Running out of power will cause the shadow to dissipate, and out of spite for the inconvenience, it may take whatever reagent it is currently carrying!  Only one aura will assist an altar at a time, so multiple auras are not needed. !d To get the aura, perform a #5Ritual of the Cross#0 around an #5Inert Spawner#0 with #5Transplace#0 as the catalyst.</desc>
+      <relatedEntries>rituals_overview,Transplace,corruption_obelisk,inertSpawner</relatedEntries>
+    </block>
+	<block id="inertSpawner">
+		<name>Inert Spawner</name>
+		<desc>You've managed to pick up a monster spawner, but it seems to not be able to spawn anything anymore.  You should look into other applications for this device, or find a way to re-activate it. !d Perhaps #5Dark Etherium#0 and a #5Filled Crystal Phylactery#0 could make it function again...</desc>
+		<relatedEntries>otherworldly_aura,blackaurem_structure,crystal_phylactery</relatedEntries>
+	</block>
+  </blocks>
+  <mechanics>
+    <mechanic id="affinity">
+      <name>Родство</name>
+		<desc>#5Родство#0 представляет собой связь в некоторых областях магии.  Вы начинате с нулевым показателем уровня родства.  Ваш уровень родства будет показанно в правом нижнем углу экрана, в виде процентов и иконки эссенции, и может быть просмотрена в Оке Сарумяна.  Ваш уровень родства будет увеличиватся в зависимости от исползуемого вами заклинания, то есть, если вы будете использовать заклинания одного типа, чаще чем другого, то ваш уровень родства с используемым типом заклинания, возрастет.
+			При исползовании заклинаний различных типов, ваш уровень родства увеличивается.  Когда ваш уровень родства одного типа достигнет 100%, вы становитесь привязаны к данному типу магии, и вам нужно будет прочитать Том Родства противоположной магии, чтобы уменьшить ваш уровень родства с данным типом магии.  Испольнование магического Тома Родства опустит ваш уровень родства до 80%.
+			
+			Каждый компонент заклинания имеет свой уровень родства.  Чем выше уровнь родства с данным типом магии, тем меньше вы тратите маны на использование вашего заклинания, даже есть шанс, что вы ничего не потратите.  Однако, использование заклинания противоположного типа магии, будет стоить больше маны, а так-же больше потребление реагентов, и опять-же в зависисмости от уровня вашего родства.  Уровень родства имеет как преимущества, так и недостатки. Более подробно описание Вы найдете на страницах.		
+		</desc>
+      <subitem id="earth_affinity">
+        <name>Родство с Землей</name>
+        <desc>
+					Дает незначительный бонус к защите, из-за вашей закаленной кожи. При макс. уровне родства у вас будет снижен урон на 10% от общего урона. Процент снижения урона зависит от уровня вашего родства, и начинается с отметки 25%.
+					!d
+					Из недостатков родства с землей: Вы будете быстрее тонуть и вы будете получать больше урона при падении. Будете плавать как топор и падать как кирпич.
+				</desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="water_affinity">
+        <name>Родство с Водой</name>
+        <desc>
+					Родство с водой дает бонус к скорости плавания, а также дает бонус к подводному дыханию. Также вас не будет толкать проточная вода. Эндермены, которые атакуют мага с 100% родством с водой, получит урон равный урону при попадании в воду. 
+					!d
+					Из недостатков родства с водой: Периодически, находясь в аду, вы будете получать урон, но при этом ваше здоровье не опустится ниже 75%.
+					</desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="air_affinity">
+        <name>Родство с Воздухом</name>
+        <desc>
+					Родство с Воздухом дает бонус к прыжкам в высоту и позволяет упасть без урона с большей высоты, чем обычно. Бонусы зависят от количества вашего уровня с данным родством: Вы сможете подскочить выше и упасть ниже на один блок при 50%, на два при 75%, и на три при 100%.
+					!d
+					Из недостатков родства с воздухом: При дожде или метели вас будет штормить в разные стороны.
+					</desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="fire_affinity">
+        <name>Родство с Огнем</name>
+        <desc>
+					Родство с Огнем дает вам бонус к защите от огня и лавы. При полном уровне родства у вас будет 60% защита от огня. Также при ударе кулаком, вы будете поджигать врага.
+					!d
+					Из недостатков родства с огнем: При 50% уровня родства, вы будете получать урон при касании блока воды.
+				</desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="nature_affinity">
+        <name>Родство с Природой</name>
+        <desc>
+					Родство с Природой дает вам шанс двойной добыче семян из травы. При 50% уровня родства, вы получаете эффект "Шипы" и чем выше уровень родства, тем сильнее эффект. А при 100% уровня родства, у вас медленно регенерирует голод под прямым солнечным светом.
+					!d
+					Из недостатков родства с природой: Вы передвигаетесь медленее из-за ваших корней. Если вы находитесь в темноте, то ваш голод тратится быстрее обычного.
+					</desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="ice_affinity">
+        <name>Родство с Льдом</name>
+        <desc>
+					Родство с Льдом дает вам бонус в атаке. Вы замедляете ваших врагов при атаке. Так-же если уровень родства равен 50%, вы можете замораживать воду под собой при ходьбе на Shift. А при уровне родства равному 100%, вы сможете замораживать даже лаву!
+					!d
+					Из недостатков родства с льдом: Ваше движение замедлено, если вы движетесь не по воде или льду.
+				</desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="lightning_affinity">
+        <name>Родство с Молнией</name>
+        <desc>
+					Родство с Молнией дает вам бонус к скорости бега, максимально ускорение - +30%. Также на 50% уровне родства с молнией, вы можете бегать по блокам, как по ступенькам.
+					!d
+					Из недостатков родства с молнией: Если ваш уровень родства больше 50%, то при грозе вы становитесь как громоотвод, в вас будут очень часто бить молнии.
+					</desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="life_affinity">
+        <name>Родство с Жизнью</name>
+        <desc>
+					Родство с Жизнью дает вам бонус к регенерации вашего здоровья. Скорость регенерации зависит от уровня родства с жизнью. Регенерация работает даже если вы голодны.
+					!d
+					Из недостатков родства с жизнью: При убийстве существа (корова, овца, курица, свинья и тд.), на вас накладывается эффект "Тошнота".
+					</desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="arcane_affinity">
+        <name>Тайное Родство</name>
+        <desc>
+					Тайное родство уменьшает потребление вашей маны на 5%, так-же, при 100% родства, есть шанс использования заклинание без затрат маны.
+					!d
+					Из недостатков тайного родства: Вы получаете двойной урон от заклинаний.
+				</desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="ender_affinity">
+        <name>Родство Края</name>
+        <desc>
+					Родство Края дает вам сопротивление к яду, если уровень родства больше 50%. При 75% уровне родства вы получаете Ночное Зрение в темных местах. А при 100%, Эндерманы вас не атакуют, если вы их не трогаете.
+					!d
+					Из недостатков родства края: Днем количество вашего здоровье уменьшено, а при 100% уровня родства, здоровье также уменьшается в воде.
+					</desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <relatedEntries></relatedEntries>
+    </mechanic>
+    <mechanic id="spellCreation" unlocked="true">
+      <name>Создание Заклинаний</name>
+      <desc>Создание заклинания является несколько длительным, но простым.  Во-первых, выучите умения в #5Оке Обозрения#0.  Затем создайте рецепт заклинания в #5Столе начертания#0.  Положите книгу-рецепт, вынутую из стола, на подставку возле вашего #4Алтаря Создания#0, и бросьте #5Пустой глиф#0.  Книга будет показывать нужные вам ингредиенты. Когда книга потребует Эфир, возьмите #4Кристальный ключ#0, нажмите им на Обелиск, Чистую Призму, или Чревоточину (зависит от того, какой Эфир нужен), затем на блок Алтаря Создания, который расположен сверху конструкции, после нажмите рычаг. Алтарь сам впитает в себя Эфир и выключит прием Эфира. Как только вы создадите заклинание, нажмите правой кнопкой им. Откроется окно выбора названия и иконки.  Если вы все сделали правильно, то можете использовать ваше заклинание!  В противном случае, вам снова покажут окно выбора имени и иконки.</desc>
+	<relatedEntries></relatedEntries>
+    </mechanic>
+    <mechanic id="infusion">
+      <name>Инфузия</name>
+      <desc>#5Инфузия#0 представляет собой процесс, в котором броня AM2 будет поглощать вашу ману, чтобы восстановить себя.  Из-за этой механики, броня AM2 имеет низкой показатель прочности, и не будет длительна в бою. Если броня не повреждена - мана не тратится. Все просто.</desc>
+	<relatedEntries></relatedEntries>
+    </mechanic>
+    <mechanic id="mana" unlocked="true">
+      <name>Мана</name>
+      <desc>Мана - это ваш духовный запас энергии. Вы получаете больше маны, когда увеличиваете свой Магический Уровень. Мана восстанавливается сама, но вы можете ускорить процесс на 10%, съев #9Мана-торт#0 или встав возле рабочего #9Обелиска#0. Используя зелья маны, вы мгновенно восстанавливаете ману, количество которой зависит от типа Зелья. Также 3 Зелья маны можно связывать в 1 #9"Связку"#0. !d Мана показана в виде синей полосы на вашем HUD.</desc>
+		<relatedEntries></relatedEntries>
+    </mechanic>
+    <mechanic id="magicLevel" unlocked="true">
+      <name>Магический Уровень</name>
+      <desc>Магический Уровень определяет силы мага.  По мере увеличения Магического уровня, будет увеличиватся максимальное количество Маны и Истощения.  Магический уровень увеличивается при использвании заклинаний. Ваш Магический уровень показан синей цифрой на вашем HUDе. Вы можете включать или выключать возможность показа XP полосы уже известной командой.</desc>
+	<relatedEntries></relatedEntries>
+    </mechanic>
+    <mechanic id="burnout" unlocked="true">
+      <name>Истощение</name>
+      <desc>Истощение это ваша "усталость" в заклинаниях. Чем выше у вас уровень Истощения, тем больше маны потребляет заклинание. Использвание более мощных заклинаний, будет стоить больше Истощения. Однако, со временем уровень перегорания падает. Поднимая свой магический уровень, максимальное количество Истощения увеличиватеся. Истощение показано красной полосой на HUD. Используя команду #2/amuicfg#0, вы можете настроить его расположение и цифровые значения.</desc>
+	<relatedEntries></relatedEntries>
+    </mechanic>
+    <mechanic id="rituals">
+      <name>Ритуалы Призыва</name>
+      <desc>В AM2 существуют ритуалы для призыва боссов. Чтобы сразить босса из Ars Magica 2, вам нужно его призвать.  Для подробной информации, смотри раздел #5Боссы#0.</desc>
+	<relatedEntries></relatedEntries>
+    </mechanic>
+    <mechanic id="moonstone_meteors">
+      <name>Лунные Метеоры</name>
+      <desc>С маленьким шансом, на землю может рухнуть Лунный Метеор. Это единственный способ получить руду Лунного Камня.  Полная луна на небе увеличивает шанс падения метеора.  Метеор всегда падает в 32 блоках от игрока, и только на поверхность земли.</desc>
+	<relatedEntries></relatedEntries>
+    </mechanic>
+    <mechanic id="enchantments" unlocked="true">
+      <name>Зачарования</name>
+      <desc>AM2 добавляет несколько уникальных зачарований в игру, которые должны облегчить Вам жизнь.</desc>
+      <subitem id="magic_resistance">
+        <name>Сопротивление Магии</name>
+        <desc>Следуя из названия, это зачарование дает защиту от магии. Всего 4 степени зачарования. Зачаровывается вся броня.</desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <subitem id="soulbound">
+        <name>Привязка к Душе</name>
+        <desc>Вы устали терять вещи при смерти? Не беда! !d Данное зачарование накладывается на любую броню, в которой имеется достаточное количество опыта. После смерти, ваш зачарованный предмет останется на месте, в том-же слоте.</desc>
+		<relatedEntries></relatedEntries>
+      </subitem>
+      <relatedEntries></relatedEntries>
+    </mechanic>
+    <mechanic id="armor_xp_infusion">
+      <name>Опыт Брони</name>
+      <desc>Всякий раз, когда вы получаете урон, Ваша броня будет накапливать в себе его в виде опыта. Броня равномерно распределяет между собой полученный опыт. Полученный опыт можно тратить в #9Столе наполнения брони#0 для наложения всевозможных зачарований.</desc>
+      <relatedEntries>armor_infuser</relatedEntries>
+    </mechanic>
+    <mechanic id="silver_skills">
+      <name>Серебрянные Умения</name>
+      <desc>Хоть Серебрянные Умения и расположены в Оке Обозрения, они не могут быть получены обычным путем изучения.  Чтобы разблокировать Серебрянное Умение, нужно собрать комбинацию заклинаний, а затем использвать.  Есть несколько правил, для разблокировки Серебрянных Умений, которые помогут легче их получить. !d 1.) Все комбинации, для получения Серебрянного умения, будут #9в разделе, в котором находится само Серебрянное Умение#0. !d 2.) Все Серебрянные Умения требуют #9от 2 до 4 компонентов и/или модификаторов для разблокировки#0. !d 3.) Типы выбора цели имеют значение для разблокировки Серебрянного Умения. !d 4.) Комбинации #9могут находится в любой порядке#0.  Если есть правильные компоненты, которые работают. !d 5.) Все компоненты/модификаторы #9должны находится в одной стадии заклинания#0. !d 6.) Компоненты и модификаторы #9должны иметь смысл с Серебрянным Умением#0.  Например, Огненный Шторм не требует умение "Топить". !d 7.) Заклинание, для получение Серебрянного Умения, не должно часто применятся.</desc>
+		<relatedEntries></relatedEntries>
+    </mechanic>
+  </mechanics>
+  <guides>
+    <guide id="introToArsMagica" order="0" unlocked="true" new="false">
+      <name>Введение</name>
+      <desc>Ars Magica мой первый мод для Minecraft. Я очень любил игру Minecraft и чувствовал, что это идеальный мир для магии. Я начал разрабатывать этот мод. Я провел около сотни часов над созданием AM1 и AM2. С хорошими учебниками в зубах и немного удачей, мне удалось выпустить AM1. Затем я взял AM1, исправил некоторые ошибки, добавил немного нового и выпустил AM2. !l Я хочу поблагодарить всех людей. Всех бета-тестеров. Всех, кто помогал мне с кодом, текстурами, и моделями. Без вас этого мода бы не было. !d А вам игрок, я желаю насладится игрой с модом так, как насладился я, создавая его. !d Счастливой магии! !l Разработчик AM2: Mithion !l Автор перевода: Brat.Asakura !l vk.com/brat.asakura !l Соавтор: exRedvanced</desc>
+	</guide>
+	<guide id="aboutArsMagica" order="1" unlocked="true">
+      <name>О Моде</name>
+      <desc>Ars Magica 2 это магический мод, в котором можно создавать свои заклинания. Огненные снаряды, Ледянные лучи, Моментальное лечение, Массовые удары, все это в данном моде. Вас ждут 10 уникальных боссов, которых вам придется убивать, если вы хотите изучить магию. Вы будете набирать магический опыт, следить за своей маной, и создавать новые заклинания!</desc>
+	</guide>
+    <guide id="usingThisCompendium" order="2" unlocked="true">
+      <name>Как пользоватся Компедиумом</name>
+      <desc>Эта книга содержит в себе разблокированные элементы, которые вы уже можете использовать.  При разблокироки нового элемента, вы увидите табличку сверху.  Категории с новым элементом будут сверкать, а сами новые элементы будут помечены синей луной.  !d Компедиум #9внутре-связанный#0. Любой пункт при наведении курсора, который выделен зеленым цветом, может быть нажат и вас перенаправит на крафт этого элемента.</desc>
+	</guide>
+    <guide id="theAMUI" order="3" unlocked="true">
+      <name>Интерфейс Ars Magica 2</name>
+      <desc>Подняв Компедиум, вы пробудили в себе силы истинного мага.  Вы активировали AM2 HUD.  Вы можете в любое время настроить свой интерфейс, введя команду "#2/amuicfg#0".  Команда откроет интерфейс, где вы сможете переместить любой HUD из AM2.  После изменений нажмите ESC и играйте с новым интерфесом!</desc>
+    </guide>
+    <guide id="spellComponents101" order="6">
+      <name>Состав заклинания</name>
+      <desc>Заклинания состоят из #4Основы#0, #9Компонентов#0, и #2Модификаторов#0. Основа указывает на способ произношения заклинания и на цели, Компоненты указывают на то, что будет делать заклинание, а Модификаторы улучшают некоторые аспекты в заклинании.  #4Основа#0 заклинания проявляется 1 раз в одно заклинание.  #4Основы#0 могут быть соединены вместе, для создания этапов, например, "Массовый Снаряд".  Компоненты могут быть добавлены только после Основы. Заклинание может быть улучшено Модификаторами, но не более 3 раз.  Это значит, что если у вас есть больше 3 Модификаторов в заклинании, то только 3 из них будут работать.  В Компедиуме вы всегда найдете описание Основ, Компонентов, и Модификаторов, которые вы уже знаете или которые выучили.</desc>
+	</guide>
+    <guide id="yourFirstSpell" order="4" unlocked="true">
+      <name>Ваше первое Заклинание</name>
+      <desc>Для создания вашего первого заклинания, необходимо создать #5Око Обозрения#0 и разблокировать в нем, покрайней мере, одну Основу и один Компонент.  Изначально вам доступно всего 3 синих очка умений.  !d Для создания Рецепта Заклинания, вам потребуется 1 книга с пером и #5Стол Начертания#0.  Положите книгу с пером в Стол Начертания, затем перетаскивайте иконки умений в нижние окна. !l 5 Коричневые квадраты служат для Основ заклинания, а серая полоса снизу - для Компонентов и Модификаторов.  Для завершение создания рецепта заклинания - достаточно забрать книгу. Теперь идем к #5Алтарю Созданий#0 и кладем рецепт заклинания на аналой.  Бросьте #5Пустую руну#0 в центр алтаря, для начала процесса создания, затем кидайте вещи, которые указаны над книгой. Сам рецепт можно прочитать, в нём будут указаны элементы будущего заклинания, подробности родства, а так же требуемые предметы для создания. После всего этого вы получите свое заклинание.</desc>
+	</guide>
+	<guide id="aFewSpells" order="5" unlocked="true">
+      <name>Несколько рекомендуемых заклинаний</name>
+      <desc>Когда начнете играть, убедитесь, что выучили хотя-бы одну #9Основу#0 и один #9Компонент#0 в Оке Обозрения, иначе вы будете не в состоянии сделать какое-либо заклинание.  Если вы уже потратили очки и не послушались моего совета - идите грабить, убивать, насиловать монстров в подземельях и добывать #9Сферы Бесконечности#0, или проделывайте тоже самое с боссами из AM2.  Если вы играете в чит-режиме, вам поможет команда /respec . !p Вот пара комбинация для первых заклинаний: !d Базовая защита: !l Снаряд + Физический Урон !d Поддержка жизни: !l На себя + Регенерация !d Помощь шахтеру: !l Касание/Снаряд + Копание !d Опавшие Листья: !l Снаряд + Осень Волшебника !d Быстрое Путешествие: !l На себя/Снаряд + Прыжок + Замедленное Падение + Ускорение + Гравитационное Усиление</desc>
+    </guide>
+    <guide id="gainingMagicLevels" order="7">
+      <name>Магический Уровень</name>
+      <desc>При использовании заклинания, вы будете получать Магический Опыт. Если заклинание было прервано или же не дало должного эффекта, вы не получите магический опыт. Чтение заклинания также изменяет ваше Магическое Родство.  Смотреть #5Механика -> Родство#0 для дополнительной информации.</desc>
+	</guide>
+    <guide id="unlockingPowers" order="8">
+      <name>Очки Умений и их получение</name>
+      <desc>Вы будете получать очки умений при повышении вашего магического уровня.  Каждые 2 новых уровня = 1 очко умений. На уровнях 2-20, вы будете получать синие, на 22-40 зеленые, а на 42-50 красные очки умений.  Так-же, при битвах с боссами или торговлей с жителями, вы можете получить одну из 3 Сфер Бесконечности, которые при использвании, дадут вам 1 очко умения, соответствующего цвета.  При просмотре недоступных умений в #5Оке Обозрения#0, наведя курсор на нужное умение, #9цвет названия будет соответсвовать нужному вам очку умений#0.</desc>
+	</guide>
+    <guide id="essenceAllAround" order="9">
+      <name>Система Эфира</name>
+      <desc>Ars Magica 2 добавляет уникальную систему энергии под названием #5Эфир#0.  Эфир генерируется в структуре с названием #5Обелиск#0.  Обелиск может передавать свою энергию в нужные блоки, но не дальше 10 блоков от него.  Вы можете расширить радиус действия, поставив #5Передатчик Эфира#0 в 10 блоках от Обелиска.  Каждый Передатчик увеличивает радиус на 10 блоков. Привязать Передатчик к Обелиску можно с помощью Кристального Посоха. !d Есть несколько типов Эфира.  Например #9Светлый Эфир#0 может быть получен из #5Чистой Призмы#0, а #4Темный Эфир#0 из #5Чревоточины#0.</desc>
+    </guide>
+    <guide id="powerTypes" order="10">
+      <name>Типы Эфира</name>
+      <desc>Всего доступно 3 типа Эфира. Различные дополнения могут добавлять и другие типы, но стандартно их всего 3, Светлый Эфир, Нейтральный Эфир и Темный Эфир.  Каждый тип Эфира влияет на механизмы по своему, и имеет плюсы и минусы.  Вам придется делать все 3 вида Эфира, так как создание некоторых Заклинаний требует различный Эфир.  Также некоторые механизмы работают только на определенном Эфире, а некоторые и вовсе требуют 2 или 3 типа сразу.</desc>
+    </guide>
+  </guides>
+</compendium>
