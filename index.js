@@ -4,12 +4,13 @@ import { getDatabase, ref, set } from "firebase/database";
 import imageToBase64 from 'image-to-base64';
 
 const BRANCH_NAME = "Magic"
-const SAVING_DEPTH = 2
+const SAVING_DEPTH = 4
 // Глубина определяет, насколько сильно будут дробиться данные для загрузки
 // Firebase не может сохранять большие объекты за один запрос
 // 1 - отправить моды отдельно
-// 2 - отправить отдельно каждый тип текстур (items, blocks, ...)
-// 3 - отправить каждую текстуру отдельно
+// 2 - textures, lang, ...
+// 3 - отправить отдельно каждый тип текстур (items, blocks, ...)
+// 4 - отправить каждую текстуру отдельно
 
 const firebaseConfig = {
     apiKey: process.env.apiKey,
