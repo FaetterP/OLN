@@ -1,9 +1,15 @@
 import { initializeApp } from "firebase/app";
-import fs from "fs";
-import glob from "glob";
-import path from "node:path";
+import { readFileSync, readdirSync } from "fs";
 import { getDatabase, ref, set } from "firebase/database";
 import imageToBase64 from 'image-to-base64';
+
+const BRANCH_NAME = "Magic"
+const SAVING_DEPTH = 2
+// Глубина определяет, насколько сильно будут дробиться данные для загрузки
+// Firebase не может сохранять большие объекты за один запрос
+// 1 - отправить моды отдельно
+// 2 - отправить отдельно каждый тип текстур (items, blocks, ...)
+// 3 - отправить каждую текстуру отдельно
 
 const firebaseConfig = {
     apiKey: process.env.apiKey,
@@ -17,77 +23,79 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 
-function getDirectories(src) {
-    return new Promise((resolve, reject) => {
-        const callback = (err, res) => {
-            if (err) {
-                reject(err)
-            }
-            else {
-                resolve(res)
-            }
-        }
-        glob(src + '/**/*', callback);
-    })
+function isTextFile(string) {
+    const types = [".txt", ".mcmeta", ".lang", ".json"]
+
+    for (const type of types) {
+        if (string.endsWith(type))
+            return true
+    }
+    return false
 }
 
-function isFolder(path) {
-    try {
-        fs.readdirSync(path);
-        return true;
-    } catch {
-        return false;
+function isImageFile(string) {
+    const types = [".png"]
+
+    for (const type of types) {
+        if (string.endsWith(type))
+            return true
     }
+    return false
 }
 
-(async function () {
-    const ret = {
-        "assets": {
-            isFolder: true,
-            name: "assets",
-            content: []
-        }
-    }
-    const filePaths = await getDirectories("assets")
-    for (const filePath of filePaths) {
-        if (isFolder(filePath)) {
-            let name = path.basename(filePath)
+async function getContents(folder) {
+    let contents = {}
+    for (const dirent of readdirSync(folder, { withFileTypes: true })) {
+        const direntPath = `${folder}/${dirent.name}`
+        const firebaseName = dirent.name.replaceAll(".", ",")
 
-            ret[filePath.replaceAll('/', ' ').replaceAll('.', ',')] = {
+        if (dirent.isDirectory()) {
+            const content = await getContents(direntPath)
+            contents[firebaseName] = {
                 isFolder: true,
-                name: path.basename(filePath),
-                content: []
-            }
-
-            const dirname = path.dirname(filePath)
-            ret[dirname.replaceAll('/', ' ').replaceAll('.', ',')].content.push(name)
+                keys: Object.keys(content),
+                content
+            };
         }
         else {
-            let content = ""
-            let name = path.basename(filePath)
-            if (name.endsWith(".png")) {
-                content = await imageToBase64(filePath)
+            if (isTextFile(direntPath)) {
+                const content = readFileSync(direntPath, { encoding: 'utf-8' })
+                contents[firebaseName] = content
             }
-            else if (name.endsWith(".lang")) {
-                content = fs.readFileSync(filePath).toString()
+            else if (isImageFile(direntPath)) {
+                const content = await imageToBase64(direntPath)
+                contents[firebaseName] = content
             }
-
-            ret[filePath.replaceAll('/', ' ').replaceAll('.', ',')] = {
-                isFolder: false,
-                name,
-                content
-            }
-
-            const dirname = path.dirname(filePath)
-            ret[dirname.replaceAll('/', ' ').replaceAll('.', ',')].content.push(name)
         }
     }
+    return contents;
+}
 
-    for (const key of Object.keys(ret)) {
-        console.log(key)
-        const dbRef = ref(getDatabase(), `OLN-assets/Magic/${key}/`);
-        await set(dbRef, ret[key])
+async function saveToFirebase(path, data, depth) {
+    for (const key of Object.keys(data)) {
+        if (depth > 0 && data[key].isFolder) {
+            console.log("next", `${path}/${key}`)
+            await set(ref(getDatabase(), `${path}/${key}/isFolder`), data[key].isFolder)
+            await set(ref(getDatabase(), `${path}/${key}/keys`), data[key].keys)
+            await saveToFirebase(`${path}/${key}/content`, data[key].content, depth - 1)
+        }
+        else {
+            console.log(`${path}/${key}`)
+            const dbRef = ref(getDatabase(), `${path}/${key}`);
+            await set(dbRef, data[key])
+        }
     }
+}
 
+(async () => {
+    const content = await getContents("assets")
+    const data = {
+        [BRANCH_NAME]: {
+            isFolder: true,
+            keys: Object.keys(content),
+            content
+        }
+    }
+    await saveToFirebase(`OLN-assets`, data, SAVING_DEPTH)
     process.exit(0)
-}());
+})()
