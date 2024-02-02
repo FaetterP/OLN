@@ -8,4 +8,4 @@ del /s /q package.json
 del /s /q package-lock.json
 del /s /q README.md
 
-tar -a -c -f OLN-Magic.zip assets pack.png pack.mcmeta
+tar -a -c -f OLN.zip assets pack.png pack.mcmeta
