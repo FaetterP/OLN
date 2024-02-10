@@ -29,7 +29,6 @@
 + Gendustry
 + Gravitation Suite
 + IndustrialCraft 2
-+ igwmod
 + Immersive Engineering
 + Industrial Upgrade
 + Mekanism
