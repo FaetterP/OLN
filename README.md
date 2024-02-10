@@ -40,6 +40,7 @@
 + OpenBlocks
 + Runic Dungeons
 + Storage Drawers
++ TerraFirmaCraft
 + Tinkers' Construct
 + Tinkers' Mechworks
 + Tropicraft
