@@ -28,6 +28,7 @@
 + Dense Ores
 + ExtrabiomesXL
 + ExtraTiC
++ Ex Nihilo
 + Hardcore Ender Expansion
 + HarvestCraft
 + Iron Backpacks
