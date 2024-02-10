@@ -1,0 +1,41 @@
+name: Automerge
+
+on:
+  push:
+    branches: [ "Other" ]
+  pull_request:
+    branches: [ "Other" ]
+
+  workflow_dispatch:
+
+env:
+  REPO_URL: https://FaetterP:${{secrets.GITHUB_TOKEN}}@github.com/FaetterP/OLN.git
+  CURRENT_BRANCH: Other
+  MASTER_BRANCH: Full
+  apiKey: ${{ secrets.APIKEY }}
+  authDomain: ${{ secrets.AUTHDOMAIN }}
+  databaseURL: ${{ secrets.DATABASEURL }}
+  projectId: ${{ secrets.PROJECTID }}
+  storageBucket: ${{ secrets.STORAGEBUCKET }}
+  messagingSenderId: ${{ secrets.MESSAGINGSENDERID }}
+  appId: ${{ secrets.APPID }}
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Merge with master
+      run: |
+        git clone ${{env.REPO_URL}} -b ${{env.MASTER_BRANCH}} tmp
+        cd tmp
+        git config user.name "Automerge"
+        git config user.email "faettterp@gmail.com"
+        git config pull.rebase false
+        git pull ${{env.REPO_URL}} ${{env.CURRENT_BRANCH}}
+        git push
+    - name: call-pushToDb
+      run: |
+        cd tmp
+        npm i
+        npm run push_to_db
