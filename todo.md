@@ -22,6 +22,7 @@
 + [Twilight Forest](#twilight-forest)
 + [Witchery](#witchery)
 + [Witching Gadgets](#witching-gadgets)
++ Thaumic Machina ???
 
 ## Advanced Botany
 
@@ -447,17 +448,17 @@
 
 + Items
   + ядра големов слишком яркие
-  + alumentum
+  + ~~alumentum~~
   + bootstraveler
   + cloth (оттенки)
-  + clustercinnabar
-  + clustercopper
-  + clustergold
-  + clusteriron
-  + clusterlead
-  + clustersilver
-  + clustertin
-  + crimson_rites (оставить такой же)
+  + ~~clustercinnabar~~
+  + ~~clustercopper~~
+  + ~~clustergold~~
+  + ~~clusteriron~~
+  + ~~clusterlead~~
+  + ~~clustersilver~~
+  + ~~clustertin~~
+  + ~~crimson_rites (оставить такой же)~~
   + dust ???
   + el_arrow_\* (свечение)
   + eldritch_object_2
@@ -477,15 +478,15 @@
   + label_over
   + lightningring (оставить такой же)
   + lightningringv (оставить такой же)
-  + nitor (цвет ядра)
-  + nuggetbeef
-  + nuggetchicken
-  + nuggetcopper
-  + nuggetfish !!! (использовать как пример)
-  + nuggetiron
-  + nuggetpork
+  + ~~nitor (цвет ядра)~~
+  + ~~nuggetbeef~~
+  + ~~nuggetchicken~~
+  + ~~nuggetcopper~~
+  + ~~nuggetfish !!! (использовать как пример)~~
+  + ~~nuggetiron~~
+  + ~~nuggetpork~~
   + quicksilver (поставить по центру)
-  + resonator (ручка)
+  + ~~resonator (ручка)~~
   + staff_rod_silverwood
   + thaumiumingot
   + voidboots
